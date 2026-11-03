@@ -1,0 +1,29 @@
+{
+  "title": "How Does Wi-Fi Work?",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.28,
+  "music": "bed",
+  "sources": [
+    "Cisco, '20 Myths of Wi-Fi Interference' (microwave ovens emit interference in the 2.4 GHz band)",
+    "ScienceABC, 'Do Microwaves Interfere With WiFi Signals?' (ovens run near 2.45 GHz; only 2.4 GHz Wi-Fi is affected; 5 GHz is faster with shorter range)",
+    "TinkerTry, '2.4 GHz versus 5 GHz WiFi with microwave interference' (5 GHz has smaller range and passes walls less well)",
+    "Wi-Fi Alliance / IEEE 802.11 (Wi-Fi carries digital data on radio waves in the 2.4 GHz and 5 GHz bands; a 2.4 GHz wave oscillates about 2.4 billion times per second)"
+  ],
+  "lines": [
+    { "text": "How does Wi-Fi actually work?", "caps": "HOW DOES *WI-FI | ACTUALLY *WORK?" },
+    { "text": "Well, your router is plugged into the internet with a cable,", "caps": "YOUR *ROUTER | INTO THE *INTERNET" },
+    { "text": "and it turns that data into invisible radio waves.", "caps": "TURNS THAT *DATA | INTO *RADIO WAVES" },
+    { "text": "Those waves carry ones and zeros,", "caps": "THOSE WAVES *CARRY | ONES AND *ZEROS" },
+    { "text": "riding on a wave that wiggles billions of times every second.", "caps": "RIDING A *WAVE | THAT *WIGGLES | *BILLIONS OF TIMES | EVERY *SECOND" },
+    { "text": "Your phone's tiny antenna catches them and turns them back into data.", "caps": "YOUR *ANTENNA | *CATCHES THEM | BACK INTO *DATA" },
+    { "text": "Most routers use two bands, two point four and five gigahertz.", "caps": "TWO *BANDS | *2.4 | AND *5 GHZ" },
+    { "text": "Two point four reaches farther through walls,", "caps": "2.4 GOES *FARTHER | THROUGH *WALLS" },
+    { "text": "while five is faster, but it gets blocked more easily.", "caps": "5 IS *FASTER | BUT GETS *BLOCKED" },
+    { "text": "And here's the weird part: your microwave uses that same two point four band,", "caps": "THE *WEIRD PART | YOUR *MICROWAVE | SAME *2.4 BAND" },
+    { "text": "so heating up leftovers can actually slow down your Wi-Fi.", "caps": "HEATING *LEFTOVERS | CAN *SLOW DOWN | YOUR *WI-FI" },
+    { "text": "So if it ever lags, check the kitchen.", "caps": "IF IT *LAGS | CHECK THE *KITCHEN" }
+  ]
+}
