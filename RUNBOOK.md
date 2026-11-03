@@ -20,7 +20,7 @@ ask questions. If something fails twice, stop, leave the log untouched, and repo
 - Style **Inside Out** (flat 2D), 1080x1920, voice `am_michael`, speed 1.05, music `bed`, target 35-43 s.
 - `bash SKILL/scripts/new_video.sh inside-out <slug>`, then copy EVERY file in `shorts-kit/` named
   `lib.js timing.js captions.js kit.js tech.js wifi.js` into `~/faceless-shorts/<slug>/src/core/` (overwrite).
-  This gives the SMALL captions (CAP size 104) and the tech components: phone, homeScreen, weatherScreen, phoneXray,
+  This gives the SMALL captions (CAP size 84, y 1420 — do not enlarge) and the tech components: phone, homeScreen, weatherScreen, phoneXray,
   server, envelope, route/arcAt, menuCard, jsonCard, sun, errorCard, apiGate, tapFinger, ripple, appTile, weatherTile,
   PHONE_ARM, wink eyes, wifiIcon, router, waves, sine, bit, globe, wall, cable, microwave, noise, spinner, kitchen.
 - Study `shorts-kit/example-api-shots.js`, `example-wifi-shots.js`, `example-wifi-script.json` for shot style.

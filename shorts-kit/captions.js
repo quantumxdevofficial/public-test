@@ -5,7 +5,7 @@
 import { ctx, C, clamp, lerp, seg, eob } from './lib.js';
 import { T, lineWords } from './timing.js';
 
-export const CAP = { y: 1400, size: 104, maxW: 860 };
+export const CAP = { y: 1420, size: 84, maxW: 820 };
 let caps = [];
 
 function autoChunks(text) {
