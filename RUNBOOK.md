@@ -54,6 +54,10 @@ ask questions. If something fails twice, stop, leave the log untouched, and repo
 
 ## 6. Log + clean up
 - Append a row to `quantumxdev-yt-videos.md`: `| <next No.> | <title> | <play_url> | <YYYY-MM-DD in Asia/Kolkata> |`.
+- Append the same row to the Google Sheet log with the Google Sheets connector `append_values`:
+  spreadsheetId `1PajiXl257HXR3CZxYA7wYFhkAZWwIXeI7ogbKvg9Rv0`, range `Videos!A1`, values `[[No., title, play_url, date]]`
+  (No. as a number). Before picking a topic, also read `Videos!A:D` there; a title in EITHER log counts as done.
+  (Sheet: https://docs.google.com/spreadsheets/d/1PajiXl257HXR3CZxYA7wYFhkAZWwIXeI7ogbKvg9Rv0/edit)
 - Tick the topic in `topics.md`. Copy any new component file into `shorts-kit/`.
 - `git rm videos/<slug>.mp4` (only AFTER the upload succeeded), commit "Publish <slug>: <play_url>", push.
 - If the run is linked to the user's PC (mcp__remote-devices__ tools present and working), also write the updated log to
