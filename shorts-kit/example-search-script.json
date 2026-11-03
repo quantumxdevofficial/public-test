@@ -1,0 +1,73 @@
+{
+  "title": "What Happens When You Press Enter on Google?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.26,
+  "music": "bed",
+  "sources": [
+    "Google, 'How Search organizes information' (the Search index contains hundreds of billions of webpages and is well over 100,000,000 GB)",
+    "Google, 'How Search works' (Search looks through its index, not the live web, and ranks results by relevance and usefulness)",
+    "Jeff Dean (Google), WSDM 2009 keynote, reported by Labnol / Gizmodo / Gigazine: a single query uses about 1,000 machines and returns in about 0.2 seconds",
+    "Cloudflare Learning Center, 'What is DNS?' (DNS turns a domain name into an IP address; data travels as packets)"
+  ],
+  "lines": [
+    {
+      "text": "What happens when you press Enter on Google?",
+      "caps": "WHAT *HAPPENS | WHEN YOU *PRESS | *ENTER | ON *GOOGLE?"
+    },
+    {
+      "text": "First, your browser asks a DNS server where Google lives,",
+      "caps": "YOUR *BROWSER | ASKS A *DNS SERVER | WHERE *GOOGLE LIVES"
+    },
+    {
+      "text": "and gets back a number called an IP address.",
+      "caps": "GETS BACK A *NUMBER | CALLED AN *IP ADDRESS"
+    },
+    {
+      "text": "Then your search zips off in tiny packets",
+      "caps": "YOUR *SEARCH | *ZIPS OFF | IN TINY *PACKETS"
+    },
+    {
+      "text": "to a nearby Google data center.",
+      "caps": "TO A *NEARBY | *DATA CENTER"
+    },
+    {
+      "text": "But Google doesn't search the live internet.",
+      "caps": "BUT *GOOGLE | DOESN'T *SEARCH | THE *LIVE INTERNET"
+    },
+    {
+      "text": "It searches its own giant index,",
+      "caps": "IT *SEARCHES | ITS *OWN | GIANT *INDEX"
+    },
+    {
+      "text": "a copy of hundreds of billions of pages.",
+      "caps": "A *COPY OF | *HUNDREDS OF BILLIONS | OF *PAGES"
+    },
+    {
+      "text": "Up to a thousand computers team up on your one question,",
+      "caps": "UP TO *1,000 | *COMPUTERS | *TEAM UP ON | YOUR ONE *QUESTION"
+    },
+    {
+      "text": "and rank the matches by how useful they are.",
+      "caps": "AND *RANK | THE *MATCHES | BY HOW *USEFUL"
+    },
+    {
+      "text": "Then the results fly back to your screen",
+      "caps": "THE *RESULTS | FLY *BACK | TO YOUR *SCREEN"
+    },
+    {
+      "text": "in about two tenths of a second.",
+      "caps": "IN *ABOUT | *0.2 SECONDS"
+    },
+    {
+      "text": "So every time you hit Enter,",
+      "caps": "SO EVERY *TIME | YOU HIT *ENTER"
+    },
+    {
+      "text": "you wake up a thousand computers.",
+      "caps": "YOU *WAKE UP | *1,000 COMPUTERS"
+    }
+  ]
+}

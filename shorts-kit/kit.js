@@ -354,3 +354,6 @@ export const PHONE_ARM = { e: [215, 30], h: [70, -40] };
 
 // Wi-Fi components (router, waves, bits, walls, microwave, kitchen)
 export * from './wifi.js';
+
+// Search components (search bar, Enter key, DNS book, packets, data center, index cabinet, results, server grid)
+export * from './search.js';
