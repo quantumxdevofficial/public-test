@@ -7,5 +7,5 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] What is an API?
 - [x] How does Wi-Fi work?
 - [x] What happens when you press Enter on Google?
-- [ ] Git vs GitHub
+- [x] Git vs GitHub
 - [ ] What is Docker?

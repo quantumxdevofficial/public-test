@@ -1,0 +1,32 @@
+{
+  "title": "Git vs GitHub: What's the Difference?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.26,
+  "music": "bed",
+  "sources": [
+    "Wikipedia, 'Git' (created by Linus Torvalds in 2005 for Linux kernel development; every computer keeps a local copy of the full repository and history, independent of network access)",
+    "GitHub Blog, 'Git turns 20: A Q&A with Linus Torvalds' (first commit April 7, 2005; Torvalds: 'about 10 days until I could use it for the kernel')",
+    "Windows Central / SiliconANGLE, Oct 2018: Microsoft completes its $7.5 billion acquisition of GitHub",
+    "GitHub Docs, 'About GitHub and Git' (GitHub is a cloud platform that hosts Git repositories so people can collaborate)"
+  ],
+  "lines": [
+    { "text": "Are Git and GitHub the same thing?", "caps": "ARE *GIT | AND *GITHUB | THE *SAME THING?" },
+    { "text": "Not even close.", "caps": "NOT EVEN *CLOSE" },
+    { "text": "Git is a free tool that lives on your computer,", "caps": "*GIT IS | A FREE *TOOL | THAT *LIVES | ON YOUR *COMPUTER" },
+    { "text": "and every time you make a commit,", "caps": "AND EVERY *TIME | YOU MAKE A *COMMIT" },
+    { "text": "it takes a snapshot of your whole project.", "caps": "IT *TAKES | A *SNAPSHOT | OF YOUR *WHOLE | *PROJECT" },
+    { "text": "Broke something? Just jump back in time.", "caps": "*BROKE SOMETHING? | JUST *JUMP | BACK IN *TIME" },
+    { "text": "And it even works with no internet.", "caps": "AND IT *WORKS | WITH NO *INTERNET" },
+    { "text": "GitHub is a website,", "caps": "*GITHUB | IS A *WEBSITE" },
+    { "text": "a giant online home where you upload those projects,", "caps": "A GIANT *ONLINE | *HOME | WHERE YOU *UPLOAD | THOSE *PROJECTS" },
+    { "text": "so your team can grab the code and work together.", "caps": "SO YOUR *TEAM | CAN *GRAB | THE *CODE | AND WORK *TOGETHER" },
+    { "text": "The wild part? Linus Torvalds built Git", "caps": "THE *WILD PART? | LINUS *TORVALDS | BUILT *GIT" },
+    { "text": "in about ten days, back in two thousand five.", "caps": "IN ABOUT *10 DAYS | BACK IN *2005" },
+    { "text": "And Microsoft bought GitHub for seven and a half billion dollars.", "caps": "AND *MICROSOFT | BOUGHT *GITHUB | FOR *$7.5 BILLION" },
+    { "text": "So Git saves your code,", "caps": "SO *GIT | SAVES YOUR *CODE" },
+    { "text": "and GitHub shares it with the world.", "caps": "AND *GITHUB | *SHARES IT | WITH THE *WORLD" }
+  ]
+}

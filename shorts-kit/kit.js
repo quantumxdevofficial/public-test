@@ -357,3 +357,6 @@ export * from './wifi.js';
 
 // Search components (search bar, Enter key, DNS book, packets, data center, index cabinet, results, server grid)
 export * from './search.js';
+
+// Git components (laptop, code lines, folder, snapshot, commit timeline, rewind, cloud, upload, buddies, cash)
+export * from './git.js';
