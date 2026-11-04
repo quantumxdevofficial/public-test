@@ -8,4 +8,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] How does Wi-Fi work?
 - [x] What happens when you press Enter on Google?
 - [x] Git vs GitHub
-- [ ] What is Docker?
+- [x] What is Docker?

@@ -360,3 +360,6 @@ export * from './search.js';
 
 // Git components (laptop, code lines, folder, snapshot, commit timeline, rewind, cloud, upload, buddies, cash)
 export * from './git.js';
+
+// Docker components (shipping container, gear, version tag, books, app card, OS cart, sea, ship, crane, hard hat, sweat)
+export * from './docker.js';

@@ -1,0 +1,33 @@
+{
+  "title": "What Actually Is Docker?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.26,
+  "music": "bed",
+  "sources": [
+    "Docker, 'What is a Container?' (docker.com/resources/what-container): a container packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another; containers share the machine's OS kernel and don't need a full OS per app, unlike virtual machines",
+    "Wikipedia, 'Docker (software)': released as open source in March 2013; containers run on a shared host kernel and are more lightweight than virtual machines",
+    "Merriam-Webster / Cambridge Dictionary, 'docker': a person who loads and unloads ships at a port (a dock worker / longshoreman)",
+    "Docker Docs, 'Docker overview': containers are lightweight and contain everything needed to run the application, so you don't need to rely on what's installed on the host"
+  ],
+  "lines": [
+    { "text": "What actually is Docker?", "caps": "WHAT *ACTUALLY | IS *DOCKER?" },
+    { "text": "You know when an app works on your laptop,", "caps": "YOU *KNOW | WHEN AN *APP | *WORKS | ON YOUR *LAPTOP" },
+    { "text": "but crashes on your friend's computer?", "caps": "BUT *CRASHES | ON YOUR *FRIEND'S | *COMPUTER?" },
+    { "text": "That's because it's missing something, like the right version.", "caps": "THAT'S *BECAUSE | IT'S *MISSING | *SOMETHING | LIKE THE *RIGHT | *VERSION" },
+    { "text": "Docker fixes that by packing your app", "caps": "*DOCKER | *FIXES THAT | BY *PACKING | YOUR *APP" },
+    { "text": "and everything it needs into one little box,", "caps": "AND *EVERYTHING | IT *NEEDS | INTO ONE *LITTLE | *BOX" },
+    { "text": "called a container.", "caps": "CALLED A *CONTAINER" },
+    { "text": "Now that box runs exactly the same", "caps": "NOW THAT *BOX | *RUNS | *EXACTLY | THE *SAME" },
+    { "text": "on your laptop, a server, or the cloud.", "caps": "ON YOUR *LAPTOP | A *SERVER | OR THE *CLOUD" },
+    { "text": "And unlike a virtual machine,", "caps": "AND *UNLIKE | A *VIRTUAL | *MACHINE" },
+    { "text": "it doesn't drag along a whole operating system,", "caps": "IT *DOESN'T | *DRAG ALONG | A *WHOLE | OPERATING *SYSTEM" },
+    { "text": "so it starts in seconds.", "caps": "SO IT *STARTS | IN *SECONDS" },
+    { "text": "And the name? A docker is a dock worker,", "caps": "AND THE *NAME? | A *DOCKER | IS A DOCK *WORKER" },
+    { "text": "the person who loads shipping containers onto ships.", "caps": "THE *PERSON | WHO *LOADS | *SHIPPING | *CONTAINERS | ONTO *SHIPS" },
+    { "text": "So next time it works on your machine,", "caps": "SO NEXT *TIME | IT *WORKS | ON YOUR *MACHINE" },
+    { "text": "just ship the box.", "caps": "JUST *SHIP | THE *BOX" }
+  ]
+}
