@@ -365,3 +365,6 @@ export * from './git.js';
 export * from './docker.js';
 // Cloud components (photo card, gallery/backup screen, whiteboard, diagram box, marker cloud, underwater, sea cable, pulse, fish, darken)
 export * from './cloud.js';
+
+// cookies (cookie, noteCard, browser, storePage, jar, cart, shoe, adBanner, retroPC, consentScreen, accountScreen)
+export * from './cookies.js';

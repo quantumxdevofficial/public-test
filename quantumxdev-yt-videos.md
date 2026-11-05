@@ -8,3 +8,4 @@
 | 4 | Git vs GitHub: Are They the Same Thing? 🐙 #shorts | https://www.youtube.com/watch?v=akhJQGENQHA | 2026-11-04 |
 | 5 | What Actually Is Docker? 🐳 #shorts | https://www.youtube.com/watch?v=McpcWs-OIKo | 2026-11-04 |
 | 6 | What Actually Is the Cloud? ☁️ #shorts | https://www.youtube.com/watch?v=s7_SWaUgTVw | 2026-11-05 |
+| 7 | What Actually Is a Website Cookie? 🍪 #shorts | https://www.youtube.com/watch?v=Ur62D8VfzXY | 2026-11-05 |

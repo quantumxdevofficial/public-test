@@ -10,3 +10,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] Git vs GitHub
 - [x] What is Docker?
 - [x] What is the cloud?
+- [x] What are website cookies? (added when the queue ran out)

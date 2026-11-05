@@ -1,0 +1,30 @@
+{
+  "title": "What Actually Is a Website Cookie?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "MDN, 'Using HTTP cookies' (developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies): a cookie is a small piece of data a server sends to the browser; the browser stores it and sends it back to the same server with later requests; used for session management such as sign-in status and shopping cart contents; often holds a session ID",
+    "Wikipedia, 'HTTP cookie' (History): Lou Montulli at Netscape had the idea in June 1994 while Netscape built an e-commerce application for MCI; cookies solved reliably implementing a virtual shopping cart; Mosaic Netscape 0.9beta (Oct 1994) supported cookies",
+    "MDN and Wikipedia, third-party cookies: an advertiser's cookie sent from many sites lets it build a profile of a user's browsing across sites (the basis of retargeted ads); Safari, Firefox and Brave block third-party cookies by default"
+  ],
+  "lines": [
+    { "text": "What actually is a cookie on a website?", "caps": "WHAT *ACTUALLY | IS A *COOKIE | ON A *WEBSITE?" },
+    { "text": "Nope, it's not a snack.", "caps": "*NOPE | IT'S *NOT | A *SNACK" },
+    { "text": "It's a tiny note", "caps": "IT'S A *TINY | *NOTE" },
+    { "text": "that a website asks your browser to keep.", "caps": "THAT A *WEBSITE | *ASKS | YOUR *BROWSER | TO *KEEP" },
+    { "text": "Inside, there's usually just a short ID number,", "caps": "*INSIDE | THERE'S *USUALLY | JUST A *SHORT | ID *NUMBER" },
+    { "text": "and every time you come back,", "caps": "AND *EVERY | *TIME | YOU COME *BACK" },
+    { "text": "your browser hands that ID right back to the site.", "caps": "YOUR *BROWSER | *HANDS | THAT *ID | RIGHT *BACK | TO THE *SITE" },
+    { "text": "That's how it remembers you're logged in,", "caps": "THAT'S *HOW | IT *REMEMBERS | YOU'RE *LOGGED IN" },
+    { "text": "or what's still sitting in your cart.", "caps": "OR WHAT'S *STILL | *SITTING | IN YOUR *CART" },
+    { "text": "Cookies were born in nineteen ninety-four at Netscape,", "caps": "*COOKIES | WERE *BORN | IN *1994 | AT *NETSCAPE" },
+    { "text": "to help an online store remember your cart.", "caps": "TO *HELP | AN ONLINE *STORE | *REMEMBER | YOUR *CART" },
+    { "text": "But here's the twist: some cookies belong to ad companies,", "caps": "BUT *HERE'S | THE *TWIST | SOME *COOKIES | *BELONG | TO *AD COMPANIES" },
+    { "text": "and they follow you from site to site.", "caps": "AND THEY *FOLLOW | *YOU | FROM *SITE | TO *SITE" },
+    { "text": "That's why those shoes you looked at chase you everywhere.", "caps": "THAT'S *WHY | THOSE *SHOES | YOU *LOOKED AT | *CHASE YOU | *EVERYWHERE" }
+  ]
+}
