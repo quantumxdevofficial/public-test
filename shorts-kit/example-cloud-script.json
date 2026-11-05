@@ -1,0 +1,31 @@
+{
+  "title": "What Actually Is the Cloud?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.26,
+  "music": "bed",
+  "sources": [
+    "World Economic Forum, 'Why do we call it the cloud?' and Business Insider, 'This simple diagram explains why we call it cloud computing': engineers drew the internet / network as a cloud symbol in system diagrams, which gave cloud computing its name",
+    "AWS, 'Data protection in Amazon S3' (docs.aws.amazon.com/AmazonS3/latest/userguide/DataDurability.html): S3 stores data redundantly across a minimum of three Availability Zones (separate data centers) so it survives the loss of a facility",
+    "Cloud storage = files stored on servers in data centers owned by a provider and reached over the internet (Google Cloud / AWS 'What is cloud storage?')",
+    "World Economic Forum, 'How does the internet cross the ocean?' and Engadget, 'How the Internet crosses oceans': the vast majority (about 95-99%) of intercontinental data travels through fibre-optic cables on the sea floor, not satellites"
+  ],
+  "lines": [
+    { "text": "What actually is the cloud?", "caps": "WHAT *ACTUALLY | IS THE *CLOUD?" },
+    { "text": "When you back up a photo from your phone,", "caps": "WHEN *YOU | *BACK UP | A *PHOTO | FROM YOUR *PHONE" },
+    { "text": "it doesn't float up into the sky.", "caps": "IT *DOESN'T | *FLOAT UP | INTO THE *SKY" },
+    { "text": "It zips across the internet to a giant building,", "caps": "IT *ZIPS | ACROSS THE *INTERNET | TO A *GIANT | *BUILDING" },
+    { "text": "called a data center,", "caps": "CALLED A *DATA | *CENTER" },
+    { "text": "packed with thousands of computers called servers.", "caps": "PACKED WITH *THOUSANDS | OF *COMPUTERS | CALLED *SERVERS" },
+    { "text": "And it gets copied to more than one building,", "caps": "AND IT *GETS | *COPIED | TO *MORE | THAN *ONE | *BUILDING" },
+    { "text": "so if one goes down, your photo survives.", "caps": "SO IF *ONE | GOES *DOWN | YOUR *PHOTO | *SURVIVES" },
+    { "text": "So the cloud is really just someone else's computer.", "caps": "SO THE *CLOUD | IS *REALLY | JUST SOMEONE *ELSE'S | *COMPUTER" },
+    { "text": "And the name? Engineers used to draw the internet", "caps": "AND THE *NAME? | *ENGINEERS | USED TO *DRAW | THE *INTERNET" },
+    { "text": "as a fluffy cloud on their diagrams.", "caps": "AS A *FLUFFY | *CLOUD | ON THEIR *DIAGRAMS" },
+    { "text": "But here's the twist: data crossing oceans", "caps": "BUT *HERE'S | THE *TWIST | DATA *CROSSING | *OCEANS" },
+    { "text": "mostly travels through cables on the sea floor.", "caps": "MOSTLY *TRAVELS | THROUGH *CABLES | ON THE *SEA | *FLOOR" },
+    { "text": "So the cloud lives on the ground, and under the sea.", "caps": "SO THE *CLOUD | *LIVES | ON THE *GROUND | AND *UNDER | THE *SEA" }
+  ]
+}

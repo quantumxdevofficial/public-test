@@ -9,3 +9,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] What happens when you press Enter on Google?
 - [x] Git vs GitHub
 - [x] What is Docker?
+- [x] What is the cloud?

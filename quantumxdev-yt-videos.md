@@ -7,3 +7,4 @@
 | 3 | What Happens When You Press Enter on Google? 🔍 #shorts | https://www.youtube.com/watch?v=it3vq-q_Zhc | 2026-11-03 |
 | 4 | Git vs GitHub: Are They the Same Thing? 🐙 #shorts | https://www.youtube.com/watch?v=akhJQGENQHA | 2026-11-04 |
 | 5 | What Actually Is Docker? 🐳 #shorts | https://www.youtube.com/watch?v=McpcWs-OIKo | 2026-11-04 |
+| 6 | What Actually Is the Cloud? ☁️ #shorts | https://www.youtube.com/watch?v=s7_SWaUgTVw | 2026-11-05 |

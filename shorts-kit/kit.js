@@ -363,3 +363,5 @@ export * from './git.js';
 
 // Docker components (shipping container, gear, version tag, books, app card, OS cart, sea, ship, crane, hard hat, sweat)
 export * from './docker.js';
+// Cloud components (photo card, gallery/backup screen, whiteboard, diagram box, marker cloud, underwater, sea cable, pulse, fish, darken)
+export * from './cloud.js';
