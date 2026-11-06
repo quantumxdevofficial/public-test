@@ -1,7 +1,7 @@
 # Topic queue — QuantumXDev tech explainers
 
 Take the FIRST topic below whose subject is not already in `quantumxdev-yt-videos.md`.
-When the queue is used up, pick a new beginner-friendly tech explainer that is not in the log
+When the queue is used up, pick a new beginner-friendly tech explainer that is not in the log or in system-design-plan.md
 (same family: how everyday software / internet / dev tools work) and add it here as done.
 
 - [x] What is an API?

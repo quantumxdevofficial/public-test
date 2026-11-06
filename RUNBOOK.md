@@ -65,3 +65,11 @@ ask questions. If something fails twice, stop, leave the log untouched, and repo
 
 ## 7. Report
 Final message: title, YouTube link, length, topic chosen, anything fixed in QA, anything that failed.
+
+## System Design series (separate daily task, ~11 PM Asia/Kolkata)
+Same pipeline and look as above (sections 0-7), with these differences:
+- Topic = the first unchecked day in `system-design-plan.md` (ignore topics.md). Follow the series rules in that file.
+- Title exactly `(<day>/30) <Question> System Design`, no emoji. Slug `sd-<dd>-<short-name>`.
+- Log rows go to the same `quantumxdev-yt-videos.md` and Google Sheet (next No. overall). Tick the day in
+  `system-design-plan.md` (not topics.md). Commit "Publish sd-<dd>-...: <play_url>".
+- Another scheduled task also publishes to this repo; always `git pull --rebase` before every push.
