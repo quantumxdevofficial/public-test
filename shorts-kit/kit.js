@@ -368,3 +368,6 @@ export * from './cloud.js';
 
 // cookies (cookie, noteCard, browser, storePage, jar, cart, shoe, adBanner, retroPC, consentScreen, accountScreen)
 export * from './cookies.js';
+
+// HTTPS components (padlock, address bar, postcard, key, scramble card, tune icon, peek eyes, login screen, scam page)
+export * from './https.js';

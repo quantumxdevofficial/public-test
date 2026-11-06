@@ -1,0 +1,31 @@
+{
+  "title": "What Does the Padlock in Your Browser Mean?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Cloudflare Learning Center, 'Why is HTTP not secure? | HTTP vs. HTTPS' (cloudflare.com/learning/ssl/why-is-http-not-secure): HTTP requests and responses are sent in plaintext that anyone monitoring the connection can read; HTTPS uses TLS/SSL encryption to encrypt them",
+    "Cloudflare Learning Center, 'What is HTTPS?': HTTPS is HTTP with encryption (the S stands for secure); in the TLS handshake the browser and server agree on session keys used to encrypt the traffic",
+    "Chromium Blog / Help Net Security, 'Google Chrome will lose the lock icon for HTTPS-secured sites' (May 2023): Chrome 117 replaced the lock with a 'tune' icon; Google's 2021 research found only 11% of participants understood the lock's precise meaning; 'nearly all phishing sites use HTTPS, and therefore also display the lock icon'; the FBI warns the lock is not an indicator of website safety",
+    "Let's Encrypt (letsencrypt.org): a nonprofit certificate authority that gives out TLS certificates for free, so any site, including a scam site, can get the padlock"
+  ],
+  "lines": [
+    { "text": "What does the padlock in your browser actually mean?", "caps": "WHAT *DOES | THE *PADLOCK | IN YOUR *BROWSER | ACTUALLY *MEAN?" },
+    { "text": "When you type a password,", "caps": "WHEN YOU *TYPE | A *PASSWORD" },
+    { "text": "it hops through strangers' machines on the way,", "caps": "IT *HOPS | THROUGH *STRANGERS' | *MACHINES | ON THE *WAY" },
+    { "text": "and with plain HTTP, it's like a postcard anyone can read.", "caps": "AND WITH *PLAIN | *HTTP | IT'S *LIKE | A *POSTCARD | *ANYONE | CAN *READ" },
+    { "text": "But with HTTPS, the S means secure.", "caps": "BUT WITH *HTTPS | THE *S | MEANS *SECURE" },
+    { "text": "Your browser and the site agree on a secret key,", "caps": "YOUR *BROWSER | AND THE *SITE | *AGREE ON | A *SECRET KEY" },
+    { "text": "and scramble everything into gibberish", "caps": "AND *SCRAMBLE | *EVERYTHING | INTO *GIBBERISH" },
+    { "text": "that only the two of them can unlock.", "caps": "THAT *ONLY | THE *TWO OF THEM | CAN *UNLOCK" },
+    { "text": "That's what the padlock means: a private line.", "caps": "THAT'S *WHAT | THE *PADLOCK | *MEANS | A *PRIVATE | *LINE" },
+    { "text": "But here's the twist: it doesn't mean the site is safe.", "caps": "BUT *HERE'S | THE *TWIST | IT *DOESN'T | MEAN THE *SITE | IS *SAFE" },
+    { "text": "Nearly every scam site has a padlock too,", "caps": "*NEARLY | EVERY *SCAM | *SITE | HAS A *PADLOCK | *TOO" },
+    { "text": "and since so few people knew what it meant,", "caps": "AND *SINCE | SO *FEW | *PEOPLE | *KNEW | WHAT IT *MEANT" },
+    { "text": "Chrome swapped it for a different icon.", "caps": "*CHROME | *SWAPPED IT | FOR A *DIFFERENT | *ICON" },
+    { "text": "So the padlock locks the line, not the liar.", "caps": "SO THE *PADLOCK | *LOCKS | THE *LINE | NOT THE *LIAR" }
+  ]
+}
