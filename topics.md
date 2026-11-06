@@ -12,3 +12,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] What is the cloud?
 - [x] What are website cookies? (added when the queue ran out)
 - [x] What does the padlock (HTTPS) in your browser mean? (added when the queue ran out)
+- [x] How do websites store your password? (hashing + salt; added when the queue ran out)
