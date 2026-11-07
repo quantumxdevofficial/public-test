@@ -1,0 +1,29 @@
+{
+  "title": "What Is System Design?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "TechCrunch, 'WhatsApp is now delivering roughly 100 billion messages a day' (2020-10-29): Mark Zuckerberg said WhatsApp now delivers about 100 billion messages a day",
+    "Design Gurus, 'What is called system design?' / Educative, 'I'm new to System Design, where do I start?': system design = defining the architecture, components, data and how they interact so a system meets its requirements, incl. scalability (many servers, load balancers, caches)"
+  ],
+  "lines": [
+    { "text": "How does one app serve millions of people at the same time?", "caps": "HOW DOES *ONE APP | SERVE *MILLIONS | AT THE *SAME | *TIME?" },
+    { "text": "Your phone talks to a computer called a server,", "caps": "YOUR *PHONE | *TALKS TO | A *COMPUTER | CALLED A *SERVER" },
+    { "text": "and one server is like one cook in a tiny kitchen.", "caps": "AND ONE *SERVER | IS *LIKE | ONE *COOK | IN A *TINY | *KITCHEN" },
+    { "text": "Ten orders? Easy.", "caps": "*TEN ORDERS? | *EASY" },
+    { "text": "But WhatsApp delivers around a hundred billion messages a day,", "caps": "BUT *WHATSAPP | *DELIVERS | AROUND A *100 | *BILLION | MESSAGES A *DAY" },
+    { "text": "and one cook would totally melt.", "caps": "AND ONE *COOK | WOULD *TOTALLY | *MELT" },
+    { "text": "So you plan it like a restaurant chain:", "caps": "SO YOU *PLAN IT | LIKE A *RESTAURANT | *CHAIN" },
+    { "text": "more cooks in more kitchens,", "caps": "*MORE COOKS | IN MORE *KITCHENS" },
+    { "text": "a host who sends each guest to a free table,", "caps": "A *HOST | WHO *SENDS | EACH *GUEST | TO A *FREE | *TABLE" },
+    { "text": "and popular dishes kept ready to grab.", "caps": "AND *POPULAR | *DISHES | KEPT *READY | TO *GRAB" },
+    { "text": "That plan is system design:", "caps": "THAT *PLAN | IS *SYSTEM | *DESIGN" },
+    { "text": "picking the pieces and how they fit together,", "caps": "*PICKING | THE *PIECES | AND *HOW | THEY *FIT | *TOGETHER" },
+    { "text": "so the app stays fast when the whole world shows up.", "caps": "SO THE *APP | STAYS *FAST | WHEN THE *WHOLE | *WORLD | *SHOWS UP" },
+    { "text": "That's day one. Tomorrow: client versus server.", "caps": "THAT'S DAY *ONE | *TOMORROW | *CLIENT | VERSUS *SERVER" }
+  ]
+}

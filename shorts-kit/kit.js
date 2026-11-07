@@ -379,3 +379,6 @@ export * from './passwords.js';
 export * from './qr.js';
 // VPN (miniLock, tunnel, ispBuilding, vpnSwitch, coffeeCup, house, snoop)
 export * from './vpn.js';
+
+// System Design series (restaurant analogy): chefHat, ticket, stove, dish, kitchenTile, hostStand, table, readyShelf, loadMeter
+export * from './sysdesign.js';
