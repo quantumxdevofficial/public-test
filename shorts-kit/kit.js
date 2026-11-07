@@ -374,3 +374,6 @@ export * from './https.js';
 
 // password storage (hash blender, chip, database, dbTable, saltShaker, saltGrains, fakeHash)
 export * from './passwords.js';
+
+// QR codes (qrCode, qrMatrix, qrCell, scanBrackets, cameraScreen, qrSign + fake sticker, partBox, flag, alertBadge)
+export * from './qr.js';

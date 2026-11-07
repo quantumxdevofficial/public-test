@@ -1,0 +1,31 @@
+{
+  "title": "How Does a QR Code Actually Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Japan Patent Office, 'QR Code: development story' (jpo.go.jp/e/news/koho/innovation/01_qrcode_e.html) and IEEE Spectrum, 'How a Board Game and Skyscrapers Inspired the Development of the QR Code': invented in 1994 by Masahiro Hara's team at Denso Wave (Japan) to track automotive parts; the three position-detection (finder) squares let a scanner find the code and its orientation from any angle",
+    "QR error correction (t.ly 'QR Codes Correction Levels', qrcode-tiger 'QR Code Error Correction', Linkly): Reed-Solomon error correction; level H can restore about 30% of the code's data, so a damaged or partly covered code still scans",
+    "ISO/IEC 18004 summary (Wikipedia 'QR code'): data is stored as dark and light modules read as binary 1 and 0 in a 2D grid",
+    "US FTC consumer alert (Dec 2023, via PYMNTS / Entrepreneur) and 2026 parking-lot QR warnings (WDAM): scammers cover legitimate QR codes with their own stickers that lead to phishing sites; check the URL before opening it"
+  ],
+  "lines": [
+    { "text": "How does a QR code turn little black squares into a website?", "caps": "HOW *DOES | A *QR CODE | *TURN | LITTLE BLACK *SQUARES | INTO A *WEBSITE?" },
+    { "text": "Well, every square is one bit:", "caps": "*WELL | EVERY *SQUARE | IS ONE *BIT" },
+    { "text": "black means one, and white means zero,", "caps": "*BLACK | MEANS *ONE | AND *WHITE | MEANS *ZERO" },
+    { "text": "and your camera reads them like a secret message.", "caps": "AND YOUR *CAMERA | *READS THEM | LIKE A *SECRET | *MESSAGE" },
+    { "text": "Those three big squares in the corners?", "caps": "THOSE *THREE | BIG *SQUARES | IN THE *CORNERS?" },
+    { "text": "They tell your phone which way is up,", "caps": "THEY *TELL | YOUR *PHONE | *WHICH WAY | IS *UP" },
+    { "text": "so it scans from almost any angle.", "caps": "SO IT *SCANS | FROM *ALMOST | ANY *ANGLE" },
+    { "text": "It even hides backup data,", "caps": "IT EVEN *HIDES | *BACKUP | *DATA" },
+    { "text": "so with up to thirty percent torn off, it still works.", "caps": "*SO WITH | UP TO *30% | *TORN OFF | IT STILL *WORKS" },
+    { "text": "It was invented in Japan in nineteen ninety-four, to track car parts.", "caps": "IT WAS *INVENTED | IN *JAPAN | IN *1994 | TO *TRACK | *CAR PARTS" },
+    { "text": "But here's the twist:", "caps": "BUT *HERE'S | THE *TWIST" },
+    { "text": "a QR code is just a link,", "caps": "A *QR CODE | IS *JUST | A *LINK" },
+    { "text": "and scammers stick fake ones over real ones.", "caps": "AND *SCAMMERS | STICK *FAKE ONES | OVER *REAL ONES" },
+    { "text": "So always check the link before you tap.", "caps": "SO *ALWAYS | *CHECK | THE *LINK | BEFORE YOU *TAP" }
+  ]
+}
