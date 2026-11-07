@@ -377,3 +377,5 @@ export * from './passwords.js';
 
 // QR codes (qrCode, qrMatrix, qrCell, scanBrackets, cameraScreen, qrSign + fake sticker, partBox, flag, alertBadge)
 export * from './qr.js';
+// VPN (miniLock, tunnel, ispBuilding, vpnSwitch, coffeeCup, house, snoop)
+export * from './vpn.js';

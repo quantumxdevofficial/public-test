@@ -1,0 +1,72 @@
+{
+  "title": "What Actually Is a VPN?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Privacy Guides, 'VPN Overview' (privacyguides.org/en/basics/vpn-overview): VPNs encrypt traffic between your device and the VPN provider's server; without one your ISP can see the domains you request, with one it only sees that you are connected to a VPN; a VPN hides your IP from websites; it shifts the trust you place in your network to the VPN server, and the provider can see and modify your traffic the same way your ISP could; a VPN does not give absolute anonymity",
+    "EBSCO Research Starters, 'Virtual Private Network (VPN)': Microsoft software engineer Gurdeep Singh Pall coauthored the first VPN protocol, PPTP, in 1996, so coworkers could work securely from home or remote locations",
+    "SmarterMSP, 'Tech Time Warp: a look back at the first VPN': Microsoft employees including Singh-Pall developed PPTP (with U.S. Robotics); 'It really allowed people to work effectively and securely from home.'"
+  ],
+  "lines": [
+    {
+      "text": "What actually is a VPN?",
+      "caps": "WHAT *ACTUALLY | IS A *VPN?"
+    },
+    {
+      "text": "Everything you do online goes through your Wi-Fi,",
+      "caps": "*EVERYTHING | YOU DO *ONLINE | GOES *THROUGH | YOUR *WI-FI"
+    },
+    {
+      "text": "and your internet provider, who can see every site you visit.",
+      "caps": "AND YOUR *INTERNET | *PROVIDER | WHO CAN *SEE | EVERY *SITE | YOU *VISIT"
+    },
+    {
+      "text": "A VPN wraps it all in a scrambled, locked tunnel,",
+      "caps": "A VPN *WRAPS | IT *ALL | IN A *SCRAMBLED | LOCKED *TUNNEL"
+    },
+    {
+      "text": "straight to a VPN server somewhere else.",
+      "caps": "*STRAIGHT TO | A VPN *SERVER | *SOMEWHERE ELSE"
+    },
+    {
+      "text": "Now your provider just sees gibberish,",
+      "caps": "NOW YOUR *PROVIDER | JUST *SEES | *GIBBERISH"
+    },
+    {
+      "text": "and websites see the server's address, not yours.",
+      "caps": "AND *WEBSITES | SEE THE *SERVER'S | *ADDRESS | NOT *YOURS"
+    },
+    {
+      "text": "That's handy on sketchy coffee shop Wi-Fi.",
+      "caps": "THAT'S *HANDY | ON *SKETCHY | *COFFEE SHOP | *WI-FI"
+    },
+    {
+      "text": "The first VPN came from Microsoft in nineteen ninety-six,",
+      "caps": "THE *FIRST VPN | CAME FROM *MICROSOFT | IN *1996"
+    },
+    {
+      "text": "so people could work safely from home.",
+      "caps": "SO PEOPLE COULD *WORK | *SAFELY | FROM *HOME"
+    },
+    {
+      "text": "But here's the twist:",
+      "caps": "BUT *HERE'S | THE *TWIST"
+    },
+    {
+      "text": "the VPN company now sees what your provider used to,",
+      "caps": "THE VPN *COMPANY | NOW *SEES | WHAT YOUR *PROVIDER | *USED TO"
+    },
+    {
+      "text": "so you're not invisible.",
+      "caps": "SO YOU'RE *NOT | *INVISIBLE"
+    },
+    {
+      "text": "A VPN doesn't hide you, it just changes who's watching.",
+      "caps": "A VPN *DOESN'T | *HIDE YOU | IT JUST *CHANGES | WHO'S *WATCHING"
+    }
+  ]
+}

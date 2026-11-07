@@ -12,3 +12,4 @@
 | 8 | What Does the Padlock in Your Browser Mean? 🔒 #shorts | https://www.youtube.com/watch?v=gYIunrUfI20 | 2026-11-06 |
 | 9 | How Does a Website Remember Your Password? 🔑 #shorts | https://www.youtube.com/watch?v=7bzKwK2SWxQ | 2026-11-06 |
 | 10 | How Does a QR Code Actually Work? 📱 #shorts | https://www.youtube.com/watch?v=0W7wpiyNDn0 | 2026-11-07 |
+| 11 | What Actually Is a VPN? 🛡️ #shorts | https://www.youtube.com/watch?v=kTAxc_z63Qg | 2026-11-07 |
