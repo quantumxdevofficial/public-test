@@ -16,3 +16,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] How does a QR code work? (added when the queue ran out)
 - [x] What actually is a VPN? (added when the queue ran out)
 - [x] How do push notifications reach your phone? (added when the queue ran out)
+- [x] How do 2FA codes work? (authenticator / TOTP; added when the queue ran out)

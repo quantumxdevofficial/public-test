@@ -385,3 +385,5 @@ export * from './sysdesign.js';
 
 // push notifications (notifBanner, lockScreen, battery, bell, pushHub, openLine, lineAt, sleepyTile, zzz, chatApp)
 export * from './push.js';
+// 2FA / TOTP components (authScreen, codeTiles, ringTimer, wallClock, airplane, planeBadge, codeEntryScreen, signalSlash)
+export * from './twofa.js';

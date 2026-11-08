@@ -1,0 +1,32 @@
+{
+  "title": "How Do 2FA Codes Actually Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "IETF RFC 6238 'TOTP: Time-Based One-Time Password Algorithm' (May 2011): TOTP = HOTP(K, T) where K is a shared secret and T = (current Unix time - T0) / X; 'default value X = 30 seconds'",
+    "IETF RFC 4226 / RFC 6238 section 1.2: HOTP(K,C) = Truncate(HMAC-SHA-1(K,C)), truncated to a short decimal code (6 digits is common)",
+    "IETF RFC 6238 section 5.2: the validator computes the same value; 'We RECOMMEND that at most one time step is allowed as the network delay'",
+    "Google Account Help, 'Get verification codes with Google Authenticator' (support.google.com/accounts/answer/1066447): 'You can still generate codes without an internet connection or mobile service'; setup is done by scanning a QR code that carries the secret key"
+  ],
+  "lines": [
+    { "text": "Those six-digit login codes that change every thirty seconds,", "caps": "THOSE *SIX-DIGIT | LOGIN *CODES | THAT *CHANGE | EVERY *30 SECONDS" },
+    { "text": "where do they actually come from?", "caps": "WHERE DO *THEY | ACTUALLY *COME FROM?" },
+    { "text": "You'd think a server texts them to you,", "caps": "YOU'D *THINK | A *SERVER | *TEXTS THEM | TO *YOU" },
+    { "text": "but nothing is sent at all.", "caps": "BUT *NOTHING | IS *SENT | AT *ALL" },
+    { "text": "When you scanned that QR code during setup,", "caps": "WHEN YOU *SCANNED | THAT *QR CODE | DURING *SETUP" },
+    { "text": "your phone and the website saved the same secret.", "caps": "YOUR *PHONE | AND THE *WEBSITE | SAVED THE *SAME | *SECRET" },
+    { "text": "Now, every thirty seconds,", "caps": "NOW *EVERY | *30 SECONDS" },
+    { "text": "your app mixes that secret with the current time", "caps": "YOUR APP *MIXES | THAT *SECRET | WITH THE *CURRENT | *TIME" },
+    { "text": "and squeezes out six digits.", "caps": "AND *SQUEEZES OUT | *SIX DIGITS" },
+    { "text": "The website does the same math,", "caps": "THE *WEBSITE | DOES THE *SAME | *MATH" },
+    { "text": "so if both numbers match, you're in.", "caps": "SO IF *BOTH | NUMBERS *MATCH | YOU'RE *IN" },
+    { "text": "But here's the twist:", "caps": "BUT *HERE'S | THE *TWIST" },
+    { "text": "it works even in airplane mode,", "caps": "IT *WORKS | EVEN IN *AIRPLANE | *MODE" },
+    { "text": "because the code is made right on your phone.", "caps": "BECAUSE THE *CODE | IS *MADE | RIGHT ON YOUR *PHONE" },
+    { "text": "Your phone and the website never talk, they just both check the clock.", "caps": "YOUR *PHONE | AND THE *WEBSITE | *NEVER TALK | THEY JUST *BOTH | CHECK THE *CLOCK" }
+  ]
+}
