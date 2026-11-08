@@ -16,3 +16,4 @@
 | 12 | (1/30) What Is System Design? System Design | https://www.youtube.com/watch?v=3i2IH6FDfWk | 2026-11-07 |
 | 13 | How Do Push Notifications Actually Work? 🔔 #shorts | https://www.youtube.com/watch?v=IjW6KIwBW1g | 2026-11-08 |
 | 14 | How Do 2FA Codes Actually Work? 🔐 #shorts | https://www.youtube.com/watch?v=JDW82MYVt-8 | 2026-11-08 |
+| 15 | (2/30) Client vs Server: Who Does What? System Design | https://www.youtube.com/watch?v=fVJ-BNKApHI | 2026-11-08 |

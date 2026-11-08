@@ -387,3 +387,5 @@ export * from './sysdesign.js';
 export * from './push.js';
 // 2FA / TOTP components (authScreen, codeTiles, ringTimer, wallClock, airplane, planeBadge, codeEntryScreen, signalSlash)
 export * from './twofa.js';
+// Client vs server components (bubble, veg, pantry, feedScreen)
+export * from './client.js';

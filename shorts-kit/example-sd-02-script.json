@@ -1,0 +1,32 @@
+{
+  "title": "Client vs Server: Who Does What?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Wikipedia, 'Client-server model': clients request a service or resource; servers host and share resources with many clients; communication is request-response",
+    "IONOS Digital Guide, 'How does the client server model work?': the client sends a request, the server processes it and returns a response; one server can serve many clients at once",
+    "AlgoMaster, 'Client-Server Architecture Explained': the client (browser, mobile app) shows the UI and sends requests; the server stores data, runs business logic and returns responses"
+  ],
+  "lines": [
+    { "text": "When you open an app, who does the work:", "caps": "WHEN YOU *OPEN | AN *APP | WHO *DOES | THE *WORK" },
+    { "text": "your phone, or a computer far away?", "caps": "YOUR *PHONE | OR A *COMPUTER | FAR *AWAY?" },
+    { "text": "Think of a restaurant.", "caps": "*THINK OF A | *RESTAURANT" },
+    { "text": "You're the guest at the table, so you're the client:", "caps": "YOU'RE THE *GUEST | AT THE *TABLE | SO *YOU'RE | THE *CLIENT" },
+    { "text": "you read the menu and ask for what you want.", "caps": "YOU *READ | THE *MENU | AND *ASK | FOR *WHAT | YOU *WANT" },
+    { "text": "The kitchen is the server:", "caps": "THE *KITCHEN | IS THE *SERVER" },
+    { "text": "it keeps the ingredients, does the cooking,", "caps": "IT *KEEPS | THE *INGREDIENTS | DOES THE *COOKING" },
+    { "text": "and sends the dish back to your table.", "caps": "AND *SENDS | THE *DISH | *BACK TO | YOUR *TABLE" },
+    { "text": "Apps work the same way.", "caps": "*APPS WORK | THE *SAME | *WAY" },
+    { "text": "Your phone is the client,", "caps": "YOUR *PHONE | IS THE *CLIENT" },
+    { "text": "sending a request like, show me my feed.", "caps": "SENDING A *REQUEST | LIKE *SHOW ME | MY *FEED" },
+    { "text": "The server holds the photos and accounts,", "caps": "THE *SERVER | *HOLDS | THE *PHOTOS | AND *ACCOUNTS" },
+    { "text": "does the heavy work, and sends back a response.", "caps": "DOES THE *HEAVY | *WORK | AND *SENDS | BACK A *RESPONSE" },
+    { "text": "And one kitchen can feed thousands of tables.", "caps": "AND ONE *KITCHEN | CAN *FEED | *THOUSANDS | OF *TABLES" },
+    { "text": "Client asks, server answers.", "caps": "*CLIENT | *ASKS | *SERVER | *ANSWERS" },
+    { "text": "Tomorrow: why fast means two different things.", "caps": "*TOMORROW | WHY *FAST | MEANS *TWO | DIFFERENT *THINGS" }
+  ]
+}
