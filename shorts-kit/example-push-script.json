@@ -1,0 +1,74 @@
+{
+  "title": "How Do Push Notifications Actually Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Apple Technical Note TN2265 'Troubleshooting Push Notifications' (developer.apple.com): iOS 'attempts to establish a persistent network connection to the push service that will be shared by all push-capable apps on the system'",
+    "Apple Platform Deployment, 'Configure devices to work with APNs' (support.apple.com): APNs maintains persistent communication with Apple devices (TCP 5223, 443 fallback)",
+    "Android Developers, 'Optimize server-initiated actions' (developer.android.com): polling 'can waste network connection and power ... only to receive an answer that no new data is available'; FCM 'reduces the total number of network connections needed on a device' and lets the radio sleep more",
+    "Knock, 'How push notifications work on Apple and Android': the app or its servers don't deliver pushes themselves; the server sends the request with the target device token to APNs / FCM, which deliver it",
+    "Wikipedia, 'Apple Push Notification service': launched with iPhone OS 3.0 on June 17, 2009"
+  ],
+  "lines": [
+    {
+      "text": "How does your phone know you got a message,",
+      "caps": "HOW DOES YOUR *PHONE | *KNOW | YOU GOT A *MESSAGE"
+    },
+    {
+      "text": "even when the app is closed?",
+      "caps": "*EVEN WHEN | THE APP IS *CLOSED?"
+    },
+    {
+      "text": "You'd think every app keeps checking its own server,",
+      "caps": "YOU'D *THINK | EVERY *APP | KEEPS *CHECKING | ITS OWN *SERVER"
+    },
+    {
+      "text": "but that would drain your battery fast.",
+      "caps": "BUT THAT WOULD *DRAIN | YOUR *BATTERY | *FAST"
+    },
+    {
+      "text": "Instead, your phone keeps one line open,",
+      "caps": "*INSTEAD | YOUR PHONE *KEEPS | *ONE LINE | *OPEN"
+    },
+    {
+      "text": "to Apple or Google, shared by all your apps.",
+      "caps": "TO *APPLE | OR *GOOGLE | *SHARED BY | ALL YOUR *APPS"
+    },
+    {
+      "text": "When your friend texts you, the app's server",
+      "caps": "WHEN YOUR *FRIEND | *TEXTS YOU | THE APP'S *SERVER"
+    },
+    {
+      "text": "hands it to Apple or Google with your phone's token,",
+      "caps": "*HANDS IT | TO APPLE OR *GOOGLE | WITH YOUR *PHONE'S | *TOKEN"
+    },
+    {
+      "text": "and they push it down that open line.",
+      "caps": "AND THEY *PUSH IT | DOWN *THAT | *OPEN LINE"
+    },
+    {
+      "text": "Apple switched this on for iPhones in two thousand nine.",
+      "caps": "APPLE *SWITCHED | THIS *ON | FOR *IPHONES | IN *2009"
+    },
+    {
+      "text": "But here's the twist:",
+      "caps": "BUT *HERE'S | THE *TWIST"
+    },
+    {
+      "text": "the app never actually talks to your phone,",
+      "caps": "THE APP *NEVER | ACTUALLY *TALKS | TO YOUR *PHONE"
+    },
+    {
+      "text": "Apple or Google deliver every buzz.",
+      "caps": "APPLE OR *GOOGLE | *DELIVER | EVERY *BUZZ"
+    },
+    {
+      "text": "That ping isn't from the app, it's from a line that never hangs up.",
+      "caps": "THAT *PING | *ISN'T FROM | THE *APP | IT'S FROM A *LINE | THAT *NEVER | HANGS *UP"
+    }
+  ]
+}
