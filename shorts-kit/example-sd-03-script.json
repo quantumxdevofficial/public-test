@@ -1,0 +1,32 @@
+{
+  "title": "Latency vs Throughput: Why Fast Means Two Things",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "AlgoMaster, 'Latency vs Throughput': latency is the time a single request takes from start to finish (measured in milliseconds); throughput is how many requests a system handles per unit of time (e.g. requests per second)",
+    "Volt Active Data, 'Latency vs Throughput: Navigating the Digital Highway': highway analogy - latency is how long one car takes to travel the road, throughput is how many cars pass per unit of time; adding lanes raises throughput without making one car faster",
+    "DesignGurus, 'Difference between throughput, latency and concurrency': low latency and high throughput are separate goals; a system can be good at one and poor at the other"
+  ],
+  "lines": [
+    { "text": "When people say an app is fast,", "caps": "WHEN *PEOPLE | SAY AN *APP | IS *FAST" },
+    { "text": "they could mean two completely different things.", "caps": "THEY COULD *MEAN | *TWO | COMPLETELY *DIFFERENT | *THINGS" },
+    { "text": "Picture a highway.", "caps": "*PICTURE A | *HIGHWAY" },
+    { "text": "Latency is how long one car takes", "caps": "*LATENCY | IS HOW *LONG | ONE *CAR | *TAKES" },
+    { "text": "to get from the start to the finish.", "caps": "TO *GET | FROM THE *START | TO THE *FINISH" },
+    { "text": "Throughput is how many cars arrive every minute.", "caps": "*THROUGHPUT | IS HOW *MANY | *CARS | *ARRIVE | EVERY *MINUTE" },
+    { "text": "In apps, latency is the wait after you tap,", "caps": "IN *APPS | *LATENCY | IS THE *WAIT | AFTER YOU *TAP" },
+    { "text": "measured in milliseconds,", "caps": "*MEASURED | IN *MILLISECONDS" },
+    { "text": "and throughput is how many requests", "caps": "AND *THROUGHPUT | IS HOW *MANY | *REQUESTS" },
+    { "text": "a server handles every second.", "caps": "A *SERVER | *HANDLES | EVERY *SECOND" },
+    { "text": "Here's the twist:", "caps": "HERE'S THE *TWIST" },
+    { "text": "add more lanes, and way more cars get through,", "caps": "ADD MORE *LANES | AND WAY *MORE | *CARS | GET *THROUGH" },
+    { "text": "but each car still drives just as long.", "caps": "BUT EACH *CAR | *STILL DRIVES | JUST AS *LONG" },
+    { "text": "Great systems need both:", "caps": "GREAT *SYSTEMS | NEED *BOTH" },
+    { "text": "short waits, and lots of traffic.", "caps": "*SHORT | *WAITS | AND *LOTS | OF *TRAFFIC" },
+    { "text": "Tomorrow: one bigger computer, or more computers?", "caps": "*TOMORROW | ONE *BIGGER | *COMPUTER | OR *MORE | *COMPUTERS?" }
+  ]
+}

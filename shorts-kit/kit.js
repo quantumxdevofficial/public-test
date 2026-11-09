@@ -394,3 +394,6 @@ export * from './files.js';
 
 // Incognito components (eye mask, private browser window, history card, form card, gavel, record sheet)
 export * from './incognito.js';
+
+// Latency vs throughput components (carTop, highway, finishLine, counterBox, waitRing)
+export * from './latency.js';
