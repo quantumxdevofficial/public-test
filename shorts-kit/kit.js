@@ -391,3 +391,6 @@ export * from './twofa.js';
 export * from './client.js';
 // Deleted-files components (trashCan, blockGrid, gridRegion, tocCard, hardDrive, ssd, broom, recoveryScreen)
 export * from './files.js';
+
+// Incognito components (eye mask, private browser window, history card, form card, gavel, record sheet)
+export * from './incognito.js';

@@ -18,3 +18,4 @@
 | 14 | How Do 2FA Codes Actually Work? 🔐 #shorts | https://www.youtube.com/watch?v=JDW82MYVt-8 | 2026-11-08 |
 | 15 | (2/30) Client vs Server: Who Does What? System Design | https://www.youtube.com/watch?v=fVJ-BNKApHI | 2026-11-08 |
 | 16 | What Happens When You Delete a File? 🗑️ #shorts | https://www.youtube.com/watch?v=AUZXDkmu4Vk | 2026-11-09 |
+| 17 | What Does Incognito Mode Actually Hide? 🕶️ #shorts | https://www.youtube.com/watch?v=POWFUPqljQE | 2026-11-09 |

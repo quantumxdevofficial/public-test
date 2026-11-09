@@ -1,0 +1,29 @@
+{
+  "title": "What Does Incognito Mode Actually Hide?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Google Chrome Help, 'Browse in Incognito mode' (support.google.com/chrome/answer/95464) and 'How Chrome Incognito keeps your browsing private' (support.google.com/chrome/answer/9845881): Chrome won't save browsing history, cookies and site data, or information entered in forms; your activity might still be visible to websites you visit, your employer or school, or your internet service provider; downloads and bookmarks are kept",
+    "Mozilla, 'Incognito browser: What it really means' (mozilla.org/en-US/technology/incognito-browser): private browsing deletes local history and cookies when you close the window, but does not hide your IP address or your activity from your ISP, employer or the sites you visit",
+    "ABC News / AP, 'Google to delete billions of browser records to settle Incognito lawsuit' (April 2024, Brown v. Google): Google agreed to destroy billions of data records reflecting users' private browsing activity"
+  ],
+  "lines": [
+    { "text": "What does incognito mode actually hide?", "caps": "WHAT DOES *INCOGNITO | MODE *ACTUALLY | *HIDE?" },
+    { "text": "When you open a private window,", "caps": "WHEN YOU *OPEN | A *PRIVATE | *WINDOW" },
+    { "text": "your browser starts a fresh, empty session,", "caps": "YOUR *BROWSER | STARTS A *FRESH | *EMPTY | *SESSION" },
+    { "text": "and when you close it, it throws it all away:", "caps": "AND WHEN YOU *CLOSE IT | IT *THROWS | IT ALL *AWAY" },
+    { "text": "your history, your cookies, and whatever you typed into forms.", "caps": "YOUR *HISTORY | YOUR *COOKIES | AND *WHATEVER | YOU *TYPED | INTO *FORMS" },
+    { "text": "So the next person on that laptop sees nothing.", "caps": "SO THE *NEXT | *PERSON | ON THAT *LAPTOP | SEES *NOTHING" },
+    { "text": "But here's the twist:", "caps": "BUT *HERE'S | THE *TWIST" },
+    { "text": "your school or office Wi-Fi, and your internet provider,", "caps": "YOUR *SCHOOL | OR *OFFICE | *WI-FI | AND YOUR *INTERNET | *PROVIDER" },
+    { "text": "can still see which sites you visit,", "caps": "CAN *STILL | *SEE | WHICH *SITES | YOU *VISIT" },
+    { "text": "and websites still see your IP address.", "caps": "AND *WEBSITES | STILL *SEE | YOUR *IP | *ADDRESS" },
+    { "text": "Google even agreed in twenty twenty-four", "caps": "*GOOGLE | EVEN *AGREED | IN *2024" },
+    { "text": "to delete billions of records from private browsing.", "caps": "TO *DELETE | *BILLIONS | OF *RECORDS | FROM *PRIVATE | *BROWSING" },
+    { "text": "Incognito hides you from your laptop, not from the internet.", "caps": "*INCOGNITO | *HIDES YOU | FROM YOUR *LAPTOP | *NOT FROM | THE *INTERNET" }
+  ]
+}
