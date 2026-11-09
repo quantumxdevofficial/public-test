@@ -1,0 +1,31 @@
+{
+  "title": "What Happens When You Delete a File?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Wikipedia, 'Trim (computing)': the OS tells the SSD which blocks are no longer in use so it can erase them; after TRIM, deleted data is usually unrecoverable",
+    "ScienceABC, 'Where do deleted files go?': deleting removes the file system's pointer/entry and marks the space as available; the bytes stay until overwritten",
+    "PITS Data Recovery, 'Where Do Deleted Files Go': emptied Recycle Bin files can often be recovered from hard drives until new data overwrites them",
+    "Rossmann Group, 'SSD TRIM / garbage collection': on TRIM-enabled SSDs, deleted blocks are cleared by garbage collection and many drives return zeros for trimmed blocks right away"
+  ],
+  "lines": [
+    { "text": "You delete a photo and empty the trash,", "caps": "YOU *DELETE | A *PHOTO | AND EMPTY THE *TRASH" },
+    { "text": "so it's gone for good, right?", "caps": "SO IT'S *GONE | FOR *GOOD | *RIGHT?" },
+    { "text": "Well, not quite.", "caps": "WELL *NOT | *QUITE" },
+    { "text": "Your drive keeps a kind of table of contents", "caps": "YOUR *DRIVE | KEEPS A *KIND OF | *TABLE | OF *CONTENTS" },
+    { "text": "that says where every file lives.", "caps": "THAT SAYS *WHERE | EVERY *FILE | *LIVES" },
+    { "text": "Deleting just removes the file's entry from that list", "caps": "*DELETING | JUST *REMOVES | THE FILE'S *ENTRY | FROM THAT *LIST" },
+    { "text": "and marks its space as free to reuse.", "caps": "AND *MARKS | ITS *SPACE | AS *FREE | TO *REUSE" },
+    { "text": "But the actual data is still sitting there,", "caps": "BUT THE *ACTUAL | *DATA | IS *STILL | SITTING *THERE" },
+    { "text": "which is why recovery apps can bring it back.", "caps": "WHICH IS *WHY | *RECOVERY APPS | CAN *BRING | IT *BACK" },
+    { "text": "Here's the twist:", "caps": "HERE'S THE *TWIST" },
+    { "text": "once new files get saved on top,", "caps": "ONCE *NEW FILES | GET *SAVED | ON *TOP" },
+    { "text": "the old data is overwritten, and then it's really gone.", "caps": "THE *OLD DATA | IS *OVERWRITTEN | AND *THEN | IT'S *REALLY | *GONE" },
+    { "text": "And on modern SSDs, that cleanup can happen almost right away.", "caps": "AND ON *MODERN | *SSDS | THAT *CLEANUP | CAN *HAPPEN | ALMOST *RIGHT AWAY" },
+    { "text": "So deleting doesn't erase a file, it just forgets where it was.", "caps": "SO *DELETING | DOESN'T *ERASE | A *FILE | IT JUST *FORGETS | WHERE IT *WAS" }
+  ]
+}

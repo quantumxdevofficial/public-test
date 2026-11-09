@@ -389,3 +389,5 @@ export * from './push.js';
 export * from './twofa.js';
 // Client vs server components (bubble, veg, pantry, feedScreen)
 export * from './client.js';
+// Deleted-files components (trashCan, blockGrid, gridRegion, tocCard, hardDrive, ssd, broom, recoveryScreen)
+export * from './files.js';
