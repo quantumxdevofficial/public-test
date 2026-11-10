@@ -1,0 +1,32 @@
+{
+  "title": "Why Is a Software Glitch Called a Bug?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Smithsonian National Museum of American History, 'Log Book With Computer Bug' (americanhistory.si.edu/collections/object/nmah_334663): on 9 Sept 1947 operators of the Harvard Mark II found a moth in Relay #70, Panel F, taped it into the log with the note 'First actual case of bug being found'",
+    "Wikipedia 'Bug (engineering)' and computinghistory.org.uk 'First computer bug is found': the moth was taped into the Mark II logbook at Harvard in 1947; the term 'bug' for a technical fault was already in use",
+    "Thomas Edison Papers, Rutgers (edisondigital.rutgers.edu), letters to Theodore Puskas, 1878, and Atlas Obscura 'Did Thomas Edison coin the term bug?': Edison described faults in his inventions as 'bugs' in 1878",
+    "General definition: a software bug is an error in code that makes a program behave differently from what was intended (e.g. a duplicate-charge bug)"
+  ],
+  "lines": [
+    { "text": "Why do we call a software glitch a bug?", "caps": "WHY DO WE *CALL | A SOFTWARE *GLITCH | A *BUG?" },
+    { "text": "Well, a bug is when code does what you typed,", "caps": "WELL, A *BUG | IS WHEN *CODE | DOES WHAT YOU *TYPED" },
+    { "text": "not what you meant.", "caps": "NOT WHAT YOU *MEANT" },
+    { "text": "Like a shopping cart that charges you twice,", "caps": "LIKE A *SHOPPING | *CART THAT | CHARGES YOU *TWICE" },
+    { "text": "because one tiny line was off.", "caps": "BECAUSE ONE *TINY | *LINE | WAS *OFF" },
+    { "text": "But the name has a wild story.", "caps": "BUT THE *NAME | HAS A *WILD | *STORY" },
+    { "text": "In nineteen forty seven, engineers at Harvard", "caps": "IN *1947 | *ENGINEERS | AT *HARVARD" },
+    { "text": "found a real moth stuck inside their giant computer.", "caps": "FOUND A *REAL | *MOTH | STUCK *INSIDE | THEIR GIANT *COMPUTER" },
+    { "text": "They taped it into the logbook with a little joke:", "caps": "THEY *TAPED IT | INTO THE *LOGBOOK | WITH A LITTLE *JOKE" },
+    { "text": "first actual case of bug being found.", "caps": "FIRST *ACTUAL | *CASE | OF *BUG | BEING *FOUND" },
+    { "text": "And here's the twist:", "caps": "AND *HERE'S | THE *TWIST" },
+    { "text": "Thomas Edison was already calling glitches bugs", "caps": "*THOMAS | *EDISON WAS | ALREADY *CALLING | *GLITCHES | *BUGS" },
+    { "text": "back in eighteen seventy eight.", "caps": "BACK IN *1878" },
+    { "text": "So the moth didn't invent the bug,", "caps": "SO THE *MOTH | DIDN'T *INVENT | THE *BUG" },
+    { "text": "it just became the most famous one.", "caps": "IT JUST *BECAME | THE *MOST | *FAMOUS ONE" }
+  ]
+}

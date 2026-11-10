@@ -400,3 +400,4 @@ export * from './latency.js';
 
 // IP address components (ipLabel, octets, mapPin, videoScreen, stamp, mailbox, blockShelf, nameCard)
 export * from './ipaddr.js';
+export * from './bug.js';

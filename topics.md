@@ -20,3 +20,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] What happens when you delete a file? (file table entry + free space, overwriting, SSD TRIM; added when the queue ran out)
 - [x] What does incognito mode actually hide? (private window wipes local history/cookies/forms; school/office network, ISP and websites still see you; added when the queue ran out)
 - [x] What actually is an IP address? (four numbers with dots, request/reply addressing, IPv4 ~4.3B ran out 2011, home NAT public/private, IPv6; added when the queue ran out)
+- [x] Why is a software glitch called a bug? (what a bug is, 1947 Harvard Mark II moth in the logbook, Edison used "bugs" in 1878; added when the queue ran out)
