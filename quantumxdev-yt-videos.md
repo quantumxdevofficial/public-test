@@ -22,3 +22,4 @@
 | 18 | (3/30) Latency vs Throughput: Why Does Fast Mean Two Things? System Design | https://www.youtube.com/watch?v=NOo1JUSPug0 | 2026-11-09 |
 | 19 | What Actually Is an IP Address? 🌐 #shorts | https://www.youtube.com/watch?v=z-S8UjPx-rs | 2026-11-10 |
 | 20 | Why Is a Software Glitch Called a Bug? 🐛 #shorts | https://www.youtube.com/watch?v=K_0pJDshbqs | 2026-11-10 |
+| 21 | (4/30) Vertical vs Horizontal Scaling: Bigger or More? System Design | https://www.youtube.com/watch?v=6732rtUIxV8 | 2026-11-10 |

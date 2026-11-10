@@ -1,0 +1,32 @@
+{
+  "title": "Vertical vs Horizontal Scaling",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "DesignGurus, Grokking the System Design Interview, 'Horizontal vs Vertical Scaling': vertical scaling gives one machine more resources (more CPU cores, more memory, faster disks); there is a largest machine you can buy; a bigger server is still one server and a single point of failure; horizontal scaling adds more machines and spreads the work across them, usually behind a load balancer; very large systems are built this way",
+    "Zero To Mastery, 'Beginner's Guide to Horizontal vs Vertical Scaling' (2025-03-17): vertical = increasing CPU, RAM or storage, with a hardware ceiling; if the single upgraded server crashes everything goes down; horizontal = adding more machines to share the workload, needs something like a load balancer to distribute traffic"
+  ],
+  "lines": [
+    { "text": "Your app just went viral,", "caps": "YOUR *APP | JUST WENT *VIRAL" },
+    { "text": "and now one server can't keep up.", "caps": "AND *NOW | ONE *SERVER | CAN'T KEEP *UP" },
+    { "text": "So do you get one bigger computer,", "caps": "SO DO *YOU | GET ONE *BIGGER | *COMPUTER" },
+    { "text": "or more computers?", "caps": "OR *MORE | *COMPUTERS?" },
+    { "text": "Picture a busy kitchen.", "caps": "*PICTURE A | *BUSY | *KITCHEN" },
+    { "text": "Scaling up, or vertical scaling,", "caps": "*SCALING UP | OR *VERTICAL | *SCALING" },
+    { "text": "means giving your one chef a giant stove.", "caps": "MEANS *GIVING | YOUR ONE *CHEF | A *GIANT | *STOVE" },
+    { "text": "For servers, that's more CPU and memory.", "caps": "FOR *SERVERS | THAT'S MORE *CPU | AND *MEMORY" },
+    { "text": "Easy, but stoves only get so big,", "caps": "*EASY | BUT *STOVES | ONLY *GET | SO *BIG" },
+    { "text": "and if that one chef gets sick,", "caps": "AND *IF | THAT ONE *CHEF | GETS *SICK" },
+    { "text": "nothing gets cooked.", "caps": "*NOTHING | GETS *COOKED" },
+    { "text": "Scaling out, or horizontal scaling,", "caps": "*SCALING OUT | OR *HORIZONTAL | *SCALING" },
+    { "text": "means hiring more chefs who share the orders.", "caps": "MEANS *HIRING | MORE *CHEFS | WHO *SHARE | THE *ORDERS" },
+    { "text": "That's adding more servers,", "caps": "THAT'S *ADDING | MORE *SERVERS" },
+    { "text": "and it's how the biggest apps grow.", "caps": "AND IT'S *HOW | THE *BIGGEST | *APPS | *GROW" },
+    { "text": "But wait, who hands out the orders?", "caps": "BUT *WAIT | WHO *HANDS OUT | THE *ORDERS?" },
+    { "text": "Tomorrow: the load balancer.", "caps": "*TOMORROW | THE *LOAD | *BALANCER" }
+  ]
+}
