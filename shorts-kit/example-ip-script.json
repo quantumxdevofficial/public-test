@@ -1,0 +1,32 @@
+{
+  "title": "What Actually Is an IP Address?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "ARIN blog, 'The IANA IPv4 Free Pool has Depleted' (arin.net/blog/2011/02/03/iana-ipv4-free-pool-depletion): on 3 Feb 2011 IANA allocated the last remaining IPv4 /8 blocks to the regional registries",
+    "IPv4 uses 32-bit addresses: 2^32 = about 4.3 billion, written as four numbers 0-255 separated by dots (dotted decimal), e.g. 192.168.1.5 (RFC 791; NRO 'IPv4 - where are we now')",
+    "Computerworld, 'FAQ: What you need to know about IPv6': IPv6 uses 128-bit addresses, about 340 undecillion (3.4 x 10^38); divided by ~8.2 billion people that is ~4 x 10^28 each = trillions of trillions",
+    "Network Academy 'Why do we need NAT' / ipfyi 'NAT explained': a home router shares one public IP address among all devices, giving each a private address (192.168.x.x, RFC 1918) and translating with NAT",
+    "MaxMind 'IP geolocation accuracy': an IP address maps only to an approximate area (country/city), not a person or street address"
+  ],
+  "lines": [
+    { "text": "What actually is an IP address?", "caps": "WHAT *ACTUALLY | IS AN *IP | *ADDRESS?" },
+    { "text": "It's like a home address for your phone,", "caps": "IT'S LIKE A *HOME | *ADDRESS | FOR YOUR *PHONE" },
+    { "text": "so data knows exactly where to go.", "caps": "SO *DATA | KNOWS *EXACTLY | WHERE TO *GO" },
+    { "text": "It's just four numbers with dots in between.", "caps": "IT'S JUST *FOUR | *NUMBERS | WITH *DOTS | IN *BETWEEN" },
+    { "text": "When you open a video, your request carries that address,", "caps": "WHEN YOU *OPEN | A *VIDEO | YOUR *REQUEST | CARRIES THAT *ADDRESS" },
+    { "text": "so the reply finds its way back to you.", "caps": "SO THE *REPLY | FINDS ITS *WAY | BACK TO *YOU" },
+    { "text": "But here's the surprise:", "caps": "BUT *HERE'S | THE *SURPRISE" },
+    { "text": "there are only about four billion of them,", "caps": "THERE ARE *ONLY | ABOUT *4 BILLION | OF *THEM" },
+    { "text": "and the last free blocks were handed out in twenty eleven.", "caps": "AND THE *LAST | FREE *BLOCKS | WERE HANDED *OUT | IN *2011" },
+    { "text": "So your whole home shares one public address,", "caps": "SO YOUR *WHOLE | *HOME SHARES | ONE *PUBLIC | *ADDRESS" },
+    { "text": "and your router hands each device a private one.", "caps": "AND YOUR *ROUTER | HANDS EACH *DEVICE | A *PRIVATE ONE" },
+    { "text": "The real fix is I P v six,", "caps": "THE REAL *FIX | IS *IPV6" },
+    { "text": "with trillions of trillions for every person alive.", "caps": "WITH *TRILLIONS | OF *TRILLIONS | FOR EVERY *PERSON | *ALIVE" },
+    { "text": "It's not who you are, just where you are.", "caps": "IT'S NOT *WHO | YOU *ARE | JUST *WHERE | YOU *ARE" }
+  ]
+}

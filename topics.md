@@ -19,3 +19,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] How do 2FA codes work? (authenticator / TOTP; added when the queue ran out)
 - [x] What happens when you delete a file? (file table entry + free space, overwriting, SSD TRIM; added when the queue ran out)
 - [x] What does incognito mode actually hide? (private window wipes local history/cookies/forms; school/office network, ISP and websites still see you; added when the queue ran out)
+- [x] What actually is an IP address? (four numbers with dots, request/reply addressing, IPv4 ~4.3B ran out 2011, home NAT public/private, IPv6; added when the queue ran out)
