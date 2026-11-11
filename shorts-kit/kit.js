@@ -403,3 +403,5 @@ export * from './ipaddr.js';
 export * from './bug.js';
 // Scaling components (CPU chip, RAM stick, ceiling bar, thermometer, dizzy)
 export * from './scaling.js';
+// CAPTCHA components (robot, robotBox, cursor, trail, puzzleGrid, squiggleCard, oldBook, numberPlate, concertTicket)
+export * from './captcha.js';

@@ -1,0 +1,30 @@
+{
+  "title": "How Does I'm Not a Robot Know You're Human?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Wikipedia 'CAPTCHA' and IBM 'What is CAPTCHA?' (ibm.com/think/topics/captcha): CAPTCHA = Completely Automated Public Turing test to tell Computers and Humans Apart, a challenge easy for humans but hard for bots, used to stop spam sign-ups, ticket scalping bots and similar abuse; coined in 2003 at Carnegie Mellon",
+    "Google Security Blog, 'Are you a robot? Introducing No CAPTCHA reCAPTCHA' (Dec 2014) and Radware 'reCAPTCHA: How it works': the checkbox runs an advanced risk analysis of the user's whole engagement (mouse movement, timing, browser and cookie signals) before, during and after the click; suspicious users get an image challenge",
+    "Wikipedia 'reCAPTCHA' and The Register 'Google acquires reCAPTCHA' (Sept 2009): the distorted words came from scanned books and New York Times archives, so solving them helped digitize text for Google Books",
+    "TechCrunch, 'Google Now Using ReCAPTCHA To Decode Street View Addresses' (29 March 2012): reCAPTCHA showed house numbers from Street View images to help Google Maps read addresses"
+  ],
+  "lines": [
+    { "text": "How does the I'm not a robot box know you're human?", "caps": "HOW *DOES | THE I'M *NOT | A *ROBOT BOX | KNOW YOU'RE *HUMAN?" },
+    { "text": "It's a Captcha, a test that's easy for people", "caps": "IT'S A *CAPTCHA | A *TEST | THAT'S *EASY | FOR *PEOPLE" },
+    { "text": "but hard for bots,", "caps": "BUT *HARD | FOR *BOTS" },
+    { "text": "so bots can't spam sign-ups or grab every concert ticket.", "caps": "SO BOTS *CAN'T | *SPAM SIGN-UPS | OR *GRAB | EVERY CONCERT *TICKET" },
+    { "text": "But the checkbox isn't really the test.", "caps": "BUT THE *CHECKBOX | ISN'T *REALLY | THE *TEST" },
+    { "text": "Before you even click, it watches how your mouse moves,", "caps": "BEFORE YOU *EVEN | *CLICK | IT *WATCHES | HOW YOUR *MOUSE | *MOVES" },
+    { "text": "and checks your browser and cookies.", "caps": "AND *CHECKS | YOUR *BROWSER | AND *COOKIES" },
+    { "text": "Real people wobble and pause, but simple bots move too perfectly.", "caps": "REAL PEOPLE *WOBBLE | AND *PAUSE | BUT SIMPLE *BOTS | MOVE TOO *PERFECTLY" },
+    { "text": "Look suspicious, and you get the picture puzzle instead.", "caps": "LOOK *SUSPICIOUS | AND YOU *GET | THE *PICTURE | *PUZZLE INSTEAD" },
+    { "text": "Here's the twist:", "caps": "HERE'S THE *TWIST" },
+    { "text": "those squiggly words you typed years ago helped scan old books,", "caps": "THOSE *SQUIGGLY | *WORDS | YOU TYPED *YEARS | AGO *HELPED | *SCAN | OLD *BOOKS" },
+    { "text": "and those house numbers helped Google read Street View.", "caps": "AND THOSE *HOUSE | *NUMBERS | HELPED *GOOGLE | READ *STREET VIEW" },
+    { "text": "So proving you're human might mean doing free work.", "caps": "SO *PROVING | YOU'RE *HUMAN | MIGHT *MEAN | DOING *FREE | *WORK" }
+  ]
+}

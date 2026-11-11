@@ -23,3 +23,4 @@
 | 19 | What Actually Is an IP Address? 🌐 #shorts | https://www.youtube.com/watch?v=z-S8UjPx-rs | 2026-11-10 |
 | 20 | Why Is a Software Glitch Called a Bug? 🐛 #shorts | https://www.youtube.com/watch?v=K_0pJDshbqs | 2026-11-10 |
 | 21 | (4/30) Vertical vs Horizontal Scaling: Bigger or More? System Design | https://www.youtube.com/watch?v=6732rtUIxV8 | 2026-11-10 |
+| 22 | How Does "I'm Not a Robot" Know You're Human? 🤖 #shorts | https://www.youtube.com/watch?v=sJ1RPtf_z4M | 2026-11-11 |
