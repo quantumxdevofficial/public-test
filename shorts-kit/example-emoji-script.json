@@ -1,0 +1,69 @@
+{
+  "title": "What Does Your Phone Actually Send When You Send an Emoji?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Unicode Consortium FAQ 'Emoji and Pictographs' (unicode.org/faq/emoji_dingbats.html) and Wikipedia 'Emoji': each emoji is a Unicode character (a code point); the Unicode Consortium encodes them and each vendor draws its own image in its emoji font",
+    "Unicode chart U1F600 / codepoints.net U+1F602: FACE WITH TEARS OF JOY = U+1F602",
+    "emoji.codes 'Why emojis look different on different platforms' and emojifyi 'How emoji rendering works across platforms': the same code point is rendered with Apple Color Emoji, Noto Color Emoji etc.; if a device's font lacks the character it shows an empty box ('tofu') or a question mark",
+    "Unicode Technical Standard #51 (Unicode Emoji) and emojifyi 'What are ZWJ sequences?': family emoji are ZWJ sequences, several person emoji joined by the invisible zero width joiner U+200D"
+  ],
+  "lines": [
+    {
+      "text": "When you send an emoji, does your phone actually send a tiny picture?",
+      "caps": "WHEN YOU *SEND | AN *EMOJI | DOES YOUR *PHONE | ACTUALLY *SEND | A TINY *PICTURE?"
+    },
+    {
+      "text": "Nope, it sends a number.",
+      "caps": "*NOPE | IT *SENDS | A *NUMBER"
+    },
+    {
+      "text": "Every emoji has its own code in a giant list called Unicode,",
+      "caps": "*EVERY EMOJI | HAS ITS OWN *CODE | IN A *GIANT LIST | CALLED *UNICODE"
+    },
+    {
+      "text": "so the laughing crying face is really code one F six oh two.",
+      "caps": "SO THE *LAUGHING | CRYING *FACE | IS REALLY *CODE | ONE *F602"
+    },
+    {
+      "text": "Your friend's phone reads that code",
+      "caps": "YOUR *FRIEND'S | PHONE *READS | THAT *CODE"
+    },
+    {
+      "text": "and draws the emoji with its own artwork,",
+      "caps": "AND *DRAWS | THE *EMOJI | WITH ITS OWN *ARTWORK"
+    },
+    {
+      "text": "which is why the same emoji looks different on iPhone and Android.",
+      "caps": "WHICH IS *WHY | THE *SAME EMOJI | LOOKS *DIFFERENT | ON *IPHONE | AND *ANDROID"
+    },
+    {
+      "text": "And if their phone is too old to know that code,",
+      "caps": "AND IF *THEIR | PHONE IS TOO *OLD | TO *KNOW | THAT *CODE"
+    },
+    {
+      "text": "they just see an empty box.",
+      "caps": "THEY JUST *SEE | AN *EMPTY BOX"
+    },
+    {
+      "text": "Here's the twist:",
+      "caps": "HERE'S THE *TWIST"
+    },
+    {
+      "text": "the family emoji is really several people,",
+      "caps": "THE *FAMILY EMOJI | IS *REALLY | SEVERAL *PEOPLE"
+    },
+    {
+      "text": "glued together with an invisible character.",
+      "caps": "*GLUED TOGETHER | WITH AN *INVISIBLE | *CHARACTER"
+    },
+    {
+      "text": "So that heart you just sent? It was just a number.",
+      "caps": "SO THAT *HEART | YOU JUST *SENT? | IT WAS *JUST | A *NUMBER"
+    }
+  ]
+}

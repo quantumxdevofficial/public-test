@@ -405,3 +405,4 @@ export * from './bug.js';
 export * from './scaling.js';
 // CAPTCHA components (robot, robotBox, cursor, trail, puzzleGrid, squiggleCard, oldBook, numberPlate, concertTicket)
 export * from './captcha.js';
+export * from './emoji.js';

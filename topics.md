@@ -22,3 +22,4 @@ When the queue is used up, pick a new beginner-friendly tech explainer that is n
 - [x] What actually is an IP address? (four numbers with dots, request/reply addressing, IPv4 ~4.3B ran out 2011, home NAT public/private, IPv6; added when the queue ran out)
 - [x] Why is a software glitch called a bug? (what a bug is, 1947 Harvard Mark II moth in the logbook, Edison used "bugs" in 1878; added when the queue ran out)
 - [x] How does "I'm not a robot" know you're human? (CAPTCHA: easy for people/hard for bots, checkbox risk analysis of mouse/browser/cookies, image puzzle fallback, old words digitized books, Street View house numbers; added when the queue ran out)
+- [x] What does your phone actually send when you send an emoji? (Unicode code point U+1F602, each phone draws its own art so iPhone/Android differ, old phones show an empty box, family emoji = several people joined by the zero width joiner; added when the queue ran out)
