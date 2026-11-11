@@ -20,7 +20,7 @@ Rules for this series (on top of RUNBOOK.md):
 - [x] Day 2 — Client vs server: who does what? (planned 2026-11-08)
 - [x] Day 3 — Latency vs throughput: why "fast" means two different things (planned 2026-11-09)
 - [x] Day 4 — Vertical vs horizontal scaling: a bigger computer or more computers? (planned 2026-11-10)
-- [ ] Day 5 — What is a load balancer? (planned 2026-11-11)
+- [x] Day 5 — What is a load balancer? (planned 2026-11-11)
 - [ ] Day 6 — What is caching? (planned 2026-11-12)
 - [ ] Day 7 — What is a CDN? (Why videos load fast everywhere) (planned 2026-11-13)
 

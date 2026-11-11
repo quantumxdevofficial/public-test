@@ -1,0 +1,87 @@
+{
+  "title": "What Is a Load Balancer?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Akamai / Linode, 'Load Balancing Fundamentals: How Load Balancers Work': a load balancer sits in front of a group of servers and distributes incoming client requests across them; round robin sends requests to each server in turn; least connections sends a request to the server with the fewest active connections; health checks detect failed servers and stop sending them traffic",
+    "DesignGurus, 'Load Balancing Algorithms' guide: round robin cycles through servers in order; least connections picks the server currently handling the fewest connections; clients see a single address while many servers sit behind the load balancer"
+  ],
+  "lines": [
+    {
+      "text": "Yesterday we hired more chefs,",
+      "caps": "*YESTERDAY | WE *HIRED | MORE *CHEFS"
+    },
+    {
+      "text": "but who decides which chef cooks each order?",
+      "caps": "BUT WHO *DECIDES | WHICH *CHEF | COOKS EACH *ORDER?"
+    },
+    {
+      "text": "Meet the load balancer.",
+      "caps": "MEET THE *LOAD | *BALANCER"
+    },
+    {
+      "text": "Picture a manager at the kitchen door.",
+      "caps": "*PICTURE A | *MANAGER | AT THE *KITCHEN | *DOOR"
+    },
+    {
+      "text": "Every order goes to him first,",
+      "caps": "EVERY *ORDER | GOES TO *HIM | *FIRST"
+    },
+    {
+      "text": "and he hands it to a chef.",
+      "caps": "AND HE *HANDS IT | TO A *CHEF"
+    },
+    {
+      "text": "The simplest way is taking turns,",
+      "caps": "THE *SIMPLEST | WAY IS *TAKING | *TURNS"
+    },
+    {
+      "text": "one, two, three, then back to one.",
+      "caps": "*1 | *2 | *3 | THEN *BACK | TO *1"
+    },
+    {
+      "text": "That's called round robin.",
+      "caps": "THAT'S *CALLED | *ROUND | *ROBIN"
+    },
+    {
+      "text": "Smarter ones pick the chef with the fewest orders.",
+      "caps": "*SMARTER ONES | PICK THE *CHEF | WITH THE *FEWEST | *ORDERS"
+    },
+    {
+      "text": "And if a chef gets sick,",
+      "caps": "AND *IF | A *CHEF | GETS *SICK"
+    },
+    {
+      "text": "he stops sending that chef any,",
+      "caps": "HE *STOPS | *SENDING | THAT *CHEF ANY"
+    },
+    {
+      "text": "so customers never notice.",
+      "caps": "SO *CUSTOMERS | NEVER *NOTICE"
+    },
+    {
+      "text": "Apps work the same way:",
+      "caps": "*APPS WORK | THE SAME *WAY"
+    },
+    {
+      "text": "your request hits the load balancer,",
+      "caps": "YOUR *REQUEST | HITS THE *LOAD | *BALANCER"
+    },
+    {
+      "text": "and it picks a healthy server for you.",
+      "caps": "AND IT *PICKS | A *HEALTHY | *SERVER | FOR *YOU"
+    },
+    {
+      "text": "One door outside, lots of servers inside.",
+      "caps": "ONE *DOOR | *OUTSIDE | LOTS OF *SERVERS | *INSIDE"
+    },
+    {
+      "text": "Tomorrow: caching.",
+      "caps": "*TOMORROW | *CACHING"
+    }
+  ]
+}

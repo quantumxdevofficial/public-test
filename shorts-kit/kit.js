@@ -406,3 +406,5 @@ export * from './scaling.js';
 // CAPTCHA components (robot, robotBox, cursor, trail, puzzleGrid, squiggleCard, oldBook, numberPlate, concertTicket)
 export * from './captcha.js';
 export * from './emoji.js';
+// (5/30) load balancer: headset, clipboard, lbBox, swingDoor, countBadge
+export * from './loadbalancer.js';
