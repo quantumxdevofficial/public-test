@@ -409,3 +409,5 @@ export * from './emoji.js';
 // (5/30) load balancer: headset, clipboard, lbBox, swingDoor, countBadge
 export * from './loadbalancer.js';
 export * from './statuscode.js';
+// Bluetooth components (earbud, music note, channel strip, viking king, rune stone, flags, chain link)
+export * from './bluetooth.js';

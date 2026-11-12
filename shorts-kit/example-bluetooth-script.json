@@ -1,0 +1,66 @@
+{
+  "title": "How Does Bluetooth Actually Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Bluetooth SIG, 'The story behind how Bluetooth technology got its name' (bluetooth.com/about-us/bluetooth-origin): named in 1997 (Jim Kardach, Intel) after 10th-century King Harald 'Bluetooth' Gormsson, who united Denmark and Norway; the logo is a bind rune of his initials H and B (Hagall + Bjarkan)",
+    "Mental Floss / Snopes 'Bluetooth etymology': same naming story and runic-initials logo",
+    "electronics-notes.com 'Bluetooth Classic: how it works' and argenox.com 'Introduction to Bluetooth Classic': 2.4 GHz ISM band, 79 channels of 1 MHz, frequency hopping up to 1600 hops per second",
+    "everythingrf.com 'How Bluetooth avoids Wi-Fi interference: adaptive frequency hopping': the 2.4 GHz band is shared with Wi-Fi and microwave ovens; hopping avoids busy channels",
+    "Nordic Semiconductor Academy / TI BLE user guide (bonding): pairing creates keys that bonded devices store, so they reconnect later without pairing again"
+  ],
+  "lines": [
+    {
+      "text": "How do your earbuds talk to your phone with no wires?",
+      "caps": "*HOW DO | YOUR *EARBUDS | *TALK TO | YOUR *PHONE | WITH NO *WIRES?"
+    },
+    {
+      "text": "It's Bluetooth, a tiny radio in both of them,",
+      "caps": "IT'S *BLUETOOTH | A TINY *RADIO | IN *BOTH"
+    },
+    {
+      "text": "using the same two point four gigahertz band as Wi-Fi.",
+      "caps": "USING THE *SAME | 2.4 *GIGAHERTZ | BAND AS *WI-FI"
+    },
+    {
+      "text": "The first time, they pair and swap a secret key,",
+      "caps": "THE FIRST *TIME | THEY *PAIR | AND *SWAP | A SECRET *KEY"
+    },
+    {
+      "text": "so after that, they just remember each other.",
+      "caps": "SO *AFTER THAT | THEY JUST *REMEMBER | EACH *OTHER"
+    },
+    {
+      "text": "But that band is crowded, even microwaves use it,",
+      "caps": "BUT THAT *BAND | IS *CROWDED | EVEN *MICROWAVES | *USE IT"
+    },
+    {
+      "text": "so Bluetooth keeps hopping between seventy nine channels,",
+      "caps": "SO *BLUETOOTH | KEEPS *HOPPING | BETWEEN *79 | *CHANNELS"
+    },
+    {
+      "text": "up to sixteen hundred times a second, dodging the noise.",
+      "caps": "UP TO *1,600 | TIMES A *SECOND | *DODGING | THE *NOISE"
+    },
+    {
+      "text": "And the name? It comes from a Viking king,",
+      "caps": "AND THE *NAME? | IT *COMES FROM | A VIKING *KING"
+    },
+    {
+      "text": "Harald Bluetooth, who united Denmark and Norway,",
+      "caps": "HARALD *BLUETOOTH | WHO *UNITED | DENMARK AND *NORWAY"
+    },
+    {
+      "text": "and the logo is his initials, H and B, in runes.",
+      "caps": "AND THE *LOGO | IS HIS *INITIALS | *H AND B | IN *RUNES"
+    },
+    {
+      "text": "So every time you connect, a thousand year old king says hi.",
+      "caps": "SO EVERY *TIME | YOU *CONNECT | A *1,000-YEAR | OLD *KING | SAYS *HI"
+    }
+  ]
+}
