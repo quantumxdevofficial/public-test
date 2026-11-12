@@ -1,0 +1,78 @@
+{
+  "title": "What Does 404 Actually Mean?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "RFC 9110 HTTP Semantics (rfc-editor.org/rfc/rfc9110.html) and MDN 'HTTP response status codes': every response carries a three-digit status code; 2xx success (200 OK), 4xx client error, 5xx server error; 404 Not Found = the server did not find the requested resource",
+    "Cloudflare docs 'Error 404' (4xx client error): the server was reached but the requested page was not found",
+    "W3C 'HTTP 1992' response codes (w3.org/Protocols/http/HTRESP.html): the early list numbers the errors 400 Bad request, 401 Unauthorized, 402 Payment required, 403 Forbidden, 404 Not found",
+    "mart.traagel.dev 'Why is it called a 404? There was never a room 404', webiano.digital 'The boring truth behind 404', earth.hoyd.net 'Is 404 based on a room at CERN or not?': the 'room 404 at CERN' origin story is a myth",
+    "Google Search Central 'How HTTP status codes, and network and DNS errors affect Google Search' and Yoast 'What is a soft 404 error': a soft 404 is a page that tells the user it doesn't exist but returns 200 OK, so search engines may treat it as a real page"
+  ],
+  "lines": [
+    {
+      "text": "Ever clicked a link and got hit with a four oh four?",
+      "caps": "EVER *CLICKED | A *LINK | AND GOT *HIT | WITH A *404?"
+    },
+    {
+      "text": "Every time your browser asks for a page,",
+      "caps": "*EVERY TIME | YOUR *BROWSER | ASKS FOR A *PAGE"
+    },
+    {
+      "text": "the server answers with a three digit code.",
+      "caps": "THE *SERVER | *ANSWERS WITH | A 3-DIGIT *CODE"
+    },
+    {
+      "text": "Two hundred means OK, here's your page.",
+      "caps": "*200 MEANS OK | HERE'S YOUR *PAGE"
+    },
+    {
+      "text": "A five means the server broke,",
+      "caps": "A *5 MEANS | THE SERVER *BROKE"
+    },
+    {
+      "text": "but a four means the problem is the request.",
+      "caps": "BUT A *4 | MEANS THE *PROBLEM | IS THE *REQUEST"
+    },
+    {
+      "text": "So four oh four means, I found the website,",
+      "caps": "SO *404 | MEANS I *FOUND | THE *WEBSITE"
+    },
+    {
+      "text": "but not that page.",
+      "caps": "BUT *NOT | THAT *PAGE"
+    },
+    {
+      "text": "And that story about room four oh four at CERN,",
+      "caps": "AND THAT *STORY | ABOUT *ROOM 404 | AT *CERN"
+    },
+    {
+      "text": "where the web was born?",
+      "caps": "WHERE THE *WEB | WAS *BORN?"
+    },
+    {
+      "text": "Total myth. It's just the next code on the list.",
+      "caps": "TOTAL *MYTH | IT'S JUST THE *NEXT | CODE ON THE *LIST"
+    },
+    {
+      "text": "But here's the twist.",
+      "caps": "BUT HERE'S THE *TWIST"
+    },
+    {
+      "text": "Some sites show an error page but secretly send two hundred,",
+      "caps": "SOME SITES *SHOW | AN *ERROR PAGE | BUT *SECRETLY | SEND *200"
+    },
+    {
+      "text": "so search engines can mistake it for a real page.",
+      "caps": "SO SEARCH *ENGINES | CAN *MISTAKE IT | FOR A *REAL PAGE"
+    },
+    {
+      "text": "That's a soft four oh four, the page is gone, but nobody admits it.",
+      "caps": "THAT'S A *SOFT 404 | THE PAGE IS *GONE | BUT *NOBODY | *ADMITS IT"
+    }
+  ]
+}
