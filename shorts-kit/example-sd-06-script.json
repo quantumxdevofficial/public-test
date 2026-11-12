@@ -1,0 +1,33 @@
+{
+  "title": "What Is Caching?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "AWS, 'What is Caching?' (aws.amazon.com/caching): a cache is a high-speed data storage layer that stores a subset of data, typically transient, so that future requests for that data are served faster than by accessing the data's primary storage location; caches are often kept in fast hardware such as RAM (in-memory)",
+    "Redis docs / glossary 'cache hit, cache miss': a cache hit is when requested data is found in the cache; a cache miss is when it is not, so the app reads from the database and usually stores the result in the cache (cache-aside pattern)",
+    "Redis docs, EXPIRE / TTL: a key can be given a time to live, after which it is automatically deleted, so cached data does not stay stale forever",
+    "Latency numbers every programmer should know (Jeff Dean / Peter Norvig, github gist jboner/2841832): reading from main memory is far faster than reading from disk or making a network round trip"
+  ],
+  "lines": [
+    { "text": "Yesterday we sent each order to the right chef,", "caps": "*YESTERDAY | WE SENT EACH *ORDER | TO THE RIGHT *CHEF" },
+    { "text": "but what if everyone orders the same pizza?", "caps": "BUT WHAT *IF | *EVERYONE ORDERS | THE SAME *PIZZA?" },
+    { "text": "Cooking it from scratch every time is slow.", "caps": "*COOKING IT | FROM *SCRATCH | EVERY TIME IS *SLOW" },
+    { "text": "So the kitchen keeps a few ready,", "caps": "SO THE *KITCHEN | KEEPS A FEW *READY" },
+    { "text": "on a warm shelf right by the door.", "caps": "ON A WARM *SHELF | RIGHT BY THE *DOOR" },
+    { "text": "That shelf is a cache.", "caps": "THAT *SHELF | IS A *CACHE" },
+    { "text": "When an order comes in, the waiter checks the shelf first.", "caps": "WHEN AN *ORDER | COMES *IN | THE *WAITER | CHECKS THE *SHELF | *FIRST" },
+    { "text": "If it's there, that's a hit, served instantly.", "caps": "IF IT'S *THERE | THAT'S A *HIT | SERVED *INSTANTLY" },
+    { "text": "If not, it's a miss,", "caps": "IF *NOT | IT'S A *MISS" },
+    { "text": "so the chef cooks it and puts a copy on the shelf.", "caps": "SO THE *CHEF | *COOKS IT | AND PUTS A *COPY | ON THE *SHELF" },
+    { "text": "Apps do the exact same thing:", "caps": "*APPS DO | THE EXACT SAME *THING" },
+    { "text": "they keep popular data in fast memory,", "caps": "THEY KEEP *POPULAR | *DATA | IN FAST *MEMORY" },
+    { "text": "and skip the slow trip to the database.", "caps": "AND *SKIP | THE SLOW *TRIP | TO THE *DATABASE" },
+    { "text": "But old pizza goes bad,", "caps": "BUT OLD *PIZZA | GOES *BAD" },
+    { "text": "so cached data gets an expiry timer.", "caps": "SO CACHED *DATA | GETS AN *EXPIRY | *TIMER" },
+    { "text": "Tomorrow: the CDN.", "caps": "*TOMORROW | THE *CDN" }
+  ]
+}

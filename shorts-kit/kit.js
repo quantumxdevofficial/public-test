@@ -411,3 +411,4 @@ export * from './loadbalancer.js';
 export * from './statuscode.js';
 // Bluetooth components (earbud, music note, channel strip, viking king, rune stone, flags, chain link)
 export * from './bluetooth.js';
+export * from './cache.js';

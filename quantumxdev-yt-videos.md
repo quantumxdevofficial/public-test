@@ -28,3 +28,4 @@
 | 24 | (5/30) What Is a Load Balancer? System Design | https://www.youtube.com/watch?v=KAM__Ww4KdE | 2026-11-11 |
 | 25 | What Does 404 Actually Mean? 🚫 #shorts | https://www.youtube.com/watch?v=n9AjPJ_ut0A | 2026-11-12 |
 | 26 | How Does Bluetooth Actually Work? 🎧 #shorts | https://www.youtube.com/watch?v=6ZO9oNQkiy8 | 2026-11-12 |
+| 27 | (6/30) What Is Caching? System Design | https://www.youtube.com/watch?v=zmuUxivZzTU | 2026-11-12 |
