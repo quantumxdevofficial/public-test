@@ -1,0 +1,43 @@
+{
+  "title": "What Actually Is a CPU?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Wikipedia, 'Apple M4': the M4 chip has 28 billion transistors (modern processors hold billions of transistors)",
+    "Baeldung / Codecademy 'The instruction cycle' / Save My Exams 'The fetch-decode-execute cycle': a CPU repeatedly fetches an instruction from memory, decodes it, executes it, then moves to the next",
+    "Intel, 'What Is Clock Speed?': clock speed is measured in GHz; a 3.2 GHz processor runs 3.2 billion cycles per second",
+    "Intel / Corsair 'CPU clock speed explained': modern CPUs have multiple cores, each able to process instructions on its own",
+    "TechSpot, 'The Science of Keeping It Cool': transistors switching on and off draw current and turn electrical energy into heat, which is why processors need cooling",
+    "Transistors act as electronic switches whose on/off states represent binary 1 and 0; logic gates built from them perform arithmetic (standard computer architecture, e.g. Cognito KS3 'The CPU & Fetch-Decode-Execute')"
+  ],
+  "lines": [
+    { "text": "What actually is a CPU, and why is it called your computer's brain?",
+      "caps": "WHAT *ACTUALLY | IS A *CPU | AND *WHY | IS IT *CALLED | YOUR COMPUTER'S *BRAIN?" },
+    { "text": "It's a little square chip,",
+      "caps": "IT'S A *LITTLE | SQUARE *CHIP" },
+    { "text": "packed with billions of tiny switches called transistors.",
+      "caps": "PACKED WITH *BILLIONS | OF TINY *SWITCHES | CALLED *TRANSISTORS" },
+    { "text": "Each switch is just on or off, a one or a zero,",
+      "caps": "EACH *SWITCH | IS JUST *ON | OR *OFF | A *ONE | OR A *ZERO" },
+    { "text": "but flip them in clever patterns and they can do math.",
+      "caps": "BUT *FLIP THEM | IN CLEVER *PATTERNS | AND *THEY | CAN DO *MATH" },
+    { "text": "Its whole job is one simple loop:",
+      "caps": "ITS WHOLE *JOB | IS *ONE | SIMPLE *LOOP" },
+    { "text": "fetch an instruction, decode it, run it, and repeat.",
+      "caps": "*FETCH AN | *INSTRUCTION | *DECODE IT | *RUN IT | AND *REPEAT" },
+    { "text": "A three gigahertz chip ticks three billion times every second.",
+      "caps": "A 3 *GIGAHERTZ | CHIP *TICKS | 3 *BILLION TIMES | EVERY *SECOND" },
+    { "text": "Here's the twist: one brain isn't enough anymore,",
+      "caps": "HERE'S THE *TWIST | ONE *BRAIN | ISN'T *ENOUGH | *ANYMORE" },
+    { "text": "so modern chips pack several cores, little CPUs working side by side.",
+      "caps": "SO MODERN *CHIPS | PACK SEVERAL *CORES | LITTLE *CPUS | WORKING *SIDE | BY *SIDE" },
+    { "text": "And all that flipping is why your laptop gets warm.",
+      "caps": "AND *ALL | THAT *FLIPPING | IS *WHY | YOUR *LAPTOP | GETS *WARM" },
+    { "text": "Tiny switches, giant brain.",
+      "caps": "TINY *SWITCHES | GIANT *BRAIN" }
+  ]
+}

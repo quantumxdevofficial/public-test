@@ -30,3 +30,4 @@
 | 26 | How Does Bluetooth Actually Work? 🎧 #shorts | https://www.youtube.com/watch?v=6ZO9oNQkiy8 | 2026-11-12 |
 | 27 | (6/30) What Is Caching? System Design | https://www.youtube.com/watch?v=zmuUxivZzTU | 2026-11-12 |
 | 28 | What Actually Is RAM? 🧠 #shorts | https://www.youtube.com/watch?v=8SYZznmD1gw | 2026-11-13 |
+| 29 | What Actually Is a CPU? 🧩 #shorts | https://www.youtube.com/watch?v=FbvZZlUrnds | 2026-11-13 |

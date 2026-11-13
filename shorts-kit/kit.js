@@ -414,3 +414,5 @@ export * from './bluetooth.js';
 export * from './cache.js';
 // RAM components (desk, fileCabinet, paper, paperStack, plug, socket, powerButton, restartArrow, memMeter, docCard, sparkleStar, snail)
 export * from './ram.js';
+// CPU topic (What Actually Is a CPU?): toggleSwitch, switchGrid, brain, motherboard, cycleWheel, multiCoreChip, heatWaves
+export * from './cpu.js';
