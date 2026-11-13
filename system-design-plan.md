@@ -22,7 +22,7 @@ Rules for this series (on top of RUNBOOK.md):
 - [x] Day 4 — Vertical vs horizontal scaling: a bigger computer or more computers? (planned 2026-11-10)
 - [x] Day 5 — What is a load balancer? (planned 2026-11-11)
 - [x] Day 6 — What is caching? (planned 2026-11-12)
-- [ ] Day 7 — What is a CDN? (Why videos load fast everywhere) (planned 2026-11-13)
+- [x] Day 7 — What is a CDN? (Why videos load fast everywhere) (planned 2026-11-13)
 
 ## Week 2: Data
 

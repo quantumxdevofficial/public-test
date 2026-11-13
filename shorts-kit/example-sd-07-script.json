@@ -1,0 +1,31 @@
+{
+  "title": "What Is a CDN?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Cloudflare Learning Center, 'What is a CDN?' (cloudflare.com/learning/cdn/what-is-a-cdn/): a content delivery network is a geographically distributed group of servers that caches content close to end users to reduce latency; it stores copies of assets such as images, video, HTML, CSS and JavaScript",
+    "Fastly, 'What is a CDN cache?' and bunny.net academy 'What is CDN caching?': edge servers (PoPs) serve cached copies; on a cache miss the edge fetches the file from the origin server, stores a copy and serves later requests from the edge",
+    "Netflix Open Connect overview (openconnect.netflix.com/Open-Connect-Overview.pdf) and Wikipedia 'Open Connect': Netflix's own CDN places Open Connect Appliances (cache servers) inside internet service providers' networks, free to qualifying ISPs, so most streaming traffic is served locally",
+    "Latency basics: data crossing an ocean (e.g. Tokyo to New York, ~10,800 km) takes tens of milliseconds each way at the speed of light in fibre, so serving from a nearby city is faster (Cloudflare 'What is latency?')"
+  ],
+  "lines": [
+    { "text": "Yesterday we kept hot pizza by the door,", "caps": "*YESTERDAY | WE KEPT HOT *PIZZA | BY THE *DOOR" },
+    { "text": "but what if your customer is in Tokyo,", "caps": "BUT WHAT *IF | YOUR *CUSTOMER | IS IN *TOKYO" },
+    { "text": "and the kitchen is all the way in New York?", "caps": "AND THE *KITCHEN | IS ALL THE *WAY | IN NEW *YORK?" },
+    { "text": "Every pizza shows up cold and late.", "caps": "EVERY *PIZZA | SHOWS UP *COLD | AND *LATE" },
+    { "text": "So the chain opens small branches in big cities,", "caps": "SO THE *CHAIN | OPENS SMALL *BRANCHES | IN BIG *CITIES" },
+    { "text": "and you get served by the closest one.", "caps": "AND YOU GET *SERVED | BY THE *CLOSEST ONE" },
+    { "text": "That's a CDN, a content delivery network.", "caps": "THAT'S A *CDN | A *CONTENT | DELIVERY *NETWORK" },
+    { "text": "It keeps copies of videos and images", "caps": "IT KEEPS *COPIES | OF *VIDEOS | AND *IMAGES" },
+    { "text": "on servers all over the world,", "caps": "ON *SERVERS | ALL OVER THE *WORLD" },
+    { "text": "so files come from near you, not from far away.", "caps": "SO *FILES COME | FROM *NEAR YOU | NOT FROM FAR *AWAY" },
+    { "text": "If the nearby server doesn't have it yet,", "caps": "IF THE *NEARBY | SERVER *DOESN'T | HAVE IT *YET" },
+    { "text": "it grabs it once from the main server.", "caps": "IT *GRABS IT | *ONCE | FROM THE MAIN *SERVER" },
+    { "text": "Netflix even puts its servers inside internet providers.", "caps": "*NETFLIX EVEN | PUTS ITS *SERVERS | INSIDE INTERNET *PROVIDERS" },
+    { "text": "Tomorrow: SQL versus NoSQL.", "caps": "*TOMORROW | SQL VS *NOSQL" }
+  ]
+}

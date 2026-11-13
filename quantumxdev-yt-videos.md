@@ -31,3 +31,4 @@
 | 27 | (6/30) What Is Caching? System Design | https://www.youtube.com/watch?v=zmuUxivZzTU | 2026-11-12 |
 | 28 | What Actually Is RAM? 🧠 #shorts | https://www.youtube.com/watch?v=8SYZznmD1gw | 2026-11-13 |
 | 29 | What Actually Is a CPU? 🧩 #shorts | https://www.youtube.com/watch?v=FbvZZlUrnds | 2026-11-13 |
+| 30 | (7/30) What Is a CDN? System Design | https://www.youtube.com/watch?v=F22ULt5pH-M | 2026-11-13 |
