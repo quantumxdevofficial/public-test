@@ -1,0 +1,43 @@
+{
+  "title": "What Actually Is RAM?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Corsair, 'Volatile vs non-volatile memory: what's the difference?': RAM is volatile, short-term working memory that loses its data when power is removed; SSD/HDD storage keeps data with the power off",
+    "Kingston / Crucial 'memory vs storage' explainers and acemagic.com 'Memory vs storage': RAM holds the programs and data in use right now; storage holds files long term; RAM is far faster than an SSD, so programs are loaded from storage into RAM to run",
+    "Tom's Guide, 'Your computer is slow because the RAM is full': when RAM fills up, the OS moves data out to the page file / swap on the drive, which is much slower, so the computer slows down",
+    "Techlicious 'The power of restarting' and OnMSFT 'Why rebooting your Windows PC fixes many problems': a restart clears RAM and starts programs fresh, which fixes many glitches and slowdowns; unsaved work held only in RAM is lost when power is cut"
+  ],
+  "lines": [
+    { "text": "What actually is ram, and why does everyone want more of it?",
+      "caps": "WHAT *ACTUALLY | IS *RAM | AND *WHY | DOES *EVERYONE | WANT *MORE?" },
+    { "text": "Think of your computer as a desk.",
+      "caps": "*THINK OF | YOUR *COMPUTER | AS A *DESK" },
+    { "text": "Storage is the filing cabinet, where your files live for good,",
+      "caps": "*STORAGE IS | THE FILING *CABINET | WHERE YOUR *FILES | LIVE FOR *GOOD" },
+    { "text": "but ram is the desk, holding whatever you're using right now.",
+      "caps": "BUT *RAM | IS THE *DESK | HOLDING *WHATEVER | YOU'RE *USING | RIGHT *NOW" },
+    { "text": "The desk is way faster to grab from,",
+      "caps": "THE *DESK IS | WAY *FASTER | TO *GRAB FROM" },
+    { "text": "so every app you open gets copied onto it.",
+      "caps": "SO EVERY *APP | YOU *OPEN | GETS *COPIED | *ONTO IT" },
+    { "text": "Open too many tabs and the desk fills up,",
+      "caps": "*OPEN TOO | MANY *TABS | AND THE *DESK | *FILLS UP" },
+    { "text": "so stuff gets shoved back in the cabinet, and everything slows down.",
+      "caps": "SO *STUFF | GETS *SHOVED | *BACK IN | THE *CABINET | AND *EVERYTHING | *SLOWS DOWN" },
+    { "text": "But here's the catch: ram only remembers while it has power.",
+      "caps": "BUT *HERE'S | THE *CATCH | RAM ONLY *REMEMBERS | WHILE IT HAS *POWER" },
+    { "text": "Switch off, and the desk is wiped clean,",
+      "caps": "*SWITCH OFF | AND THE *DESK | IS WIPED *CLEAN" },
+    { "text": "which is why unsaved work disappears,",
+      "caps": "WHICH IS *WHY | *UNSAVED WORK | *DISAPPEARS" },
+    { "text": "and why a restart fixes so much.",
+      "caps": "AND *WHY | A *RESTART | *FIXES SO MUCH" },
+    { "text": "Clean desk, fresh start.",
+      "caps": "CLEAN *DESK | FRESH *START" }
+  ]
+}

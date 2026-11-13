@@ -412,3 +412,5 @@ export * from './statuscode.js';
 // Bluetooth components (earbud, music note, channel strip, viking king, rune stone, flags, chain link)
 export * from './bluetooth.js';
 export * from './cache.js';
+// RAM components (desk, fileCabinet, paper, paperStack, plug, socket, powerButton, restartArrow, memMeter, docCard, sparkleStar, snail)
+export * from './ram.js';
