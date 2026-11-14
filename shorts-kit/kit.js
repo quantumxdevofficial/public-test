@@ -420,3 +420,5 @@ export * from './cpu.js';
 export * from './cdn.js';
 // GPU components (gpuCard, gpuChip, worker, workerCrowd, pixelScreen, sceneColor, stepTiles, matrixCard, gamepad)
 export * from './gpu.js';
+// Touchscreen components (touchGrid, gridXY, crosshair, layerStack, glovedFinger, sausage, sausageTap, bolt, sparks, winterBg, snowfall)
+export * from './touch.js';

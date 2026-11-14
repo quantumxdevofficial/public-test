@@ -1,0 +1,66 @@
+{
+  "title": "How Does a Touchscreen Know Where You Touched?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Mouser, 'Resistive and Capacitive Touch Technology: How Does It Work?': projected capacitive screens use a grid of transparent electrodes (usually indium tin oxide) in rows and columns under the glass",
+    "MicroTouch, 'How Projected Capacitive Touch Technology Works': the controller drives the electrodes to create an electric field; a conductive finger draws away charge and changes the capacitance at that intersection, and the controller scans rows/columns to compute the touch location",
+    "ScienceABC, 'How does a touch screen respond to touch?': the human body conducts electricity, which is what a capacitive screen senses",
+    "Nelson-Miller, 'Why Can't I Wear Gloves With My Touchscreen?' / MCR Safety 'How touch screen gloves work': ordinary glove fabric is an insulator so the screen cannot sense the finger; touchscreen gloves weave in conductive thread",
+    "Engadget (2010-02-12) 'Frozen sausage as iPhone stylus' / The Register (2010-02-12): in a cold South Korean winter, iPhone users used snack sausages as a stylus because the meat conducts like a finger, and sausage sales reportedly rose"
+  ],
+  "lines": [
+    {
+      "text": "How does your phone know exactly where you touched it?",
+      "caps": "HOW DOES YOUR *PHONE | KNOW *EXACTLY | WHERE YOU *TOUCHED IT?"
+    },
+    {
+      "text": "Well, under the glass there's a see-through grid of tiny wires,",
+      "caps": "WELL UNDER THE *GLASS | THERE'S A SEE-THROUGH *GRID | OF TINY *WIRES"
+    },
+    {
+      "text": "with a small electric charge sitting on every crossing.",
+      "caps": "WITH A SMALL *ELECTRIC | *CHARGE | SITTING ON EVERY *CROSSING"
+    },
+    {
+      "text": "Your body conducts electricity,",
+      "caps": "YOUR *BODY | CONDUCTS *ELECTRICITY"
+    },
+    {
+      "text": "so when your finger gets close, it pulls a little charge away from that spot.",
+      "caps": "SO WHEN YOUR *FINGER | GETS *CLOSE | IT *PULLS | A LITTLE *CHARGE | AWAY FROM THAT *SPOT"
+    },
+    {
+      "text": "The phone scans every row and column many times a second,",
+      "caps": "THE PHONE *SCANS | EVERY *ROW | AND *COLUMN | MANY *TIMES | A *SECOND"
+    },
+    {
+      "text": "finds the crossing where the charge dropped, and that's your tap.",
+      "caps": "FINDS THE *CROSSING | WHERE THE CHARGE *DROPPED | AND THAT'S YOUR *TAP"
+    },
+    {
+      "text": "Here's the twist: that's why normal gloves don't work,",
+      "caps": "HERE'S THE *TWIST | THAT'S WHY NORMAL *GLOVES | DON'T *WORK"
+    },
+    {
+      "text": "because fabric doesn't conduct, so the screen can't feel you.",
+      "caps": "BECAUSE *FABRIC | DOESN'T *CONDUCT | SO THE SCREEN *CAN'T | FEEL *YOU"
+    },
+    {
+      "text": "But a sausage does, and one freezing winter in Korea,",
+      "caps": "BUT A *SAUSAGE | *DOES | AND ONE *FREEZING | WINTER IN *KOREA"
+    },
+    {
+      "text": "people used sausages as phone pens!",
+      "caps": "PEOPLE USED *SAUSAGES | AS PHONE *PENS!"
+    },
+    {
+      "text": "No buttons, no pressure, just your electric fingertip.",
+      "caps": "NO *BUTTONS | NO *PRESSURE | JUST YOUR *ELECTRIC | *FINGERTIP"
+    }
+  ]
+}

@@ -33,3 +33,4 @@
 | 29 | What Actually Is a CPU? 🧩 #shorts | https://www.youtube.com/watch?v=FbvZZlUrnds | 2026-11-13 |
 | 30 | (7/30) What Is a CDN? System Design | https://www.youtube.com/watch?v=F22ULt5pH-M | 2026-11-13 |
 | 31 | What Actually Is a GPU? 🎮 #shorts | https://www.youtube.com/watch?v=Xt3fo2NmtBA | 2026-11-14 |
+| 32 | How Does a Touchscreen Know Where You Touched? 👆 #shorts | https://www.youtube.com/watch?v=w3JDL4psSQw | 2026-11-14 |
