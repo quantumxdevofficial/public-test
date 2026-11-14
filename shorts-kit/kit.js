@@ -418,3 +418,5 @@ export * from './ram.js';
 export * from './cpu.js';
 // CDN components (flatMap, mapXY, CITY, branchShop, snowflake, edgeServer, mediaCard, dashArc)
 export * from './cdn.js';
+// GPU components (gpuCard, gpuChip, worker, workerCrowd, pixelScreen, sceneColor, stepTiles, matrixCard, gamepad)
+export * from './gpu.js';

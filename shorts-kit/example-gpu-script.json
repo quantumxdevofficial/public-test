@@ -1,0 +1,42 @@
+{
+  "title": "What Actually Is a GPU?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "DataCamp, 'CPU vs GPU': CPUs have a few powerful cores built for sequential, complex tasks; GPUs have thousands of smaller cores built to run many simple operations in parallel",
+    "NVIDIA GeForce RTX 4090 specs: 16,384 CUDA cores (a consumer GPU with thousands of cores)",
+    "Wikipedia, '4K resolution': consumer 4K UHD is 3840 x 2160 = 8,294,400 pixels (over 8 million)",
+    "A 60 Hz display refreshes 60 times per second; the GPU renders the frames that fill each pixel",
+    "ByteByteGo 'Why AI Needs GPUs and TPUs' / Cornell CS4787 'GPU Computing': neural network training and inference are dominated by matrix multiplications, huge numbers of simple multiply-adds that GPUs run in parallel, which is why GPUs power modern AI"
+  ],
+  "lines": [
+    { "text": "What actually is a GPU, and why isn't the CPU enough?",
+      "caps": "WHAT *ACTUALLY | IS A *GPU | AND WHY *ISN'T | THE CPU *ENOUGH?" },
+    { "text": "Well, your CPU has a few really smart cores,",
+      "caps": "WELL YOUR *CPU | HAS A *FEW | REALLY SMART *CORES" },
+    { "text": "great at tricky jobs, one step after another.",
+      "caps": "GREAT AT *TRICKY JOBS | ONE *STEP | AFTER *ANOTHER" },
+    { "text": "A GPU has thousands of simpler cores,",
+      "caps": "A *GPU HAS | *THOUSANDS | OF SIMPLER *CORES" },
+    { "text": "all doing tiny jobs at the exact same time.",
+      "caps": "ALL DOING *TINY JOBS | AT THE *EXACT | *SAME TIME" },
+    { "text": "And your screen is full of tiny jobs,",
+      "caps": "AND YOUR *SCREEN | IS *FULL OF | *TINY JOBS" },
+    { "text": "because a 4K display has over eight million pixels,",
+      "caps": "BECAUSE A *4K DISPLAY | HAS OVER 8 *MILLION | *PIXELS" },
+    { "text": "and each one gets a new color sixty times a second.",
+      "caps": "AND EACH *ONE | GETS A NEW *COLOR | 60 *TIMES | A *SECOND" },
+    { "text": "Here's the twist: AI is tiny jobs too,",
+      "caps": "HERE'S THE *TWIST | *AI IS | TINY JOBS *TOO" },
+    { "text": "mostly millions of simple multiplications,",
+      "caps": "MOSTLY *MILLIONS | OF *SIMPLE | *MULTIPLICATIONS" },
+    { "text": "so the chips built for video games now power chatbots.",
+      "caps": "SO THE *CHIPS | BUILT FOR *VIDEO GAMES | NOW POWER *CHATBOTS" },
+    { "text": "Thousands of tiny workers, one giant picture.",
+      "caps": "THOUSANDS OF *TINY | *WORKERS | ONE GIANT *PICTURE" }
+  ]
+}
