@@ -422,3 +422,4 @@ export * from './cdn.js';
 export * from './gpu.js';
 // Touchscreen components (touchGrid, gridXY, crosshair, layerStack, glovedFinger, sausage, sausageTap, bolt, sparks, winterBg, snowfall)
 export * from './touch.js';
+export * from './sqlnosql.js';

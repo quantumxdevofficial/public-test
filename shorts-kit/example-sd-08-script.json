@@ -1,0 +1,32 @@
+{
+  "title": "SQL vs NoSQL",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "MongoDB, 'NoSQL vs SQL databases' (mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql): SQL (relational) databases store data in tables with fixed rows and columns and a predefined schema; NoSQL databases (document, key-value, wide-column, graph) have flexible schemas, and 'NoSQL' is often read as 'not only SQL'",
+    "Coursera, 'NoSQL vs SQL Databases' and phoenixNAP 'SQL vs NoSQL': SQL databases usually scale vertically and enforce ACID transactions, which suits financial data; NoSQL databases are typically designed to scale horizontally across many servers",
+    "Discord engineering blog, 'How Discord Stores Trillions of Messages' (discord.com/blog/how-discord-stores-trillions-of-messages, 2023): Discord stores trillions of messages in ScyllaDB (a NoSQL wide-column database), migrated from Cassandra",
+    "DesignGurus, 'SQL vs NoSQL for system design': many large systems use both (polyglot persistence), choosing per workload"
+  ],
+  "lines": [
+    { "text": "Yesterday we opened branches everywhere,", "caps": "*YESTERDAY | WE OPENED *BRANCHES | *EVERYWHERE" },
+    { "text": "but where do we write down every order?", "caps": "BUT *WHERE | DO WE WRITE *DOWN | EVERY *ORDER?" },
+    { "text": "One way is a strict order form,", "caps": "ONE *WAY | IS A *STRICT | ORDER *FORM" },
+    { "text": "with the same boxes every single time.", "caps": "WITH THE *SAME | *BOXES | EVERY SINGLE *TIME" },
+    { "text": "Name, pizza, size, all in neat rows.", "caps": "*NAME | *PIZZA | *SIZE | ALL IN NEAT *ROWS" },
+    { "text": "That's SQL, a table with a fixed shape,", "caps": "THAT'S *SQL | A *TABLE | WITH A FIXED *SHAPE" },
+    { "text": "great for payments, where every number must add up.", "caps": "GREAT FOR *PAYMENTS | WHERE EVERY *NUMBER | MUST ADD *UP" },
+    { "text": "The other way is a notebook,", "caps": "THE *OTHER | WAY IS A *NOTEBOOK" },
+    { "text": "where every page can look different,", "caps": "WHERE EVERY *PAGE | CAN LOOK *DIFFERENT" },
+    { "text": "photos on one page, extra toppings on the next.", "caps": "*PHOTOS | ON ONE *PAGE | EXTRA *TOPPINGS | ON THE *NEXT" },
+    { "text": "That's NoSQL, flexible,", "caps": "THAT'S *NOSQL | *FLEXIBLE" },
+    { "text": "and easy to spread across lots of servers.", "caps": "AND *EASY | TO *SPREAD | ACROSS *LOTS | OF *SERVERS" },
+    { "text": "Discord stores trillions of messages like this.", "caps": "*DISCORD | STORES *TRILLIONS | OF *MESSAGES | LIKE *THIS" },
+    { "text": "So which one wins? Neither. Big apps use both.", "caps": "SO WHICH ONE *WINS? | *NEITHER | BIG *APPS | USE *BOTH" },
+    { "text": "Tomorrow: database indexing.", "caps": "*TOMORROW | DATABASE *INDEXING" }
+  ]
+}

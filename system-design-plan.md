@@ -26,7 +26,7 @@ Rules for this series (on top of RUNBOOK.md):
 
 ## Week 2: Data
 
-- [ ] Day 8 — SQL vs NoSQL databases (planned 2026-11-14)
+- [x] Day 8 — SQL vs NoSQL databases (planned 2026-11-14)
 - [ ] Day 9 — Database indexing: how a lookup goes from slow to instant (planned 2026-11-15)
 - [ ] Day 10 — Replication: copies of your database (planned 2026-11-16)
 - [ ] Day 11 — Sharding: splitting a huge database into pieces (planned 2026-11-17)
