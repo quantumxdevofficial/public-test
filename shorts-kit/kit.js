@@ -427,3 +427,4 @@ export * from './sqlnosql.js';
 export * from './gps.js';
 // Undersea cable components (cableSection, hoseEnd, fiber, lightFlash, repeater, shark, anchor, chain, trawler, net, memeCard, depthBand)
 export * from './subsea.js';
+export * from './indexing.js';

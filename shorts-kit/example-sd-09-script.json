@@ -1,0 +1,81 @@
+{
+  "title": "Database Indexing",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Use The Index, Luke (use-the-index-luke.com/sql/anatomy/the-tree): a database index is a B-tree whose depth grows logarithmically, so even millions of entries need only a few levels; a lookup walks root to leaf in a few steps",
+    "Use The Index, Luke (use-the-index-luke.com/sql/dml/insert): every index on a table must be updated on each insert, so more indexes make writes slower",
+    "DesignGurus 'Database indexing' and roadmap.sh 'How database indexes work': without an index the database does a full table scan reading every row; an index is a sorted structure, like a book's index, pointing to where each row lives",
+    "AlgoMaster 'The hidden cost of database indexes': indexes use extra storage and slow INSERT/UPDATE/DELETE, so index the columns you actually query"
+  ],
+  "lines": [
+    {
+      "text": "Yesterday we saved every pizza order,",
+      "caps": "*YESTERDAY | WE *SAVED EVERY | PIZZA *ORDER"
+    },
+    {
+      "text": "but now there are ten million of them,",
+      "caps": "BUT *NOW | THERE ARE *TEN | *MILLION | OF *THEM"
+    },
+    {
+      "text": "and a customer calls asking about Ravi's order.",
+      "caps": "AND A *CUSTOMER | *CALLS | *ASKING ABOUT | *RAVI'S ORDER"
+    },
+    {
+      "text": "Without help, the database checks every row,",
+      "caps": "WITHOUT *HELP | THE *DATABASE | CHECKS EVERY *ROW"
+    },
+    {
+      "text": "one by one, like flipping through every page of a book.",
+      "caps": "ONE BY *ONE | LIKE *FLIPPING | THROUGH EVERY *PAGE | OF A *BOOK"
+    },
+    {
+      "text": "An index fixes that.",
+      "caps": "AN *INDEX | FIXES *THAT"
+    },
+    {
+      "text": "It's like the index at the back of a textbook,",
+      "caps": "IT'S *LIKE | THE *INDEX | AT THE *BACK | OF A *TEXTBOOK"
+    },
+    {
+      "text": "a sorted list of names,",
+      "caps": "A *SORTED | LIST OF *NAMES"
+    },
+    {
+      "text": "each pointing to exactly where its row lives.",
+      "caps": "EACH *POINTING | TO *EXACTLY | WHERE ITS *ROW | *LIVES"
+    },
+    {
+      "text": "Databases keep it as a tree,",
+      "caps": "*DATABASES | *KEEP IT | AS A *TREE"
+    },
+    {
+      "text": "so even ten million rows take just a few hops.",
+      "caps": "SO *EVEN | TEN MILLION *ROWS | TAKE *JUST | A FEW *HOPS"
+    },
+    {
+      "text": "But there's a catch.",
+      "caps": "BUT *THERE'S | A *CATCH"
+    },
+    {
+      "text": "Every new order has to update the index too,",
+      "caps": "EVERY NEW *ORDER | HAS TO *UPDATE | THE INDEX *TOO"
+    },
+    {
+      "text": "so writes get slower.",
+      "caps": "SO *WRITES | GET *SLOWER"
+    },
+    {
+      "text": "Index what you search, not everything.",
+      "caps": "*INDEX | WHAT YOU *SEARCH | NOT *EVERYTHING"
+    },
+    {
+      "text": "Tomorrow: replication.",
+      "caps": "*TOMORROW | *REPLICATION"
+    }
+  ]
+}
