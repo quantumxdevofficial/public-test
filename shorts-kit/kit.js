@@ -425,3 +425,5 @@ export * from './touch.js';
 export * from './sqlnosql.js';
 // GPS: satellite, space, earthCap, orbitRing, clockFace, rangeCircle, blueDot, streetMap, mapScreen, signalDot
 export * from './gps.js';
+// Undersea cable components (cableSection, hoseEnd, fiber, lightFlash, repeater, shark, anchor, chain, trawler, net, memeCard, depthBand)
+export * from './subsea.js';
