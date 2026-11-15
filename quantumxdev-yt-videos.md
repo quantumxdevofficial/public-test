@@ -35,3 +35,4 @@
 | 31 | What Actually Is a GPU? 🎮 #shorts | https://www.youtube.com/watch?v=Xt3fo2NmtBA | 2026-11-14 |
 | 32 | How Does a Touchscreen Know Where You Touched? 👆 #shorts | https://www.youtube.com/watch?v=w3JDL4psSQw | 2026-11-14 |
 | 33 | (8/30) SQL vs NoSQL: Which Database Wins? System Design | https://www.youtube.com/watch?v=lpaR7g2F5eQ | 2026-11-14 |
+| 34 | How Does Your Phone Know Where You Are? 📍 #shorts | https://www.youtube.com/watch?v=GMotyKDegKs | 2026-11-15 |

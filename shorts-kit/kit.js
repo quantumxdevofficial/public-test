@@ -423,3 +423,5 @@ export * from './gpu.js';
 // Touchscreen components (touchGrid, gridXY, crosshair, layerStack, glovedFinger, sausage, sausageTap, bolt, sparks, winterBg, snowfall)
 export * from './touch.js';
 export * from './sqlnosql.js';
+// GPS: satellite, space, earthCap, orbitRing, clockFace, rangeCircle, blueDot, streetMap, mapScreen, signalDot
+export * from './gps.js';

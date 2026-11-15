@@ -1,0 +1,42 @@
+{
+  "title": "How Does Your Phone Know Where You Are?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "GPS.gov, 'Space Segment': GPS satellites fly in medium Earth orbit at about 20,200 km and circle the Earth twice a day; the constellation has around 31 operational satellites (24-slot baseline)",
+    "GPS.gov / NASA 'What is GPS?': each satellite carries atomic clocks and continuously broadcasts its position and the time; receivers use the signal travel time (at the speed of light) to compute distance",
+    "GISGeography 'How GPS Receivers Work – Trilateration' / HowToGeek 'How GPS actually works': a receiver needs signals from at least four satellites to fix 3D position and correct its own clock (trilateration)",
+    "Penn State GEOG 862 'The Satellite Clock' / Ashby, 'Relativity in the Global Positioning System' (Living Reviews in Relativity 2003): satellite clocks gain about 38 microseconds per day relative to ground clocks (general minus special relativity); uncorrected, position errors would grow by roughly 10 km per day",
+    "GPS.gov / University of New Brunswick 'How does GPS work?': GPS is one-way; receivers are passive and do not transmit to the satellites"
+  ],
+  "lines": [
+    { "text": "How does your phone know exactly where you are?",
+      "caps": "HOW DOES YOUR *PHONE | KNOW *EXACTLY | WHERE YOU *ARE?" },
+    { "text": "About twenty thousand kilometres up,",
+      "caps": "ABOUT *TWENTY | *THOUSAND | KILOMETRES *UP" },
+    { "text": "around thirty GPS satellites circle the Earth,",
+      "caps": "AROUND *THIRTY | GPS *SATELLITES | CIRCLE THE *EARTH" },
+    { "text": "and each one sends where it is and the exact time,",
+      "caps": "AND EACH *ONE | *SENDS | WHERE IT *IS | AND THE *EXACT | *TIME" },
+    { "text": "from an atomic clock on board.",
+      "caps": "FROM AN *ATOMIC | *CLOCK | ON *BOARD" },
+    { "text": "Your phone catches a few and checks how late each signal arrived,",
+      "caps": "YOUR PHONE *CATCHES | A *FEW | AND *CHECKS | HOW *LATE | EACH *SIGNAL | *ARRIVED" },
+    { "text": "and since they fly at light speed, that delay gives the distance.",
+      "caps": "AND SINCE THEY *FLY | AT LIGHT *SPEED | THAT *DELAY | GIVES THE *DISTANCE" },
+    { "text": "With four of them, there's just one spot where the distances meet,",
+      "caps": "WITH *FOUR | OF *THEM | THERE'S JUST *ONE | *SPOT | WHERE THE *DISTANCES | *MEET" },
+    { "text": "and that's you.",
+      "caps": "AND THAT'S *YOU" },
+    { "text": "Here's the twist: up there, clocks run a tiny bit fast, thanks to Einstein,",
+      "caps": "HERE'S THE *TWIST | UP *THERE | CLOCKS *RUN | A *TINY | BIT *FAST | THANKS TO *EINSTEIN" },
+    { "text": "and without a fix, your blue dot would drift ten kilometres a day!",
+      "caps": "AND WITHOUT A *FIX | YOUR BLUE *DOT | WOULD *DRIFT | TEN *KILOMETRES | A *DAY!" },
+    { "text": "And your phone never talks back. It just listens.",
+      "caps": "AND YOUR *PHONE | NEVER TALKS *BACK | IT JUST *LISTENS" }
+  ]
+}
