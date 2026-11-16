@@ -1,0 +1,32 @@
+{
+  "title": "Database Replication",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Kleppmann, Designing Data-Intensive Applications, ch. 5 'Replication': replication means keeping a copy of the same data on multiple machines connected by a network, to keep the system working if parts fail, to scale out reads, and to reduce latency",
+    "DDIA ch. 5 'Leaders and Followers' (single-leader / primary-replica): clients send writes to the leader, which sends each data change to all followers; reads can be served by the leader or any follower",
+    "DDIA ch. 5 'Handling Node Outages: Leader failover': if the leader fails, one of the followers is promoted to be the new leader and clients send writes to it",
+    "DDIA ch. 5 'Problems with Replication Lag' and DesignGurus 'Database replication': with asynchronous replication a follower can fall behind, so a read from it may briefly return outdated data (eventual consistency)"
+  ],
+  "lines": [
+    { "text": "Yesterday we made finding orders instant,", "caps": "*YESTERDAY | WE MADE *FINDING | ORDERS *INSTANT" },
+    { "text": "but all ten million live on one database.", "caps": "BUT *ALL | TEN *MILLION | LIVE ON *ONE | *DATABASE" },
+    { "text": "If that one machine dies, every order is gone.", "caps": "IF THAT *ONE | *MACHINE | *DIES | EVERY *ORDER | IS *GONE" },
+    { "text": "Replication fixes that, by keeping copies.", "caps": "*REPLICATION | FIXES *THAT | BY *KEEPING | *COPIES" },
+    { "text": "Think of a head chef with the master order book,", "caps": "*THINK OF | A HEAD *CHEF | WITH THE *MASTER | ORDER *BOOK" },
+    { "text": "and every new order gets copied into the other cooks' books.", "caps": "AND EVERY *NEW | *ORDER | GETS *COPIED | INTO THE *OTHER | COOKS' *BOOKS" },
+    { "text": "In databases, the leader takes all the writes,", "caps": "IN *DATABASES | THE *LEADER | TAKES *ALL | THE *WRITES" },
+    { "text": "and the followers copy every change.", "caps": "*AND | THE *FOLLOWERS | *COPY | EVERY *CHANGE" },
+    { "text": "Now reads can go to any copy,", "caps": "NOW *READS | CAN *GO | TO ANY *COPY" },
+    { "text": "so way more people get served at once.", "caps": "SO WAY *MORE | *PEOPLE | GET *SERVED | AT *ONCE" },
+    { "text": "And if the leader crashes,", "caps": "AND *IF | THE *LEADER | *CRASHES" },
+    { "text": "a follower gets promoted and takes over.", "caps": "A *FOLLOWER | GETS *PROMOTED | AND TAKES *OVER" },
+    { "text": "The catch? A copy can lag a moment behind.", "caps": "THE *CATCH | A *COPY | CAN *LAG | A MOMENT *BEHIND" },
+    { "text": "One database is a gamble. Copies are insurance.", "caps": "ONE *DATABASE | IS A *GAMBLE | *COPIES ARE | *INSURANCE" },
+    { "text": "Tomorrow: sharding.", "caps": "*TOMORROW | *SHARDING" }
+  ]
+}

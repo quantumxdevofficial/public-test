@@ -40,3 +40,4 @@
 | 36 | (9/30) What Is Database Indexing? System Design | https://www.youtube.com/watch?v=LLivh5-h-54 | 2026-11-15 |
 | 37 | How Does Wireless Charging Actually Work? 🔋 #shorts | https://www.youtube.com/watch?v=BXPRf6KZOso | 2026-11-16 |
 | 38 | How Does Your Phone Know It's Your Fingerprint? 👆 #shorts | https://www.youtube.com/watch?v=fhHvCvZee0w | 2026-11-16 |
+| 39 | (10/30) What Is Database Replication? System Design | https://www.youtube.com/watch?v=Q0tbq9B_BNc | 2026-11-16 |

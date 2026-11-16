@@ -431,3 +431,4 @@ export * from './indexing.js';
 // wireless charging: chargePad, padXray, coil/coilAt/currentDots, fieldLoops, poles, padSide, phoneSide, phoneBack, chargeBattery, heatRise, magnetRing, toothbrush, wallPlug
 export * from './wireless.js';
 export * from './fingerprint.js';
+export * from './replication.js';
