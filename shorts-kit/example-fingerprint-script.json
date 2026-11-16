@@ -1,0 +1,41 @@
+{
+  "title": "How Does Your Phone Know It's Your Fingerprint?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Apple Support, 'About Touch ID advanced security technology' (support.apple.com/105095): the sensor uses capacitive touch to take a high-resolution image of small sections of the fingerprint; only a mathematical representation is stored, never images; the data is protected by the Secure Enclave, never stored on Apple servers or backed up to iCloud; when you touch it again it compares against the enrolled data",
+    "Kintronics, 'How Fingerprint Readers Work': capacitive sensors measure the variation in capacitance created by the distance of the ridges and valleys from the sensor surface; matching uses key data points (minutiae) from the pattern",
+    "NIST / standard biometrics usage: fingerprint minutiae are ridge endings and ridge bifurcations (where a ridge line ends or splits)",
+    "Live Science, 'Do identical twins have identical fingerprints?' (2021): identical twins do not have identical fingerprints; prints form between 13 and 19 weeks of fetal development; DNA plays a major role but position in the womb, nutrients and umbilical cord length also affect them"
+  ],
+  "lines": [
+    { "text": "How does your phone know it's your finger, and not mine?",
+      "caps": "HOW DOES YOUR *PHONE | KNOW IT'S *YOUR FINGER | AND NOT *MINE?" },
+    { "text": "Well, your fingertip is covered in tiny ridges,",
+      "caps": "WELL YOUR *FINGERTIP | IS COVERED IN TINY *RIDGES" },
+    { "text": "and the sensor under it is a grid of tiny electric pixels.",
+      "caps": "AND THE *SENSOR | UNDER IT IS A *GRID | OF TINY ELECTRIC *PIXELS" },
+    { "text": "Ridges touch the sensor, but valleys leave tiny air gaps,",
+      "caps": "*RIDGES | TOUCH THE *SENSOR | BUT *VALLEYS | LEAVE TINY AIR *GAPS" },
+    { "text": "so each pixel reads a different charge, and that draws your print.",
+      "caps": "SO EACH *PIXEL | READS A DIFFERENT *CHARGE | AND THAT *DRAWS | YOUR *PRINT" },
+    { "text": "But it doesn't keep a photo.",
+      "caps": "BUT IT *DOESN'T | KEEP A *PHOTO" },
+    { "text": "It marks the spots where lines end or split, and saves them as math,",
+      "caps": "IT MARKS THE *SPOTS | WHERE LINES *END | OR *SPLIT | AND SAVES THEM AS *MATH" },
+    { "text": "locked in a secure chip that never leaves your phone.",
+      "caps": "LOCKED IN A *SECURE CHIP | THAT NEVER *LEAVES | YOUR *PHONE" },
+    { "text": "Touch it again, and if the points match, you're in.",
+      "caps": "TOUCH IT *AGAIN | AND IF THE *POINTS | *MATCH | YOU'RE *IN" },
+    { "text": "The twist? Even identical twins have different fingerprints,",
+      "caps": "THE *TWIST? | EVEN IDENTICAL *TWINS | HAVE *DIFFERENT | *FINGERPRINTS" },
+    { "text": "because the womb shapes them too, not just your DNA.",
+      "caps": "BECAUSE THE *WOMB | SHAPES THEM *TOO | NOT JUST YOUR *DNA" },
+    { "text": "So your finger is a password nobody else was born with.",
+      "caps": "SO YOUR *FINGER | IS A *PASSWORD | NOBODY ELSE WAS *BORN WITH" }
+  ]
+}
