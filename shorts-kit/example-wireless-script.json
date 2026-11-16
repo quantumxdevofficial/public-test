@@ -1,0 +1,65 @@
+{
+  "title": "How Does Wireless Charging Actually Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "All About Circuits, 'An Overview of Wireless Charging' (2015): an alternating current in the transmitter coil generates a magnetic field, which induces voltage in the receiver coil; the receiver converts it into current to charge the battery; misaligned coils lose efficiency and waste heat; wireless charging is considered slower than wired",
+    "Wireless Power Consortium, 'How Magnetic Phone Chargers Work': the charger's magnetic field reverses direction thousands of times per second; a centimetre off and charging slows down while the missed energy turns into heat; Qi2 magnets snap the phone into alignment",
+    "eeNews Europe, 'Wireless power transfer breaks all connections, part 2' (2015): in the late 1990s inductive charging reached homes in Braun Oral-B and Sonicare electric toothbrushes",
+    "Basic physics: Faraday's law of electromagnetic induction (a changing magnetic field induces a current in a nearby coil)"
+  ],
+  "lines": [
+    {
+      "text": "How does your phone charge just lying on a pad?",
+      "caps": "HOW DOES YOUR *PHONE | *CHARGE | JUST LYING ON A *PAD?"
+    },
+    {
+      "text": "Well, inside the pad there's a flat coil of wire,",
+      "caps": "WELL INSIDE THE *PAD | THERE'S A FLAT *COIL | OF *WIRE"
+    },
+    {
+      "text": "and electricity rushing back and forth through it",
+      "caps": "AND *ELECTRICITY | RUSHING *BACK | AND *FORTH | THROUGH *IT"
+    },
+    {
+      "text": "makes a magnetic field that flips thousands of times a second.",
+      "caps": "MAKES A *MAGNETIC | *FIELD | THAT *FLIPS | *THOUSANDS OF TIMES | A *SECOND"
+    },
+    {
+      "text": "Your phone hides its own coil in the back,",
+      "caps": "YOUR PHONE *HIDES | ITS OWN *COIL | IN THE *BACK"
+    },
+    {
+      "text": "and the flipping field pushes power through it, no wires touching.",
+      "caps": "AND THE *FLIPPING FIELD | *PUSHES | *POWER | THROUGH *IT | NO WIRES *TOUCHING"
+    },
+    {
+      "text": "That's induction, and it fills your battery.",
+      "caps": "THAT'S *INDUCTION | AND IT *FILLS | YOUR *BATTERY"
+    },
+    {
+      "text": "The catch? The coils have to line up.",
+      "caps": "THE *CATCH? | THE *COILS | HAVE TO *LINE UP"
+    },
+    {
+      "text": "Slide it off centre and charging slows, wasting energy as heat,",
+      "caps": "SLIDE IT OFF *CENTRE | AND CHARGING *SLOWS | WASTING *ENERGY | AS *HEAT"
+    },
+    {
+      "text": "so newer pads use magnets to snap it in place.",
+      "caps": "SO *NEWER PADS | USE *MAGNETS | TO *SNAP IT | IN *PLACE"
+    },
+    {
+      "text": "The twist: your toothbrush has charged this way for decades.",
+      "caps": "THE *TWIST | YOUR *TOOTHBRUSH | HAS *CHARGED | THIS *WAY | FOR *DECADES"
+    },
+    {
+      "text": "No plug, no contact, just two coils and a magnetic field.",
+      "caps": "NO *PLUG | NO *CONTACT | JUST TWO *COILS | AND A MAGNETIC *FIELD"
+    }
+  ]
+}

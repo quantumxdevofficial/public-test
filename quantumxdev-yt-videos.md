@@ -38,3 +38,4 @@
 | 34 | How Does Your Phone Know Where You Are? 📍 #shorts | https://www.youtube.com/watch?v=GMotyKDegKs | 2026-11-15 |
 | 35 | How Does the Internet Cross the Ocean? 🌊 #shorts | https://www.youtube.com/watch?v=oH6wvmOB4G8 | 2026-11-15 |
 | 36 | (9/30) What Is Database Indexing? System Design | https://www.youtube.com/watch?v=LLivh5-h-54 | 2026-11-15 |
+| 37 | How Does Wireless Charging Actually Work? 🔋 #shorts | https://www.youtube.com/watch?v=BXPRf6KZOso | 2026-11-16 |

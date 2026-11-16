@@ -428,3 +428,5 @@ export * from './gps.js';
 // Undersea cable components (cableSection, hoseEnd, fiber, lightFlash, repeater, shark, anchor, chain, trawler, net, memeCard, depthBand)
 export * from './subsea.js';
 export * from './indexing.js';
+// wireless charging: chargePad, padXray, coil/coilAt/currentDots, fieldLoops, poles, padSide, phoneSide, phoneBack, chargeBattery, heatRise, magnetRing, toothbrush, wallPlug
+export * from './wireless.js';
