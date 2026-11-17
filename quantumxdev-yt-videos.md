@@ -43,3 +43,4 @@
 | 39 | (10/30) What Is Database Replication? System Design | https://www.youtube.com/watch?v=Q0tbq9B_BNc | 2026-11-16 |
 | 40 | How Do Noise Cancelling Headphones Actually Work? 🎧 #shorts | https://www.youtube.com/watch?v=77xk5gC0P1c | 2026-11-17 |
 | 41 | How Does Autocorrect Know What You Meant? ⌨️ #shorts | https://www.youtube.com/watch?v=7f_n60z40d8 | 2026-11-17 |
+| 42 | (11/30) What Is Database Sharding? System Design | https://www.youtube.com/watch?v=IEbco3yTFi0 | 2026-11-17 |

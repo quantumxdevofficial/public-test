@@ -1,0 +1,31 @@
+{
+  "title": "Database Sharding",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Kleppmann, Designing Data-Intensive Applications, ch. 6 'Partitioning': for very large datasets or very high query throughput, the data is broken up into partitions (called shards in MongoDB, Elasticsearch); each piece of data belongs to exactly one partition, and partitions are spread over many nodes so the data and the query load are spread too",
+    "Google Cloud, 'What is database sharding?' (cloud.google.com/discover/what-is-database-sharding): sharding splits a large database into smaller pieces called shards, each stored on a separate server, a form of horizontal scaling; a shard key decides which shard each row goes to",
+    "MongoDB Manual, 'Ranged Sharding' and 'Shard Keys': ranged sharding divides data into contiguous ranges of shard key values; a poorly chosen shard key (low cardinality, uneven frequency, or monotonically increasing) concentrates reads/writes on one shard, a hot spot, while others sit underused",
+    "DDIA ch. 6 'Skewed workloads and relieving hot spots': if partitioning is unfair, one partition takes most of the load (a hot spot) and the others sit idle"
+  ],
+  "lines": [
+    { "text": "Yesterday we gave our database copies,", "caps": "*YESTERDAY | WE GAVE OUR | *DATABASE | *COPIES" },
+    { "text": "but each copy still holds every order,", "caps": "BUT *EACH | *COPY | STILL HOLDS | EVERY *ORDER" },
+    { "text": "and soon that's too much for one machine.", "caps": "AND *SOON | THAT'S TOO *MUCH | FOR ONE *MACHINE" },
+    { "text": "Sharding splits the data into pieces.", "caps": "*SHARDING | *SPLITS | THE *DATA | INTO *PIECES" },
+    { "text": "Think of tearing the order book by name:", "caps": "*THINK OF | *TEARING | THE ORDER *BOOK | BY *NAME" },
+    { "text": "A to H here, I to P there, Q to Z there.", "caps": "A TO *H | *HERE | I TO *P | *THERE | Q TO *Z | *THERE" },
+    { "text": "Each piece is a shard, on its own machine,", "caps": "EACH *PIECE | IS A *SHARD | ON ITS *OWN | *MACHINE" },
+    { "text": "so each one stores less and does less work.", "caps": "SO EACH *ONE | STORES *LESS | AND *DOES | LESS *WORK" },
+    { "text": "To find Asha's order, look at the shard key.", "caps": "TO *FIND | ASHA'S *ORDER | *LOOK AT | THE SHARD *KEY" },
+    { "text": "Her name starts with A, so it's shard one.", "caps": "HER *NAME | STARTS WITH *A | *SO IT'S | SHARD *ONE" },
+    { "text": "The catch? Pick a bad key, and one shard gets slammed,", "caps": "THE *CATCH | PICK A *BAD | *KEY | AND ONE *SHARD | GETS *SLAMMED" },
+    { "text": "while the others sit idle.", "caps": "WHILE THE *OTHERS | SIT *IDLE" },
+    { "text": "Too big for one machine? Split it.", "caps": "TOO *BIG | FOR ONE *MACHINE | *SPLIT IT" },
+    { "text": "Tomorrow: the CAP theorem.", "caps": "*TOMORROW | THE *CAP | *THEOREM" }
+  ]
+}

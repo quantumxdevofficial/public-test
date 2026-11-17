@@ -436,3 +436,5 @@ export * from './replication.js';
 export * from './noise.js';
 // Autocorrect: keyboard, keyXY, squiggle, wordCard, wordList, dictBook, suggestBar, typeScreen, oddsBar, roadSign, officialDoc, dice, thoughtBubble
 export * from './autocorrect.js';
+// (11/30) sharding: bookPiece, nameTag, flames, capTriangle
+export * from './sharding.js';
