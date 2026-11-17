@@ -432,3 +432,5 @@ export * from './indexing.js';
 export * from './wireless.js';
 export * from './fingerprint.js';
 export * from './replication.js';
+// Noise cancelling: headphones, cupXray, CUP_PARTS, earCanal, spikyWave, waveSum, jetEngine, planeWindow, pilotCap, boomMic, mathCard
+export * from './noise.js';

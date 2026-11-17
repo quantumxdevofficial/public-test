@@ -1,0 +1,30 @@
+{
+  "title": "How Do Noise Cancelling Headphones Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "SoundGuys, 'How do noise cancelling headphones work?': tiny built-in microphones constantly sample ambient noise and the headphones create a sound exactly opposite to that wave ('phase inversion', 'anti-noise') so peaks meet troughs and cancel; constant low hums like jet engines are easier to cancel than sudden, random sounds like people talking",
+    "freeCodeCamp, 'How Noise-Cancelling Headphones Work': an internal digital controller filters the microphone data and calculates the cancellation signal in milliseconds; steady sounds change slowly while higher-frequency and sudden sounds are hard to predict, so speech still reaches the eardrum",
+    "Bose Aviation history timeline: 1978, on a transatlantic Swissair flight, Dr. Amar Bose is disappointed that the sound of his new electronic headphones is marred by airplane noise and conceives the mathematics for noise cancelling headphones before the flight touches down; 1986 prototypes protected the hearing of Voyager pilots Dick Rutan and Jeana Yeager; 1989 first commercial noise cancelling headset, for pilots",
+    "Basic physics: sound is a pressure wave in air that vibrates the eardrum; two equal waves in opposite phase add to zero (destructive interference)"
+  ],
+  "lines": [
+    { "text": "How do headphones make the noise around you just disappear?", "caps": "HOW DO *HEADPHONES | MAKE THE *NOISE | AROUND *YOU | JUST *DISAPPEAR?" },
+    { "text": "Well, sound is waves of air hitting your eardrum,", "caps": "WELL *SOUND | IS *WAVES | OF *AIR | HITTING YOUR *EARDRUM" },
+    { "text": "so microphones on the outside hear the noise,", "caps": "SO *MICROPHONES | ON THE *OUTSIDE | HEAR THE *NOISE" },
+    { "text": "and a chip instantly makes the exact opposite wave.", "caps": "AND A *CHIP | *INSTANTLY MAKES | THE *EXACT | *OPPOSITE WAVE" },
+    { "text": "Where the noise pushes up, it pulls down,", "caps": "WHERE THE *NOISE | PUSHES *UP | IT PULLS *DOWN" },
+    { "text": "so the two cancel out, and you hear silence.", "caps": "SO THE *TWO | *CANCEL OUT | AND YOU HEAR *SILENCE" },
+    { "text": "The catch? It's best at steady hums, like engines.", "caps": "THE *CATCH? | IT'S *BEST AT | STEADY *HUMS | LIKE *ENGINES" },
+    { "text": "Sudden sounds like voices change too fast, so some sneak through.", "caps": "SUDDEN *SOUNDS | LIKE *VOICES | CHANGE TOO *FAST | SO SOME *SNEAK | *THROUGH" },
+    { "text": "The twist? In nineteen seventy-eight, Ahmar Bose was flying,", "caps": "THE *TWIST? | IN *1978 | AMAR *BOSE | WAS *FLYING" },
+    { "text": "and the plane's roar ruined his music,", "caps": "AND THE *PLANE'S | *ROAR | *RUINED | HIS *MUSIC" },
+    { "text": "so he worked out the math before landing,", "caps": "SO HE *WORKED OUT | THE *MATH | BEFORE *LANDING" },
+    { "text": "and his first headsets were built for pilots.", "caps": "AND HIS *FIRST | *HEADSETS | WERE *BUILT | FOR *PILOTS" },
+    { "text": "So that silence is really sound fighting sound.", "caps": "SO THAT *SILENCE | IS REALLY *SOUND | *FIGHTING SOUND" }
+  ]
+}
