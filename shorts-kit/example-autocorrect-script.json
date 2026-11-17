@@ -1,0 +1,68 @@
+{
+  "title": "How Does Autocorrect Know What You Meant?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Dictionary.com, 'How Does Autocorrect Ducking Work, Anyway?' (2013): autocorrect began as a smart spellchecker relying on a dictionary ('bfeore' -> 'before'); smartphone autocorrect suggests words that contain letters near the letters in the misspelled word; Microsoft's 2007 'contextual speller' uses the surrounding words ('shew ent' -> 'she went'); Cupertino appeared in documents published by the UN, NATO and other official bodies",
+    "Oxford University Press blog, Ben Zimmer, 'Spellchecker' (Nov 2007): older spellcheckers had wordlists containing 'co-operation' but not 'cooperation' without the hyphen, and suggested 'Cupertino', a city in northern California; dozens of Cupertinos in documents from the UN, EU, NATO and other international organizations",
+    "kottke.org (Nov 2006), 'The Cupertino effect': term for incorrect spellcheck suggestions that make it into finalized documents, named for its appearance in European Union documents in place of 'cooperation'"
+  ],
+  "lines": [
+    {
+      "text": "How does autocorrect know what you meant to type?",
+      "caps": "HOW DOES *AUTOCORRECT | KNOW WHAT YOU *MEANT | TO *TYPE?"
+    },
+    {
+      "text": "Well, every word you type gets checked against a dictionary,",
+      "caps": "WELL *EVERY WORD | YOU *TYPE | GETS *CHECKED | AGAINST A *DICTIONARY"
+    },
+    {
+      "text": "and if it's not there, the phone hunts for the closest real word.",
+      "caps": "AND IF IT'S *NOT | *THERE | THE PHONE *HUNTS | FOR THE *CLOSEST | REAL *WORD"
+    },
+    {
+      "text": "It knows which keys sit next to each other,",
+      "caps": "IT *KNOWS | WHICH *KEYS | SIT *NEXT | TO EACH *OTHER"
+    },
+    {
+      "text": "so if your thumb slips onto a neighbor, it spots the mistake.",
+      "caps": "SO IF YOUR *THUMB | *SLIPS ONTO | A *NEIGHBOR | IT *SPOTS | THE *MISTAKE"
+    },
+    {
+      "text": "Then it looks at the words around it,",
+      "caps": "THEN IT *LOOKS | AT THE *WORDS | *AROUND IT"
+    },
+    {
+      "text": "and picks the one that fits the sentence best.",
+      "caps": "AND *PICKS | THE ONE THAT *FITS | THE *SENTENCE | *BEST"
+    },
+    {
+      "text": "But here's the twist.",
+      "caps": "BUT *HERE'S | THE *TWIST"
+    },
+    {
+      "text": "Old spell checkers only knew cooperation with a hyphen,",
+      "caps": "OLD *SPELL CHECKERS | ONLY *KNEW | *COOPERATION | WITH A *HYPHEN"
+    },
+    {
+      "text": "so when people typed it without one,",
+      "caps": "SO WHEN *PEOPLE | *TYPED IT | WITHOUT *ONE"
+    },
+    {
+      "text": "the top suggestion was Cupertino, a city in California,",
+      "caps": "THE TOP *SUGGESTION | WAS *CUPERTINO | A *CITY | IN *CALIFORNIA"
+    },
+    {
+      "text": "and it slipped into real United Nations and EU documents.",
+      "caps": "AND IT *SLIPPED | INTO *REAL | UNITED *NATIONS | AND *EU | *DOCUMENTS"
+    },
+    {
+      "text": "So autocorrect isn't reading your mind, it's playing the odds.",
+      "caps": "SO *AUTOCORRECT | ISN'T *READING | YOUR *MIND | IT'S *PLAYING | THE *ODDS"
+    }
+  ]
+}
