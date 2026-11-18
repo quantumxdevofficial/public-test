@@ -1,0 +1,41 @@
+{
+  "title": "How Does Tap to Pay Actually Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Wikipedia / NFC Forum, 'Near-field communication': NFC works at 13.56 MHz over a range of about 4 cm or less; the reader (initiator) makes a radio-frequency field that can power a passive target, so passive tags and cards need no battery (inductive coupling between loop antennas)",
+    "Wikipedia, 'Contactless payment' and EMV contactless specification: contactless EMV cards contain a chip and a loop antenna around the card; each transaction produces a unique cryptogram, so captured data cannot be replayed for another purchase",
+    "Apple Support, 'Apple Pay security and privacy overview' (support.apple.com/en-us/101554): when you add a card, a unique Device Account Number is created and stored instead of your card number; payments use this number plus a transaction-specific dynamic security code, and your actual card number is not stored on the device or shared with merchants",
+    "Mastercard, 'What is tokenization' (2025): tokenization replaces the card number with a unique digital identifier (token) so the real card details are not shared during payment"
+  ],
+  "lines": [
+    { "text": "How does your card pay just by tapping?",
+      "caps": "HOW DOES YOUR *CARD | PAY JUST BY *TAPPING?" },
+    { "text": "Well, inside the plastic hides a tiny chip and a coil of wire,",
+      "caps": "WELL, *INSIDE | THE *PLASTIC | HIDES A TINY *CHIP | AND A *COIL | OF *WIRE" },
+    { "text": "but no battery at all.",
+      "caps": "BUT *NO | *BATTERY | AT *ALL" },
+    { "text": "The reader sends out a magnetic field,",
+      "caps": "THE *READER | *SENDS OUT | A MAGNETIC *FIELD" },
+    { "text": "and once your card gets about four centimetres away,",
+      "caps": "AND *ONCE | YOUR *CARD | GETS *ABOUT | *4 CM | *AWAY" },
+    { "text": "that field wakes the chip up, just like a wireless charger.",
+      "caps": "THAT *FIELD | *WAKES | THE CHIP *UP | JUST LIKE A *WIRELESS | *CHARGER" },
+    { "text": "The chip then answers by radio, called N F C,",
+      "caps": "THE *CHIP | THEN *ANSWERS | BY *RADIO | CALLED *NFC" },
+    { "text": "with a one-time code made just for this purchase,",
+      "caps": "WITH A *ONE-TIME | *CODE | MADE *JUST | FOR THIS *PURCHASE" },
+    { "text": "so a copied code is useless.",
+      "caps": "SO A *COPIED | CODE IS *USELESS" },
+    { "text": "And your phone goes even further.",
+      "caps": "AND YOUR *PHONE | GOES EVEN *FURTHER" },
+    { "text": "It doesn't send your real card number at all, just a stand-in.",
+      "caps": "IT *DOESN'T | SEND YOUR *REAL | CARD *NUMBER | AT *ALL | JUST A *STAND-IN" },
+    { "text": "So the shop gets paid without ever seeing your card.",
+      "caps": "SO THE *SHOP | GETS *PAID | WITHOUT *EVER | *SEEING | YOUR *CARD" }
+  ]
+}

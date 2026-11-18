@@ -439,3 +439,4 @@ export * from './autocorrect.js';
 // (11/30) sharding: bookPiece, nameTag, flames, capTriangle
 export * from './sharding.js';
 export * from './clipboard.js';
+export * from './tap.js';
