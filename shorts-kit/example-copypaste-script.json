@@ -1,0 +1,38 @@
+{
+  "title": "What Actually Happens When You Copy and Paste?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Wikipedia, 'Cut, copy, and paste': the clipboard is temporary storage; on most systems only one clipboard location exists, so another cut or copy overwrites the previously stored information; the term comes from manuscript editing where people cut paragraphs from a page with scissors and pasted them onto another page; Larry Tesler proposed the names cut, copy and paste, and from 1974 he and colleagues at Xerox PARC implemented text editors using them; Apple Lisa (1983) / Macintosh (1984) popularized Cmd X/C/V",
+    "Alex Harri, 'The web's clipboard, and how it stores data of different types': the clipboard stores information in multiple representations (MIME types such as text/plain, text/html, image/png); a plain editor like VS Code reads only text/plain while Google Docs reads text/html and keeps formatting",
+    "NPR Weekend Edition (Feb 2020), remembrance of Larry Tesler: Tesler and Tim Mott at Xerox in the 1970s helped create cut and paste; the term existed in printing and publishing for centuries"
+  ],
+  "lines": [
+    { "text": "What actually happens when you copy and paste?",
+      "caps": "WHAT *ACTUALLY | *HAPPENS | WHEN YOU *COPY | AND *PASTE?" },
+    { "text": "Hit copy, and your computer tucks it into a hidden spot called the clipboard,",
+      "caps": "HIT *COPY | AND YOUR *COMPUTER | *TUCKS IT | INTO A *HIDDEN SPOT | CALLED THE *CLIPBOARD" },
+    { "text": "which holds just one thing, so your next copy replaces it.",
+      "caps": "WHICH *HOLDS | JUST *ONE THING | SO YOUR *NEXT COPY | *REPLACES IT" },
+    { "text": "But here's the clever part.",
+      "caps": "BUT *HERE'S | THE *CLEVER PART" },
+    { "text": "It saves your text in several formats at once,",
+      "caps": "IT *SAVES | YOUR *TEXT | IN *SEVERAL | *FORMATS | AT *ONCE" },
+    { "text": "and the app you paste into grabs the one it understands,",
+      "caps": "AND THE *APP | YOU *PASTE INTO | *GRABS THE ONE | IT *UNDERSTANDS" },
+    { "text": "which is why pasting into a plain notepad drops the bold.",
+      "caps": "WHICH IS *WHY | *PASTING INTO | A PLAIN *NOTEPAD | DROPS THE *BOLD" },
+    { "text": "And the name is older than computers.",
+      "caps": "AND THE *NAME | IS *OLDER | THAN *COMPUTERS" },
+    { "text": "Editors used to cut paragraphs out with scissors and paste them onto a new page.",
+      "caps": "*EDITORS | USED TO *CUT | *PARAGRAPHS OUT | WITH *SCISSORS | AND *PASTE THEM | ONTO A NEW *PAGE" },
+    { "text": "In the seventies, Larry Tesler at Xerox borrowed the words,",
+      "caps": "IN THE *SEVENTIES | LARRY *TESLER | AT *XEROX | *BORROWED | THE *WORDS" },
+    { "text": "so every paste is really just digital scissors and glue.",
+      "caps": "SO EVERY *PASTE | IS *REALLY | JUST *DIGITAL | *SCISSORS | AND *GLUE" }
+  ]
+}
