@@ -1,0 +1,76 @@
+{
+  "title": "The CAP Theorem",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Wikipedia, 'CAP theorem' (en.wikipedia.org/wiki/CAP_theorem): a distributed data store can provide only two of consistency (every read receives the most recent write or an error), availability (every request received by a non-failing node gets a non-error response) and partition tolerance (the system keeps working despite messages being dropped or delayed between nodes); when a network partition happens you must choose between consistency and availability. Conjectured by Eric Brewer (2000), proved by Seth Gilbert and Nancy Lynch (2002)",
+    "Brewer, 'CAP Twelve Years Later: How the Rules Have Changed' (IEEE Computer, 2012): the '2 of 3' formulation is misleading; partitions are rare but cannot be avoided in a distributed system, so the real choice is between C and A only while a partition is happening",
+    "Kleppmann, Designing Data-Intensive Applications, ch. 9: network faults happen whether you like it or not, so the choice is 'either Consistent or Available when Partitioned'; a system that refuses requests during a partition keeps consistency, one that answers from a possibly out-of-date replica stays available"
+  ],
+  "lines": [
+    {
+      "text": "Yesterday we split our data across machines.",
+      "caps": "*YESTERDAY | WE SPLIT OUR *DATA | ACROSS *MACHINES"
+    },
+    {
+      "text": "But what if they stop talking?",
+      "caps": "BUT *WHAT IF | THEY STOP *TALKING"
+    },
+    {
+      "text": "That's where the Cap theorem comes in.",
+      "caps": "THAT'S *WHERE | THE *CAP | *THEOREM | COMES *IN"
+    },
+    {
+      "text": "C: consistency, everyone sees the latest data.",
+      "caps": "C: *CONSISTENCY | EVERYONE *SEES | THE *LATEST DATA"
+    },
+    {
+      "text": "A: availability, every request gets an answer.",
+      "caps": "A: *AVAILABILITY | EVERY *REQUEST | GETS AN *ANSWER"
+    },
+    {
+      "text": "P: partition tolerance, surviving a broken network.",
+      "caps": "P: *PARTITION | *TOLERANCE | *SURVIVING | A BROKEN *NETWORK"
+    },
+    {
+      "text": "Picture two pizza branches sharing one menu,",
+      "caps": "*PICTURE | TWO PIZZA *BRANCHES | SHARING ONE *MENU"
+    },
+    {
+      "text": "when the phone line between them gets cut.",
+      "caps": "WHEN THE *PHONE LINE | *BETWEEN THEM | GETS *CUT"
+    },
+    {
+      "text": "A customer asks for today's price.",
+      "caps": "A *CUSTOMER | *ASKS FOR | TODAY'S *PRICE"
+    },
+    {
+      "text": "Give a maybe-old price, and you stay available,",
+      "caps": "GIVE A *MAYBE-OLD | *PRICE | AND YOU *STAY | *AVAILABLE"
+    },
+    {
+      "text": "or say try again later, and you stay consistent.",
+      "caps": "OR SAY *TRY | AGAIN *LATER | AND YOU *STAY | *CONSISTENT"
+    },
+    {
+      "text": "During a cut, you can't have both.",
+      "caps": "*DURING | A *CUT | YOU *CAN'T | HAVE *BOTH"
+    },
+    {
+      "text": "A bank would rather wait, a like counter would rather answer.",
+      "caps": "A *BANK | WOULD RATHER *WAIT | A LIKE *COUNTER | WOULD RATHER *ANSWER"
+    },
+    {
+      "text": "Line cut? Pick right, or pick fast.",
+      "caps": "LINE *CUT | PICK *RIGHT | OR PICK *FAST"
+    },
+    {
+      "text": "Tomorrow: strong versus eventual consistency.",
+      "caps": "*TOMORROW | *STRONG VS | *EVENTUAL | *CONSISTENCY"
+    }
+  ]
+}

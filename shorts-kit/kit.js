@@ -440,3 +440,4 @@ export * from './autocorrect.js';
 export * from './sharding.js';
 export * from './clipboard.js';
 export * from './tap.js';
+export * from './cap.js';

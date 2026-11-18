@@ -46,3 +46,4 @@
 | 42 | (11/30) What Is Database Sharding? System Design | https://www.youtube.com/watch?v=IEbco3yTFi0 | 2026-11-17 |
 | 43 | What Actually Happens When You Copy and Paste? 📋 #shorts | https://www.youtube.com/watch?v=UWNUxRcmqEU | 2026-11-18 |
 | 44 | How Does Tap to Pay Actually Work? 💳 #shorts | https://www.youtube.com/watch?v=NQ91su3Ex4o | 2026-11-18 |
+| 45 | (12/30) What Is the CAP Theorem? System Design | https://www.youtube.com/watch?v=-G_CDpMQsFc | 2026-11-18 |
