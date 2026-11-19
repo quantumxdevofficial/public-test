@@ -1,0 +1,31 @@
+{
+  "title": "Strong vs Eventual Consistency",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "AWS, 'DynamoDB read consistency' (docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html): eventually consistent reads (the default) may not reflect a just-completed write, and consistency across all copies is usually reached within a second; strongly consistent reads return the most up-to-date data reflecting all successful writes, at higher latency and cost",
+    "Vogels, 'Eventually Consistent' (CACM 2009): if no new updates are made to an object, eventually all accesses will return the last updated value; strong consistency means after an update completes, any subsequent access returns the updated value",
+    "System Design Primer / AlgoMaster 'Strong vs Eventual Consistency': strong consistency suits banking and payments, eventual consistency suits social media likes, view counts and feeds where a short lag is acceptable in exchange for speed and availability"
+  ],
+  "lines": [
+    { "text": "You like a post, and the count goes up,", "caps": "YOU *LIKE | A *POST | THE *COUNT | *GOES UP" },
+    { "text": "but your friend still sees the old number.", "caps": "BUT YOUR *FRIEND | STILL *SEES | THE *OLD NUMBER" },
+    { "text": "That's not a bug. It's eventual consistency.", "caps": "THAT'S NOT A *BUG | IT'S *EVENTUAL | *CONSISTENCY" },
+    { "text": "Remember our two pizza branches?", "caps": "*REMEMBER | OUR TWO PIZZA *BRANCHES" },
+    { "text": "The price just changed from ten to twelve dollars.", "caps": "THE *PRICE | JUST *CHANGED | FROM *TEN | TO *TWELVE DOLLARS" },
+    { "text": "With strong consistency, no branch answers", "caps": "WITH *STRONG | *CONSISTENCY | NO BRANCH *ANSWERS" },
+    { "text": "until every branch has the new price.", "caps": "UNTIL *EVERY | *BRANCH HAS | THE NEW *PRICE" },
+    { "text": "Always right, but you wait.", "caps": "ALWAYS *RIGHT | BUT YOU *WAIT" },
+    { "text": "With eventual consistency, each branch answers right away,", "caps": "WITH *EVENTUAL | *CONSISTENCY | EACH BRANCH *ANSWERS | RIGHT *AWAY" },
+    { "text": "so for a moment, one still says ten,", "caps": "*SO FOR | A *MOMENT | ONE STILL *SAYS | *TEN" },
+    { "text": "but once the news arrives, they all agree.", "caps": "BUT *ONCE | THE *NEWS | *ARRIVES | THEY ALL *AGREE" },
+    { "text": "Your bank balance needs strong.", "caps": "YOUR *BANK | *BALANCE | NEEDS *STRONG" },
+    { "text": "A like counter? Eventual is fine, and much faster.", "caps": "A LIKE *COUNTER | *EVENTUAL | IS *FINE | AND MUCH *FASTER" },
+    { "text": "So that count isn't wrong. It's just catching up.", "caps": "SO THAT *COUNT | ISN'T *WRONG | IT'S *JUST | *CATCHING UP" },
+    { "text": "Tomorrow: what gets kicked out of a full cache?", "caps": "*TOMORROW | WHAT GETS *KICKED | *OUT OF | A FULL *CACHE" }
+  ]
+}
