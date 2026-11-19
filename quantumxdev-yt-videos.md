@@ -47,3 +47,4 @@
 | 43 | What Actually Happens When You Copy and Paste? 📋 #shorts | https://www.youtube.com/watch?v=UWNUxRcmqEU | 2026-11-18 |
 | 44 | How Does Tap to Pay Actually Work? 💳 #shorts | https://www.youtube.com/watch?v=NQ91su3Ex4o | 2026-11-18 |
 | 45 | (12/30) What Is the CAP Theorem? System Design | https://www.youtube.com/watch?v=-G_CDpMQsFc | 2026-11-18 |
+| 46 | What Actually Happens When You Press Ctrl+Z? ↩️ #shorts | https://www.youtube.com/watch?v=vF8OosC3oJM | 2026-11-19 |

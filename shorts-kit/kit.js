@@ -441,3 +441,6 @@ export * from './sharding.js';
 export * from './clipboard.js';
 export * from './tap.js';
 export * from './cap.js';
+
+// undo (plate, plateStack, pileTray, slotY, undoArrow, docEdit, PLATE_COLS)
+export * from './undo.js';
