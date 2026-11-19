@@ -444,3 +444,4 @@ export * from './cap.js';
 
 // undo (plate, plateStack, pileTray, slotY, undoArrow, docEdit, PLATE_COLS)
 export * from './undo.js';
+export * from './colors.js';
