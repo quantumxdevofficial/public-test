@@ -51,3 +51,4 @@
 | 47 | How Does Your Screen Make Every Color? 🌈 #shorts | https://www.youtube.com/watch?v=1GekAA1Oa1Q | 2026-11-19 |
 | 48 | (13/30) Strong vs Eventual Consistency? System Design | https://www.youtube.com/watch?v=Ralpx1rp4XQ | 2026-11-19 |
 | 49 | How Does Shazam Know What Song Is Playing? 🎵 #shorts | https://www.youtube.com/watch?v=W-iaIh14dW4 | 2026-11-20 |
+| 50 | How Does a ZIP File Make Files Smaller? 🗜️ #shorts | https://www.youtube.com/watch?v=B2KOEdsDmqY | 2026-11-20 |

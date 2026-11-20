@@ -447,3 +447,4 @@ export * from './undo.js';
 export * from './colors.js';
 export * from './consistency.js';
 export * from './shazam.js';
+export * from './zip.js';

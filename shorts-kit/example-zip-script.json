@@ -1,0 +1,31 @@
+{
+  "title": "How Does a ZIP File Make Files Smaller?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Wikipedia, 'Deflate' (the default ZIP method): lossless; combines LZ77 and Huffman coding; LZ77 replaces repeated strings with back-references (length, distance) to an earlier copy; Huffman gives frequent symbols shorter bit codes; designed by Phil Katz for PKZIP 2",
+    "zlib.net, Antaeus Feldspar, 'An Explanation of the Deflate Algorithm': repeated strings replaced by pointers back to an earlier occurrence; common symbols get shorter codes",
+    "Wikipedia, 'Zip bomb': 42.zip is 42 kilobytes of compressed data, five layers of nested zip files in sets of 16, each bottom layer a 4.3 GB file, 4.5 petabytes in total when fully unpacked (4.5 PB = about 4.5 million GB)",
+    "Wikipedia, 'Lossless compression': files with repeated data compress well; already-compressed data (JPEG photos, MP4 video) barely shrinks"
+  ],
+  "lines": [
+    { "text": "How does a zip file make your files smaller without losing a single bit?", "caps": "HOW DOES A *ZIP | MAKE YOUR *FILES | *SMALLER | WITHOUT *LOSING | A SINGLE *BIT?" },
+    { "text": "Well, most files are full of repeats,", "caps": "WELL MOST *FILES | ARE *FULL | OF *REPEATS" },
+    { "text": "the same words and patterns again and again.", "caps": "THE SAME *WORDS | AND *PATTERNS | AGAIN AND *AGAIN" },
+    { "text": "So zip writes each pattern just once,", "caps": "SO *ZIP | WRITES EACH *PATTERN | JUST *ONCE" },
+    { "text": "and every repeat becomes a tiny note:", "caps": "AND EVERY *REPEAT | BECOMES A *TINY | *NOTE" },
+    { "text": "copy that from back there.", "caps": "*COPY THAT | FROM BACK *THERE" },
+    { "text": "Then the most common letters get the shortest codes,", "caps": "THEN THE *MOST | *COMMON LETTERS | GET THE *SHORTEST | *CODES" },
+    { "text": "like nicknames for your best friends.", "caps": "LIKE *NICKNAMES | FOR YOUR *BEST | *FRIENDS" },
+    { "text": "Unzip it, and your computer follows the notes", "caps": "*UNZIP IT | AND YOUR *COMPUTER | FOLLOWS THE *NOTES" },
+    { "text": "to rebuild every byte exactly.", "caps": "TO *REBUILD | EVERY *BYTE | *EXACTLY" },
+    { "text": "The twist? A famous file called forty-two dot zip", "caps": "THE *TWIST? | A *FAMOUS FILE | CALLED *42.ZIP" },
+    { "text": "is only forty-two kilobytes,", "caps": "IS ONLY *42 KB" },
+    { "text": "but fully unzipped, it would fill millions of gigabytes.", "caps": "BUT FULLY *UNZIPPED | IT WOULD *FILL | *MILLIONS | OF *GIGABYTES" },
+    { "text": "So a zip isn't magic, it's just really good note taking.", "caps": "SO A *ZIP | ISN'T *MAGIC | IT'S *JUST | REALLY *GOOD | *NOTE TAKING" }
+  ]
+}
