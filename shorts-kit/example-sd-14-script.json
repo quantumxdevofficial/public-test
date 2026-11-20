@@ -1,0 +1,32 @@
+{
+  "title": "What Is Cache Eviction (LRU)?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Redis docs, 'Key eviction' (redis.io/docs/latest/develop/reference/eviction): when a cache reaches its maxmemory limit, Redis evicts keys to make room for new data according to maxmemory-policy; allkeys-lru keeps the most recently used keys and removes the least recently used ones; Redis uses an approximated LRU by sampling keys; LFU (least frequently used) is another policy",
+    "AWS whitepaper 'Database Caching Strategies Using Redis' - Evictions (docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/evictions.html): evictions happen when cache memory is overfilled; LRU is a common eviction policy for most caching use cases",
+    "Redis blog 'Cache eviction strategies' (redis.io/blog/cache-eviction-strategies): LRU removes the item that has not been accessed for the longest time, on the idea that recently used data is likely to be used again; cache memory (RAM) is limited and costlier than disk, so caches hold only a subset of data"
+  ],
+  "lines": [
+    { "text": "Remember our warm shelf, the cache?", "caps": "*REMEMBER | OUR WARM *SHELF | THE *CACHE?" },
+    { "text": "It only has room for three pizzas.", "caps": "IT ONLY HAS *ROOM | FOR *3 PIZZAS" },
+    { "text": "So what happens when a fourth one shows up?", "caps": "SO WHAT *HAPPENS | WHEN A *FOURTH | ONE SHOWS *UP?" },
+    { "text": "Something has to get kicked out,", "caps": "*SOMETHING HAS | TO GET *KICKED OUT" },
+    { "text": "and that's called eviction.", "caps": "AND THAT'S *CALLED | *EVICTION" },
+    { "text": "But which pizza goes?", "caps": "BUT WHICH *PIZZA | *GOES?" },
+    { "text": "The most popular rule is LRU,", "caps": "THE MOST *POPULAR | *RULE | IS *LRU" },
+    { "text": "short for least recently used.", "caps": "SHORT FOR *LEAST | *RECENTLY | *USED" },
+    { "text": "Every time someone orders a pizza,", "caps": "EVERY *TIME | SOMEONE *ORDERS | A *PIZZA" },
+    { "text": "it jumps to the front of the line.", "caps": "IT *JUMPS | TO THE *FRONT | OF THE *LINE" },
+    { "text": "The one nobody has touched in the longest time", "caps": "THE ONE *NOBODY | HAS *TOUCHED | IN THE *LONGEST TIME" },
+    { "text": "drifts to the back, and that one gets kicked out.", "caps": "*DRIFTS | TO THE *BACK | AND *THAT ONE | GETS *KICKED OUT" },
+    { "text": "Apps do this with memory,", "caps": "*APPS DO THIS | WITH *MEMORY" },
+    { "text": "because fast memory is small and pricey.", "caps": "BECAUSE FAST *MEMORY | IS *SMALL | AND *PRICEY" },
+    { "text": "So popular data stays, and forgotten data goes.", "caps": "SO *POPULAR | DATA *STAYS | AND *FORGOTTEN | DATA *GOES" },
+    { "text": "Tomorrow: polling versus WebSockets.", "caps": "*TOMORROW | *POLLING | VS *WEBSOCKETS" }
+  ]
+}

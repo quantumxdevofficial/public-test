@@ -32,7 +32,7 @@ Rules for this series (on top of RUNBOOK.md):
 - [x] Day 11 — Sharding: splitting a huge database into pieces (planned 2026-11-17)
 - [x] Day 12 — The CAP theorem, explained simply (planned 2026-11-18)
 - [x] Day 13 — Strong vs eventual consistency (why your likes count lags) (planned 2026-11-19)
-- [ ] Day 14 — Cache eviction and LRU: what gets kicked out of the cache? (planned 2026-11-20)
+- [x] Day 14 — Cache eviction and LRU: what gets kicked out of the cache? (planned 2026-11-20)
 
 ## Week 3: How services talk
 
