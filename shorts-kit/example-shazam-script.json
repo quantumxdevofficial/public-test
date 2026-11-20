@@ -1,0 +1,28 @@
+{
+  "title": "How Does Shazam Know What Song Is Playing?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Avery Li-Chun Wang, 'An Industrial-Strength Audio Search Algorithm' (Shazam, ISMIR 2003): spectrogram peaks are kept as sparse 'constellation maps'; pairs of peaks are hashed as two frequencies plus the time difference; a match is a cluster of hashes with a consistent time offset (a diagonal line); identifies music in the presence of voices, traffic noise, dropout and even other music; database of ~1.8-2M tracks at the time",
+    "Apple Newsroom, 'Shazam turns 20' (Aug 2022): August 2002, Shazam launches in the UK as a text message service; users dialed 2580 and held the phone up as a song played, then were sent an SMS with the song title and artist name",
+    "StereoNET, '2580: Shazam's first killer app was a phone call': launched in the UK on 19 August 2002; call dropped after ~30 seconds; text reply with song title and artist; ~1 million tracks in the launch database"
+  ],
+  "lines": [
+    { "text": "How does Shazam name a song in just a few seconds?", "caps": "HOW DOES *SHAZAM | NAME A *SONG | IN JUST A *FEW SECONDS?" },
+    { "text": "Well, your phone listens and turns the sound into a picture,", "caps": "WELL YOUR *PHONE | *LISTENS | AND TURNS THE *SOUND | INTO A *PICTURE" },
+    { "text": "a map of which notes are loudest at each moment.", "caps": "A *MAP | OF WHICH *NOTES | ARE *LOUDEST | AT EACH *MOMENT" },
+    { "text": "It keeps only the brightest peaks, like stars,", "caps": "IT KEEPS *ONLY | THE *BRIGHTEST | *PEAKS | LIKE *STARS" },
+    { "text": "and links pairs of them into tiny codes called fingerprints.", "caps": "AND *LINKS | *PAIRS OF THEM | INTO TINY *CODES | CALLED *FINGERPRINTS" },
+    { "text": "Then it checks those codes against millions of songs,", "caps": "THEN IT *CHECKS | THOSE *CODES | AGAINST *MILLIONS | OF *SONGS" },
+    { "text": "and the song whose codes line up in the same order wins.", "caps": "AND THE *SONG | WHOSE CODES *LINE UP | IN THE SAME *ORDER | *WINS" },
+    { "text": "That's why it still works in a noisy cafe.", "caps": "THAT'S *WHY | IT STILL *WORKS | IN A *NOISY CAFE" },
+    { "text": "The twist? When Shazam launched in two thousand two,", "caps": "THE *TWIST? | WHEN *SHAZAM | *LAUNCHED | IN *2002" },
+    { "text": "there was no app, you dialed two five eight zero,", "caps": "THERE WAS *NO APP | YOU *DIALED | *TWO FIVE | EIGHT *ZERO" },
+    { "text": "held your phone up to the music, and got a text back.", "caps": "HELD YOUR *PHONE UP | TO THE *MUSIC | AND GOT A *TEXT | *BACK" },
+    { "text": "So every song you hear has a fingerprint, just like you.", "caps": "SO EVERY *SONG | YOU *HEAR | HAS A *FINGERPRINT | JUST LIKE *YOU" }
+  ]
+}

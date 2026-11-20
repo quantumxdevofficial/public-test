@@ -446,3 +446,4 @@ export * from './cap.js';
 export * from './undo.js';
 export * from './colors.js';
 export * from './consistency.js';
+export * from './shazam.js';
