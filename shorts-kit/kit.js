@@ -454,3 +454,4 @@ export * from './lru.js';
 export function heroHead(o) { return head(o); }
 export * from './faceid.js';
 export * from './email.js';
+export * from './websocket.js';

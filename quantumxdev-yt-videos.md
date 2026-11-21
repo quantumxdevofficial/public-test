@@ -55,3 +55,4 @@
 | 51 | (14/30) What Is Cache Eviction (LRU)? System Design | https://www.youtube.com/watch?v=EK2xTF_KIPQ | 2026-11-20 |
 | 52 | How Does Face ID Actually Know It's You? 🙂 #shorts | https://www.youtube.com/watch?v=OYizKTctYes | 2026-11-21 |
 | 53 | What Actually Happens When You Hit Send on an Email? 📧 #shorts | https://www.youtube.com/watch?v=jtj2HQ82H9E | 2026-11-21 |
+| 54 | (15/30) Polling vs WebSockets? System Design | https://www.youtube.com/watch?v=VZTjbQw2Ers | 2026-11-21 |

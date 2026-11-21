@@ -36,7 +36,7 @@ Rules for this series (on top of RUNBOOK.md):
 
 ## Week 3: How services talk
 
-- [ ] Day 15 — Polling vs WebSockets: how live updates work (planned 2026-11-21)
+- [x] Day 15 — Polling vs WebSockets: how live updates work (planned 2026-11-21)
 - [ ] Day 16 — Message queues (planned 2026-11-22)
 - [ ] Day 17 — Pub/Sub (planned 2026-11-23)
 - [ ] Day 18 — Monolith vs microservices (planned 2026-11-24)
