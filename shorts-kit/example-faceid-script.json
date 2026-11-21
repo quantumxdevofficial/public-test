@@ -1,0 +1,39 @@
+{
+  "title": "How Does Face ID Actually Know It's You?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Apple Support, 'About Face ID advanced technology' (support.apple.com/102381): the TrueDepth camera projects and analyzes thousands of invisible dots to create a depth map of your face and also captures an infrared image; works even in total darkness; it is attention-aware and recognizes if your eyes are open; Face ID always requires depth information, which isn't found in print or 2D digital photographs; Face ID data, including mathematical representations of your face, is encrypted and protected by the Secure Enclave and doesn't leave your device; the chance a random person could unlock it is less than 1 in 1,000,000; the probability is higher for twins and siblings that look like you and among children under 13",
+    "Apple, 'Face ID Security' guide (Nov 2017, iPhone X): the dot projector projects and reads over 30,000 infrared dots to form a depth map of the face; detects that your eyes are open and directed at your device; data never leaves the device"
+  ],
+  "lines": [
+    { "text": "How does your phone know it's your face, and not a photo of you?",
+      "caps": "HOW DOES YOUR *PHONE | KNOW IT'S YOUR *FACE | AND NOT A *PHOTO | OF *YOU?" },
+    { "text": "Well, a tiny projector above the screen",
+      "caps": "WELL A TINY *PROJECTOR | ABOVE THE *SCREEN" },
+    { "text": "sprays thousands of invisible infrared dots across your face,",
+      "caps": "SPRAYS *THOUSANDS | OF INVISIBLE *INFRARED | *DOTS | ACROSS YOUR *FACE" },
+    { "text": "and a special camera reads where each one lands.",
+      "caps": "AND A SPECIAL *CAMERA | READS *WHERE | EACH ONE *LANDS" },
+    { "text": "Dots on your nose land closer than dots on your cheeks,",
+      "caps": "DOTS ON YOUR *NOSE | LAND *CLOSER | THAN DOTS ON YOUR *CHEEKS" },
+    { "text": "so the pattern becomes a 3D map of your face.",
+      "caps": "SO THE *PATTERN | BECOMES A *3D MAP | OF YOUR *FACE" },
+    { "text": "That's why a flat photo fails: it has no depth.",
+      "caps": "THAT'S WHY A *FLAT | *PHOTO FAILS | IT HAS NO *DEPTH" },
+    { "text": "It even checks that your eyes are open,",
+      "caps": "IT EVEN *CHECKS | THAT YOUR *EYES | ARE *OPEN" },
+    { "text": "then saves your face as math, locked inside the phone.",
+      "caps": "THEN SAVES YOUR *FACE | AS *MATH | LOCKED *INSIDE | THE *PHONE" },
+    { "text": "A random stranger? Less than a one in a million chance.",
+      "caps": "A RANDOM *STRANGER? | LESS THAN *ONE | IN A *MILLION | *CHANCE" },
+    { "text": "But the twist? An identical twin might just unlock it,",
+      "caps": "BUT THE *TWIST? | AN IDENTICAL *TWIN | MIGHT JUST *UNLOCK IT" },
+    { "text": "because to your phone, they look almost exactly like you.",
+      "caps": "BECAUSE TO YOUR *PHONE | THEY LOOK *ALMOST | EXACTLY LIKE *YOU" }
+  ]
+}

@@ -53,3 +53,4 @@
 | 49 | How Does Shazam Know What Song Is Playing? 🎵 #shorts | https://www.youtube.com/watch?v=W-iaIh14dW4 | 2026-11-20 |
 | 50 | How Does a ZIP File Make Files Smaller? 🗜️ #shorts | https://www.youtube.com/watch?v=B2KOEdsDmqY | 2026-11-20 |
 | 51 | (14/30) What Is Cache Eviction (LRU)? System Design | https://www.youtube.com/watch?v=EK2xTF_KIPQ | 2026-11-20 |
+| 52 | How Does Face ID Actually Know It's You? 🙂 #shorts | https://www.youtube.com/watch?v=OYizKTctYes | 2026-11-21 |

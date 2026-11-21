@@ -449,3 +449,7 @@ export * from './consistency.js';
 export * from './shazam.js';
 export * from './zip.js';
 export * from './lru.js';
+
+// Face ID components (faceHead, irFace, faceDots, faceMesh, profileHead, phoneEdge, notchBar, faceIdIcon, faceLockScreen, photoCard, oddsCard)
+export function heroHead(o) { return head(o); }
+export * from './faceid.js';
