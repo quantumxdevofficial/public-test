@@ -1,0 +1,42 @@
+{
+  "title": "What Actually Happens When You Hit Send on an Email?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Akamai, 'Quick Guide to SMTP' and Univ. of Tartu sysadmin notes 'Email (SMTP, IMAP, POP3)': the mail client submits the message to an outgoing SMTP server; that server looks up the MX record of the recipient's domain (the part after @) in DNS, delivers the message over SMTP to the recipient's mail server, where it is stored in the mailbox until the recipient's client fetches it with IMAP or POP3",
+    "Kaspersky Securelist, 'Spam and phishing in 2025': 44.99% of all emails sent worldwide were spam",
+    "Wikipedia, 'Ray Tomlinson' (citing NPR / Tomlinson interviews): in 1971 he sent the first networked email, a test message between two computers placed side by side; he chose @ to separate user from host because the symbol was not used in usernames"
+  ],
+  "lines": [
+    { "text": "What actually happens when you hit send on an email?",
+      "caps": "WHAT ACTUALLY *HAPPENS | WHEN YOU HIT *SEND | ON AN *EMAIL?" },
+    { "text": "Well, your app hands it to a sending server,",
+      "caps": "WELL YOUR *APP | HANDS IT TO A | *SENDING SERVER" },
+    { "text": "which reads the part after the at sign, like gmail dot com.",
+      "caps": "WHICH READS THE *PART | AFTER THE *@ SIGN | LIKE *GMAIL.COM" },
+    { "text": "Then it asks DNS, the internet's phone book,",
+      "caps": "THEN IT ASKS *DNS | THE INTERNET'S | *PHONE BOOK" },
+    { "text": "which server takes mail for that name.",
+      "caps": "WHICH *SERVER | TAKES *MAIL | FOR THAT *NAME" },
+    { "text": "Your server passes it across the internet,",
+      "caps": "YOUR SERVER *PASSES IT | ACROSS THE *INTERNET" },
+    { "text": "and it waits in their mailbox until their phone pulls it down.",
+      "caps": "AND IT *WAITS | IN THEIR *MAILBOX | UNTIL THEIR *PHONE | *PULLS IT DOWN" },
+    { "text": "But almost half of all emails are spam,",
+      "caps": "BUT ALMOST *HALF | OF ALL *EMAILS | ARE *SPAM" },
+    { "text": "so filters check each one first.",
+      "caps": "SO *FILTERS | CHECK *EACH ONE | *FIRST" },
+    { "text": "The twist? The first email, in nineteen seventy-one,",
+      "caps": "THE *TWIST? | THE FIRST *EMAIL | IN *1971" },
+    { "text": "went between two computers sitting side by side,",
+      "caps": "WENT BETWEEN TWO *COMPUTERS | SITTING SIDE BY *SIDE" },
+    { "text": "and its inventor picked the at sign",
+      "caps": "AND ITS *INVENTOR | PICKED THE *@ SIGN" },
+    { "text": "because nobody used it in names.",
+      "caps": "BECAUSE *NOBODY | USED IT IN *NAMES" }
+  ]
+}
