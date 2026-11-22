@@ -1,0 +1,74 @@
+{
+  "title": "How Does a Barcode Actually Work?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "GS1 / UPC-A basics (GS1 US, barcode references): a UPC-A barcode encodes 12 digits; each digit is drawn as 2 bars and 2 spaces of different widths (7 modules); the 12th digit is a check digit computed from the other 11 so the scanner can catch a misread; the check digit lets the scanner reject most misreads",
+    "How scanners read barcodes (Lightspeed 'How do barcodes work'; scanner patents): a red laser/LED light sweeps the code; white spaces reflect light, black bars absorb it; a sensor turns the reflected pattern into on/off signals that decode to the number",
+    "The barcode holds only the product number (GTIN), not the price; the store's point-of-sale system looks the number up in its own database to get the name and price (GS1; Lightspeed)",
+    "Smithsonian Magazine 'The history of the bar code' and Drexel University obituary of N. Joseph Woodland (2012): Woodland got the idea on a Miami beach in 1948-49 by drawing Morse code dots and dashes in the sand and pulling them downward into thin and thick lines",
+    "HISTORY.com 'This day in history, June 26, 1974' and GS1 'Marsh holds place of honor in history of GS1 barcode': the first UPC scan in a store was a 10-pack of Wrigley's Juicy Fruit gum at Marsh Supermarket in Troy, Ohio, on June 26, 1974"
+  ],
+  "lines": [
+    {
+      "text": "Every time a cashier beeps your snacks,",
+      "caps": "EVERY *TIME | A *CASHIER | *BEEPS YOUR SNACKS"
+    },
+    {
+      "text": "a few black stripes tell the computer what you bought.",
+      "caps": "A FEW BLACK *STRIPES | TELL THE *COMPUTER | WHAT YOU *BOUGHT"
+    },
+    {
+      "text": "So how do lines become a product?",
+      "caps": "SO HOW DO *LINES | BECOME A *PRODUCT?"
+    },
+    {
+      "text": "The scanner sweeps a red light across the code.",
+      "caps": "THE *SCANNER SWEEPS | A *RED LIGHT | ACROSS THE *CODE"
+    },
+    {
+      "text": "White gaps bounce it back, black bars soak it up,",
+      "caps": "WHITE GAPS *BOUNCE | IT *BACK | *BLACK BARS | SOAK IT *UP"
+    },
+    {
+      "text": "so the sensor reads on, off, on, off.",
+      "caps": "SO THE *SENSOR | READS *ON, OFF | ON, *OFF"
+    },
+    {
+      "text": "Those widths spell twelve digits,",
+      "caps": "THOSE *WIDTHS | SPELL *12 DIGITS"
+    },
+    {
+      "text": "and the last one checks for a bad scan.",
+      "caps": "AND THE *LAST ONE | *CHECKS FOR | A *BAD SCAN"
+    },
+    {
+      "text": "Surprise: the barcode doesn't hold the price.",
+      "caps": "*SURPRISE | THE BARCODE *DOESN'T | HOLD THE *PRICE"
+    },
+    {
+      "text": "It's just a number the store looks up.",
+      "caps": "IT'S JUST A *NUMBER | THE STORE *LOOKS UP"
+    },
+    {
+      "text": "The idea began as Morse code drawn in beach sand,",
+      "caps": "THE *IDEA BEGAN | AS *MORSE CODE | DRAWN IN BEACH *SAND"
+    },
+    {
+      "text": "stretched down into lines.",
+      "caps": "*STRETCHED DOWN | INTO *LINES"
+    },
+    {
+      "text": "And the first thing ever scanned, in nineteen seventy four?",
+      "caps": "AND THE *FIRST THING | EVER *SCANNED | IN *1974?"
+    },
+    {
+      "text": "A pack of chewing gum.",
+      "caps": "A *PACK | OF CHEWING *GUM"
+    }
+  ]
+}

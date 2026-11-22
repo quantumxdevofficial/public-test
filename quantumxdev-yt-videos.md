@@ -57,3 +57,4 @@
 | 53 | What Actually Happens When You Hit Send on an Email? 📧 #shorts | https://www.youtube.com/watch?v=jtj2HQ82H9E | 2026-11-21 |
 | 54 | (15/30) Polling vs WebSockets? System Design | https://www.youtube.com/watch?v=VZTjbQw2Ers | 2026-11-21 |
 | 55 | Does Dark Mode Actually Save Battery? 🌙 #shorts | https://www.youtube.com/watch?v=XbCNzCN1bKA | 2026-11-22 |
+| 56 | How Does a Barcode Actually Work? 🛒 #shorts | https://www.youtube.com/watch?v=-PQR08qpvJQ | 2026-11-22 |

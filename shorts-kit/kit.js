@@ -456,3 +456,4 @@ export * from './faceid.js';
 export * from './email.js';
 export * from './websocket.js';
 export * from './darkmode.js';
+export * from './barcode.js';
