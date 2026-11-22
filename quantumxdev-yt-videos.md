@@ -58,3 +58,4 @@
 | 54 | (15/30) Polling vs WebSockets? System Design | https://www.youtube.com/watch?v=VZTjbQw2Ers | 2026-11-21 |
 | 55 | Does Dark Mode Actually Save Battery? 🌙 #shorts | https://www.youtube.com/watch?v=XbCNzCN1bKA | 2026-11-22 |
 | 56 | How Does a Barcode Actually Work? 🛒 #shorts | https://www.youtube.com/watch?v=-PQR08qpvJQ | 2026-11-22 |
+| 57 | (16/30) What Is a Message Queue? System Design | https://www.youtube.com/watch?v=zrUl3H07zg8 | 2026-11-22 |

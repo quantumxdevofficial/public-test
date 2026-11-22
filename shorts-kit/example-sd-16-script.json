@@ -1,0 +1,33 @@
+{
+  "title": "What Is a Message Queue?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "AWS, 'What is a Message Queue?' (aws.amazon.com/message-queue): messages are stored on the queue until they are processed and deleted; each message is processed once, by a single consumer; queues decouple heavyweight processing, buffer or batch work, and smooth spiky workloads",
+    "AWS docs, 'What is Amazon Simple Queue Service?': SQS lets producers send messages and consumers receive and delete them; messages stay in the queue until a consumer deletes them (visibility timeout returns an unprocessed message to the queue if a consumer fails)",
+    "Dynatrace, 'What is a message queue?': a producer adds messages to the queue and continues, consumers pull messages when they are ready, so the sender does not wait for the work to finish (asynchronous communication); common use e.g. sending emails/receipts after an order"
+  ],
+  "lines": [
+    { "text": "What happens when a million people tap buy", "caps": "WHAT *HAPPENS | WHEN A *MILLION | PEOPLE TAP *BUY" },
+    { "text": "at the exact same second?", "caps": "AT THE *EXACT | SAME *SECOND?" },
+    { "text": "Picture a restaurant on a crazy Friday night.", "caps": "PICTURE A *RESTAURANT | ON A *CRAZY | *FRIDAY NIGHT" },
+    { "text": "If every waiter had to wait for the chef to finish,", "caps": "IF EVERY *WAITER | HAD TO *WAIT | FOR THE *CHEF | TO *FINISH" },
+    { "text": "the whole place would freeze.", "caps": "THE WHOLE *PLACE | WOULD *FREEZE" },
+    { "text": "So waiters just clip their orders onto a rail", "caps": "SO *WAITERS | JUST *CLIP | THEIR *ORDERS | ONTO A *RAIL" },
+    { "text": "and walk straight back to the tables.", "caps": "AND *WALK | STRAIGHT *BACK | TO THE *TABLES" },
+    { "text": "The cooks grab tickets one by one, in order.", "caps": "THE *COOKS | GRAB *TICKETS | *ONE BY ONE | IN *ORDER" },
+    { "text": "That rail is a message queue.", "caps": "THAT *RAIL | IS A MESSAGE *QUEUE" },
+    { "text": "In an app, one service drops in a message,", "caps": "IN AN *APP | ONE *SERVICE | DROPS *IN | A *MESSAGE" },
+    { "text": "like, send a receipt, and moves on.", "caps": "LIKE *SEND | A *RECEIPT | AND *MOVES ON" },
+    { "text": "Workers pull them out whenever they're free.", "caps": "*WORKERS | *PULL THEM OUT | WHENEVER THEY'RE *FREE" },
+    { "text": "If a worker crashes, the message just waits,", "caps": "IF A *WORKER | *CRASHES | THE *MESSAGE | JUST *WAITS" },
+    { "text": "so nothing gets lost.", "caps": "SO *NOTHING | GETS *LOST" },
+    { "text": "Big rush? The line gets longer, but nothing breaks.", "caps": "BIG *RUSH? | THE *LINE | GETS *LONGER | BUT NOTHING *BREAKS" },
+    { "text": "Don't wait on the chef. Leave a ticket.", "caps": "DON'T *WAIT | ON THE *CHEF | LEAVE A *TICKET" },
+    { "text": "Tomorrow: pub sub.", "caps": "*TOMORROW | *PUB SUB" }
+  ]
+}
