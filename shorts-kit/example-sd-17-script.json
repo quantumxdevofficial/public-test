@@ -1,0 +1,33 @@
+{
+  "title": "What Is Pub/Sub?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "AWS, 'What is Pub/Sub Messaging?' (aws.amazon.com/what-is/pub-sub-messaging): publishers send messages to a topic; every subscriber to that topic receives the message (fan-out); publishers do not need to know who uses the information, and new subscribers can be added without changing the publisher",
+    "Google Cloud docs, 'Overview of the Pub/Sub service' (docs.cloud.google.com/pubsub/docs/pubsub-basics): a publisher creates and sends messages to a topic; each subscription to the topic receives a copy of each message; publishers and subscribers are decoupled",
+    "IBM docs, 'Publish/subscribe messaging': publishers do not need to know the subscribers; subscribers register interest in topics and receive every message published on them, in contrast to point-to-point queues where each message goes to one consumer"
+  ],
+  "lines": [
+    { "text": "Yesterday, one message went to one worker.", "caps": "*YESTERDAY | ONE *MESSAGE | WENT TO | *ONE WORKER" },
+    { "text": "But what if five parts of your app need the same news?", "caps": "BUT *WHAT IF | *FIVE PARTS | OF YOUR *APP | NEED THE *SAME | *NEWS?" },
+    { "text": "Think of a YouTube channel.", "caps": "*THINK OF A | *YOUTUBE | *CHANNEL" },
+    { "text": "The creator doesn't message every fan one by one.", "caps": "THE *CREATOR | DOESN'T *MESSAGE | EVERY *FAN | *ONE BY ONE" },
+    { "text": "They post once,", "caps": "THEY *POST | *ONCE" },
+    { "text": "and every subscriber gets a copy.", "caps": "AND *EVERY | *SUBSCRIBER | GETS A *COPY" },
+    { "text": "That's pub sub: publish, subscribe.", "caps": "THAT'S *PUB SUB | *PUBLISH | *SUBSCRIBE" },
+    { "text": "So when you place an order,", "caps": "SO *WHEN YOU | PLACE AN *ORDER" },
+    { "text": "the shop publishes one message to a topic.", "caps": "THE *SHOP | *PUBLISHES | ONE *MESSAGE | TO A *TOPIC" },
+    { "text": "Email sends your receipt,", "caps": "*EMAIL SENDS | YOUR *RECEIPT" },
+    { "text": "the warehouse packs your box,", "caps": "THE *WAREHOUSE | PACKS YOUR *BOX" },
+    { "text": "and rewards adds your points, all at once.", "caps": "AND *REWARDS | ADDS YOUR *POINTS | ALL AT *ONCE" },
+    { "text": "The shop doesn't even know who's listening.", "caps": "THE SHOP *DOESN'T | EVEN *KNOW | WHO'S *LISTENING" },
+    { "text": "Need a new feature? Just subscribe it.", "caps": "NEED A *NEW | *FEATURE? | JUST *SUBSCRIBE IT" },
+    { "text": "The shop never changes.", "caps": "THE SHOP *NEVER | *CHANGES" },
+    { "text": "Post once. Everyone who cares hears it.", "caps": "POST *ONCE | *EVERYONE | WHO *CARES | *HEARS IT" },
+    { "text": "Tomorrow: monolith versus microservices.", "caps": "*TOMORROW | *MONOLITH | VS *MICROSERVICES" }
+  ]
+}
