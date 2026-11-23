@@ -1,0 +1,32 @@
+{
+  "title": "How Does Google Maps Know There's Traffic?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Google Keyword blog 'Google Maps 101: How AI helps predict traffic and determine routes' (2020): Maps analyses historical traffic patterns for roads over time and combines them with live traffic conditions from aggregate, anonymized location data of people who have location settings on; works with DeepMind to predict traffic ahead",
+    "Wikipedia 'Google Traffic' and Global News 'Does your phone help build Google's traffic maps?': traffic layer is crowdsourced from GPS-determined locations and speeds reported by many mobile phones; Google anonymizes the data",
+    "Google Maps Help 'Use layers to find places, traffic...': traffic line colours, green = no traffic delays, orange = medium traffic, red = heavy traffic (darker red = slower)",
+    "Hyperallergic, CNN, 9to5Google (Feb 2020): Berlin artist Simon Weckert pulled a red handcart holding 99 second-hand smartphones with Google Maps running slowly through Berlin streets, making Google Maps show a traffic jam (streets turned red) on nearly empty roads"
+  ],
+  "lines": [
+    { "text": "How does Google Maps know a road is jammed", "caps": "HOW DOES *GOOGLE MAPS | KNOW A ROAD | IS *JAMMED" },
+    { "text": "before you even get there?", "caps": "BEFORE YOU *EVEN | GET *THERE?" },
+    { "text": "There's no camera watching every street.", "caps": "THERE'S NO *CAMERA | WATCHING EVERY *STREET" },
+    { "text": "The secret is phones, like yours.", "caps": "THE *SECRET | IS *PHONES | LIKE *YOURS" },
+    { "text": "Phones with location turned on send back how fast they're moving,", "caps": "PHONES WITH *LOCATION | TURNED *ON | SEND BACK HOW *FAST | THEY'RE *MOVING" },
+    { "text": "with no names attached.", "caps": "WITH NO *NAMES | *ATTACHED" },
+    { "text": "So when lots of them crawl along one road,", "caps": "SO WHEN *LOTS | OF THEM *CRAWL | ALONG ONE *ROAD" },
+    { "text": "that road turns orange, then red.", "caps": "THAT ROAD TURNS *ORANGE | THEN *RED" },
+    { "text": "Add years of past traffic for that hour,", "caps": "ADD *YEARS | OF PAST *TRAFFIC | FOR THAT *HOUR" },
+    { "text": "and it can guess the jam before it happens.", "caps": "AND IT CAN *GUESS | THE *JAM | BEFORE IT *HAPPENS" },
+    { "text": "But here's the catch.", "caps": "BUT *HERE'S | THE *CATCH" },
+    { "text": "In twenty twenty, an artist in Berlin", "caps": "IN *2020 | AN *ARTIST | IN *BERLIN" },
+    { "text": "slowly pulled ninety nine phones in a little wagon,", "caps": "SLOWLY *PULLED | *99 PHONES | IN A LITTLE *WAGON" },
+    { "text": "and empty streets turned red.", "caps": "AND *EMPTY STREETS | TURNED *RED" },
+    { "text": "So that traffic jam? It might just be phones.", "caps": "SO THAT *TRAFFIC JAM? | IT MIGHT *JUST | BE *PHONES" }
+  ]
+}

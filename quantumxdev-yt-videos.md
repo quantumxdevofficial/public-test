@@ -59,3 +59,4 @@
 | 55 | Does Dark Mode Actually Save Battery? 🌙 #shorts | https://www.youtube.com/watch?v=XbCNzCN1bKA | 2026-11-22 |
 | 56 | How Does a Barcode Actually Work? 🛒 #shorts | https://www.youtube.com/watch?v=-PQR08qpvJQ | 2026-11-22 |
 | 57 | (16/30) What Is a Message Queue? System Design | https://www.youtube.com/watch?v=zrUl3H07zg8 | 2026-11-22 |
+| 58 | How Does Google Maps Know There's Traffic? 🚗 #shorts | https://www.youtube.com/watch?v=q-FJgIwYLZ8 | 2026-11-23 |
