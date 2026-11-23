@@ -1,0 +1,77 @@
+{
+  "title": "How Does Your Phone Always Know the Exact Time?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Quartz clock (Wikipedia) and watch references: most quartz watch / real-time-clock crystals are tuning-fork crystals vibrating at 32,768 Hz (2^15); typical quartz watches are accurate to about +/-15 seconds per month, i.e. a few seconds a week",
+    "Android Open Source Project 'Network time detection' (source.android.com, updated 2026-10-09): Android asks an NTP server (default time.android.com, Google Public NTP) over SNTP; SNTP assumes symmetric delays and the correct time lies in the middle of the network round trip; telephony is a lower-priority time origin",
+    "NIST news release (8 Mar 2016) and NIST 'Usage analysis of the National Internet Time Service' (2016): ITS servers derive time from the NIST atomic timescale (an ensemble of atomic clocks calibrated by NIST-F1/NIST-F2 cesium fountain clocks); the service receives over 12 billion (about 16 billion as of Jan 2016) time requests per day",
+    "BIPM SI brochure: the second is defined by the cesium-133 hyperfine transition frequency, 9,192,631,770 Hz ('over nine billion' ticks a second)"
+  ],
+  "lines": [
+    {
+      "text": "How does your phone know the exact time,",
+      "caps": "HOW DOES YOUR *PHONE | KNOW THE *EXACT | *TIME"
+    },
+    {
+      "text": "even if you never set it?",
+      "caps": "*EVEN IF YOU | *NEVER SET IT?"
+    },
+    {
+      "text": "Inside, there's a tiny quartz crystal",
+      "caps": "*INSIDE | THERE'S A *TINY | *QUARTZ CRYSTAL"
+    },
+    {
+      "text": "that wobbles thirty two thousand, seven hundred sixty eight times a second.",
+      "caps": "THAT *WOBBLES | *32,768 TIMES | A *SECOND"
+    },
+    {
+      "text": "Your phone counts those wobbles like clock ticks,",
+      "caps": "YOUR PHONE *COUNTS | THOSE *WOBBLES | LIKE CLOCK *TICKS"
+    },
+    {
+      "text": "but quartz drifts, a few seconds every week.",
+      "caps": "BUT QUARTZ *DRIFTS | A FEW *SECONDS | EVERY *WEEK"
+    },
+    {
+      "text": "So it quietly asks a time server online,",
+      "caps": "SO IT *QUIETLY | ASKS A TIME *SERVER | *ONLINE"
+    },
+    {
+      "text": "and that server is set by atomic clocks,",
+      "caps": "AND THAT *SERVER | IS *SET | BY *ATOMIC CLOCKS"
+    },
+    {
+      "text": "where cesium atoms tick over nine billion times a second.",
+      "caps": "WHERE *CESIUM | ATOMS *TICK | OVER *9 BILLION | TIMES A *SECOND"
+    },
+    {
+      "text": "It even subtracts the travel time,",
+      "caps": "IT EVEN *SUBTRACTS | THE *TRAVEL TIME"
+    },
+    {
+      "text": "so you're right to a split second.",
+      "caps": "SO YOU'RE *RIGHT | TO A *SPLIT SECOND"
+    },
+    {
+      "text": "And one American time service alone",
+      "caps": "AND ONE *AMERICAN | TIME *SERVICE | *ALONE"
+    },
+    {
+      "text": "gets over twelve billion requests every day.",
+      "caps": "GETS *OVER | *12 BILLION | REQUESTS EVERY *DAY"
+    },
+    {
+      "text": "So your phone isn't really keeping time.",
+      "caps": "SO YOUR *PHONE | ISN'T *REALLY | KEEPING *TIME"
+    },
+    {
+      "text": "It's borrowing it, from an atom.",
+      "caps": "IT'S *BORROWING IT | FROM AN *ATOM"
+    }
+  ]
+}
