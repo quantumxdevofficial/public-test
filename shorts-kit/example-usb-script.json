@@ -1,0 +1,32 @@
+{
+  "title": "How Does a USB Stick Remember Your Files With No Power?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.2,
+  "music": "bed",
+  "sources": [
+    "TechTarget 'floating gate transistor (FGT)': the oxide layer that surrounds the floating gate keeps the electrons trapped, whether or not the flash device has power; when electrons are present on the floating gate, current can't flow through the transistor and the bit state is 0",
+    "Wikipedia 'Flash memory': each cell is a floating-gate transistor insulated by an oxide layer; electrons are moved onto the floating gate through the insulating layer (hot-electron injection / Fowler-Nordheim tunneling); default/erased cell = 1, programmed = 0; read by checking whether current flows; NAND can only be erased in whole blocks",
+    "Wikipedia 'Flash memory': Fujio Masuoka invented flash memory at Toshiba in 1980; the name 'flash' was suggested by his colleague Shoji Ariizumi because the erasure process reminded him of the flash of a camera",
+    "PetaPixel 'Did You Know: Flash Memory is Named After the Camera Flash' (2017): Ariizumi was reminded of a camera flash; the name highlights the fast way flash memory can erase data"
+  ],
+  "lines": [
+    { "text": "How does a USB stick remember your files with no power?", "caps": "HOW DOES A *USB | STICK *REMEMBER | YOUR *FILES | WITH NO *POWER?" },
+    { "text": "Inside are billions of tiny cells, each holding one bit.", "caps": "INSIDE ARE *BILLIONS | OF TINY *CELLS | *EACH HOLDING | ONE *BIT" },
+    { "text": "Every cell has a little box called a floating gate,", "caps": "EVERY *CELL HAS | A LITTLE *BOX | CALLED A *FLOATING | *GATE" },
+    { "text": "sealed in a thin wall of insulation.", "caps": "*SEALED IN | A THIN *WALL | OF *INSULATION" },
+    { "text": "When you save, a voltage shoves electrons through that wall,", "caps": "WHEN YOU *SAVE | A *VOLTAGE | *SHOVES ELECTRONS | THROUGH THAT *WALL" },
+    { "text": "and they get stuck inside.", "caps": "AND *THEY | GET *STUCK | *INSIDE" },
+    { "text": "A full box blocks the current, that's a zero,", "caps": "A *FULL BOX | *BLOCKS THE CURRENT | THAT'S A *ZERO" },
+    { "text": "an empty one lets it flow, that's a one.", "caps": "AN *EMPTY ONE | LETS IT *FLOW | THAT'S A *ONE" },
+    { "text": "Unplug it, and the electrons just stay trapped,", "caps": "*UNPLUG IT | AND THE *ELECTRONS | JUST STAY *TRAPPED" },
+    { "text": "so your files are still there next time.", "caps": "SO YOUR *FILES | ARE *STILL THERE | NEXT *TIME" },
+    { "text": "And erasing wipes a whole block in one go,", "caps": "AND *ERASING | WIPES A *WHOLE | *BLOCK | IN ONE *GO" },
+    { "text": "which reminded a Toshiba engineer of a camera flash,", "caps": "WHICH *REMINDED | A *TOSHIBA ENGINEER | OF A *CAMERA | *FLASH" },
+    { "text": "so that's why it's called flash memory.", "caps": "SO THAT'S *WHY | IT'S *CALLED | *FLASH MEMORY" },
+    { "text": "Your files aren't just saved.", "caps": "YOUR *FILES | AREN'T JUST *SAVED" },
+    { "text": "They're locked in a tiny jail.", "caps": "THEY'RE *LOCKED | IN A TINY *JAIL" }
+  ]
+}

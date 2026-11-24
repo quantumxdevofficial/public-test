@@ -63,3 +63,4 @@
 | 59 | How Does Your Phone Always Know the Exact Time? ⏰ #shorts | https://www.youtube.com/watch?v=Uyj3l34lncQ | 2026-11-23 |
 | 60 | (17/30) What Is Pub/Sub? System Design | https://www.youtube.com/watch?v=yZ9hsvQ8r_U | 2026-11-23 |
 | 61 | How Does Your Mouse Know Where You Moved It? 🖱️ #shorts | https://www.youtube.com/watch?v=uGyQVVQGXDg | 2026-11-24 |
+| 62 | How Does a USB Stick Remember Files With No Power? 💾 #shorts | https://www.youtube.com/watch?v=g3YF6SrCFxI | 2026-11-24 |
