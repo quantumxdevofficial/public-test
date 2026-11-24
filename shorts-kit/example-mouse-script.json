@@ -1,0 +1,34 @@
+{
+  "title": "How Does Your Mouse Know Where You Moved It?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.2,
+  "music": "bed",
+  "sources": [
+    "HowStuffWorks 'How Does an Optical Mouse Work?' (computer.howstuffworks.com/question631.htm): a small red LED bounces light off the surface onto a CMOS sensor; a tiny camera takes about 1,500 pictures every second; a DSP detects patterns in the images and how they moved since the previous image",
+    "Wikipedia 'Optical mouse': the sensor is essentially a tiny low-resolution video camera capturing a thousand or more images per second; images compared by cross correlation to compute the offset; most optical mice do not work properly on glass or polished, transparent surfaces (cursor drifts)",
+    "ETHW 'Milestones: Invention of SRI's Computer Mouse, 1961-1968': first prototype built fall 1964 by Bill English for Douglas Engelbart, a wooden block with two perpendicular metal wheels; nicknamed 'mouse' because the cord emerged from the back like a tail",
+    "Computer History Museum, Revolution: Input & Output (computerhistory.org/revolution/input-output/14/350): original wooden Engelbart mouse prototype; Engelbart: 'It just looked like a mouse with a tail, and we all called it that.'"
+  ],
+  "lines": [
+    { "text": "How does your mouse know where you moved it?", "caps": "HOW DOES YOUR *MOUSE | KNOW *WHERE YOU | *MOVED IT?" },
+    { "text": "Flip it over, and there's a little red light", "caps": "FLIP IT *OVER | AND THERE'S A *LITTLE | *RED LIGHT" },
+    { "text": "shining on your desk,", "caps": "*SHINING | ON YOUR *DESK" },
+    { "text": "right next to a tiny camera", "caps": "RIGHT NEXT TO | A *TINY | *CAMERA" },
+    { "text": "snapping over a thousand pictures a second.", "caps": "SNAPPING *OVER | A *THOUSAND | PICTURES A *SECOND" },
+    { "text": "Even a smooth desk is full of tiny bumps,", "caps": "EVEN A *SMOOTH DESK | IS *FULL | OF TINY *BUMPS" },
+    { "text": "so a chip compares each picture to the last,", "caps": "SO A *CHIP | *COMPARES | EACH *PICTURE | TO THE *LAST" },
+    { "text": "sees how far the bumps slid,", "caps": "SEES HOW *FAR | THE BUMPS *SLID" },
+    { "text": "and moves your cursor to match.", "caps": "AND *MOVES | YOUR *CURSOR | TO *MATCH" },
+    { "text": "That's why it goes crazy on glass.", "caps": "THAT'S *WHY | IT GOES *CRAZY | ON *GLASS" },
+    { "text": "There's nothing for the camera to grab onto.", "caps": "THERE'S *NOTHING | FOR THE *CAMERA | TO *GRAB ONTO" },
+    { "text": "And the very first mouse, from nineteen sixty four,", "caps": "AND THE VERY *FIRST | *MOUSE | FROM *1964" },
+    { "text": "was a wooden box on two metal wheels,", "caps": "WAS A *WOODEN BOX | ON TWO *METAL | *WHEELS" },
+    { "text": "nicknamed a mouse because its cord looked like a tail.", "caps": "*NICKNAMED A MOUSE | BECAUSE ITS *CORD | LOOKED LIKE A *TAIL" },
+    { "text": "So when your cursor jumps,", "caps": "SO WHEN YOUR *CURSOR | *JUMPS" },
+    { "text": "don't blame the mouse.", "caps": "DON'T *BLAME | THE *MOUSE" },
+    { "text": "Blame the desk.", "caps": "BLAME THE *DESK" }
+  ]
+}

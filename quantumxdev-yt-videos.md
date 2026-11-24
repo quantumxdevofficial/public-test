@@ -62,3 +62,4 @@
 | 58 | How Does Google Maps Know There's Traffic? 🚗 #shorts | https://www.youtube.com/watch?v=q-FJgIwYLZ8 | 2026-11-23 |
 | 59 | How Does Your Phone Always Know the Exact Time? ⏰ #shorts | https://www.youtube.com/watch?v=Uyj3l34lncQ | 2026-11-23 |
 | 60 | (17/30) What Is Pub/Sub? System Design | https://www.youtube.com/watch?v=yZ9hsvQ8r_U | 2026-11-23 |
+| 61 | How Does Your Mouse Know Where You Moved It? 🖱️ #shorts | https://www.youtube.com/watch?v=uGyQVVQGXDg | 2026-11-24 |
