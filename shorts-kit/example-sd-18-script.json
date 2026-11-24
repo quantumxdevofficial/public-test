@@ -1,0 +1,76 @@
+{
+  "title": "Monolith vs Microservices",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "AWS, 'What's the Difference Between Monolithic and Microservices Architecture?' (aws.amazon.com/compare/the-difference-between-monolithic-and-microservices-architecture): a monolith is a single unit/codebase deployed together, easier to start; an error can affect the whole application; microservices are small independent services that communicate over well-defined APIs, are deployed and scaled independently, so a failure in one service is isolated; microservices add operational complexity",
+    "Atlassian, 'Microservices vs. monolithic architecture' (atlassian.com/microservices/microservices-architecture/microservices-vs-monolith): monolith = single unified unit, simpler development and deployment at first; microservices = independently deployable services with their own logic, each scaled independently; tradeoffs include added infrastructure and organizational complexity",
+    "Martin Fowler, 'MonolithFirst' (martinfowler.com/bliki/MonolithFirst.html): almost all successful microservice stories started with a monolith that got too big and was broken up; you shouldn't start a new project with microservices"
+  ],
+  "lines": [
+    {
+      "text": "Should your app be one big program, or lots of small ones?",
+      "caps": "SHOULD YOUR *APP | BE ONE *BIG | *PROGRAM | OR LOTS OF | *SMALL ONES?"
+    },
+    {
+      "text": "Picture one kitchen that cooks everything,",
+      "caps": "PICTURE *ONE | *KITCHEN | THAT COOKS | *EVERYTHING"
+    },
+    {
+      "text": "pizza, sushi, dessert, all in one room.",
+      "caps": "*PIZZA | *SUSHI | *DESSERT | ALL IN ONE *ROOM"
+    },
+    {
+      "text": "That's a monolith: one app, shipped in one piece.",
+      "caps": "THAT'S A *MONOLITH | ONE *APP | SHIPPED IN | ONE *PIECE"
+    },
+    {
+      "text": "Simple to start, but if the fryer breaks,",
+      "caps": "*SIMPLE | TO START | BUT IF THE | *FRYER | *BREAKS"
+    },
+    {
+      "text": "the whole kitchen stops.",
+      "caps": "THE *WHOLE | KITCHEN *STOPS"
+    },
+    {
+      "text": "Now picture a food court,",
+      "caps": "NOW PICTURE | A *FOOD COURT"
+    },
+    {
+      "text": "where each stall cooks one thing with its own team.",
+      "caps": "WHERE *EACH | *STALL | COOKS *ONE THING | WITH ITS *OWN TEAM"
+    },
+    {
+      "text": "That's microservices: small apps that talk over APIs.",
+      "caps": "THAT'S | *MICROSERVICES | *SMALL APPS | THAT *TALK | OVER *APIS"
+    },
+    {
+      "text": "If sushi closes, pizza keeps selling,",
+      "caps": "IF *SUSHI | *CLOSES | *PIZZA | KEEPS *SELLING"
+    },
+    {
+      "text": "and a busy stall adds cooks on its own.",
+      "caps": "AND A *BUSY | STALL ADDS *COOKS | ON ITS *OWN"
+    },
+    {
+      "text": "But now you're running ten kitchens, not one.",
+      "caps": "BUT *NOW | YOU'RE *RUNNING | *TEN KITCHENS | NOT *ONE"
+    },
+    {
+      "text": "So many teams start with a monolith and split it later.",
+      "caps": "SO *MANY TEAMS | START WITH A | *MONOLITH | AND *SPLIT IT | *LATER"
+    },
+    {
+      "text": "One kitchen to start, a food court to grow.",
+      "caps": "ONE *KITCHEN | TO *START | A *FOOD COURT | TO *GROW"
+    },
+    {
+      "text": "Tomorrow: the API gateway.",
+      "caps": "*TOMORROW | THE *API | *GATEWAY"
+    }
+  ]
+}
