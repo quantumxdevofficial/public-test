@@ -64,3 +64,4 @@
 | 60 | (17/30) What Is Pub/Sub? System Design | https://www.youtube.com/watch?v=yZ9hsvQ8r_U | 2026-11-23 |
 | 61 | How Does Your Mouse Know Where You Moved It? 🖱️ #shorts | https://www.youtube.com/watch?v=uGyQVVQGXDg | 2026-11-24 |
 | 62 | How Does a USB Stick Remember Files With No Power? 💾 #shorts | https://www.youtube.com/watch?v=g3YF6SrCFxI | 2026-11-24 |
+| 63 | How Does a Smart Speaker Know You Said Its Name? 🔊 #shorts | https://www.youtube.com/watch?v=bPi-JSVd7LY | 2026-11-25 |
