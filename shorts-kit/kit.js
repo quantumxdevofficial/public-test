@@ -466,3 +466,6 @@ export * from './pubsub.js';
 export * from './mouse.js';
 export * from './usb.js';
 export * from './monolith.js';
+
+// smart speaker wake word: RING_BLUE, smartSpeaker, speakerTop, tvSet, waveBars, wakeCard, micIcon, sideTable
+export * from './smartspeaker.js';

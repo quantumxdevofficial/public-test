@@ -1,0 +1,32 @@
+{
+  "title": "How Does a Smart Speaker Know You Said Its Name?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.2,
+  "music": "bed",
+  "sources": [
+    "Amazon help 'Alexa, Echo Devices, and Your Privacy' (amazon.com/gp/help/customer/display.html?nodeId=GVP69FUJ48X9DK8V): 'The device detects the wake word by identifying acoustic patterns that match the wake word.' 'No audio is stored or sent to the cloud unless the device detects the wake word (or Alexa is activated by pressing a button).' When the wake word is detected 'a light ring on the Echo device will turn blue'. Microphone off button: 'the power to the microphones is disconnected and a dedicated red light is illuminated.'",
+    "Amazon 'Busting the biggest myths about Alexa' (aboutamazon.com): built-in 'keyword spotting' technology matches spoken audio to the wake word's acoustic patterns; Alexa does not record or store what is said until the wake word is detected; blue light indicator glows when the device is listening",
+    "Amazon Alexa Voice Service docs 'Wake Word Verification' / 'Enable Cloud-Based Wake Word Verification' (developer.amazon.com): the cloud re-checks the wake word in the streamed audio to reject false wakes before answering",
+    "Northeastern University Mon(IoT)r Lab with Imperial College London, 2020 smart speaker study (reported by Voicebot 21 Feb 2020 and Sophos): five smart speakers played 125 hours of TV from 13 shows (Netflix, e.g. The Office, Gilmore Girls); they woke by mistake 'as many as 19 times a day'"
+  ],
+  "lines": [
+    { "text": "How does a smart speaker know you just said its name?", "caps": "HOW DOES A *SMART | *SPEAKER KNOW | YOU JUST *SAID | ITS *NAME?" },
+    { "text": "Well, its microphones are always on,", "caps": "WELL, ITS *MICROPHONES | ARE ALWAYS *ON" },
+    { "text": "but a tiny chip inside only listens for one word,", "caps": "BUT A *TINY CHIP | *INSIDE | ONLY *LISTENS | FOR ONE *WORD" },
+    { "text": "and everything else gets thrown away.", "caps": "AND *EVERYTHING ELSE | GETS THROWN *AWAY" },
+    { "text": "The moment it hears its name, the light turns blue,", "caps": "THE *MOMENT | IT HEARS ITS *NAME | THE *LIGHT | TURNS *BLUE" },
+    { "text": "and your voice starts streaming to the cloud,", "caps": "AND YOUR *VOICE | STARTS *STREAMING | TO THE *CLOUD" },
+    { "text": "where big servers double check the word", "caps": "WHERE BIG *SERVERS | DOUBLE *CHECK | THE *WORD" },
+    { "text": "and work out your answer.", "caps": "AND *WORK OUT | YOUR *ANSWER" },
+    { "text": "But it still gets fooled.", "caps": "BUT IT *STILL | GETS *FOOLED" },
+    { "text": "In one study, TV shows woke smart speakers", "caps": "IN ONE *STUDY | *TV SHOWS | WOKE SMART *SPEAKERS" },
+    { "text": "up to nineteen times a day.", "caps": "UP TO *19 | TIMES A *DAY" },
+    { "text": "Want it truly deaf? Press mute,", "caps": "*WANT IT | TRULY *DEAF? | PRESS *MUTE" },
+    { "text": "which cuts power to the microphones.", "caps": "WHICH *CUTS POWER | TO THE *MICROPHONES" },
+    { "text": "It's not hearing everything,", "caps": "IT'S NOT *HEARING | *EVERYTHING" },
+    { "text": "it's waiting for one word.", "caps": "IT'S *WAITING | FOR ONE *WORD" }
+  ]
+}
