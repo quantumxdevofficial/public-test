@@ -1,0 +1,77 @@
+{
+  "title": "What Is an API Gateway?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "microservices.io, 'Pattern: API Gateway / Backends for Frontends' (microservices.io/patterns/apigateway): the API gateway is the single entry point for all clients; it routes requests to the appropriate service and may also handle authentication and other edge functions",
+    "IBM, 'What is an API gateway?' (ibm.com/think/topics/api-gateway): an API gateway sits between clients and backend services, accepts API calls, routes them to the right service, and handles cross-cutting tasks like authentication, rate limiting and monitoring",
+    "AWS Prescriptive Guidance, 'API gateway pattern' (docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/api-gateway-pattern.html): a gateway provides one entry point that routes client requests to microservices",
+    "Gravitee, 'Ensuring API gateway against the risk of single point of failure' (gravitee.io/blog/ensuring-api-gateway-against-risk-single-point-failure-spof): a single gateway is a single point of failure; run multiple gateway instances behind a load balancer for high availability"
+  ],
+  "lines": [
+    {
+      "text": "Your app is now ten small services,",
+      "caps": "YOUR *APP | IS NOW *TEN | SMALL *SERVICES"
+    },
+    {
+      "text": "so which one does your phone actually call?",
+      "caps": "SO *WHICH ONE | DOES YOUR *PHONE | ACTUALLY *CALL?"
+    },
+    {
+      "text": "Think of a big hotel.",
+      "caps": "*THINK OF A | BIG *HOTEL"
+    },
+    {
+      "text": "You don't wander the halls looking for the chef,",
+      "caps": "YOU DON'T *WANDER | THE *HALLS | *LOOKING FOR | THE *CHEF"
+    },
+    {
+      "text": "you just ask the front desk.",
+      "caps": "YOU JUST *ASK | THE *FRONT DESK"
+    },
+    {
+      "text": "That's an API gateway,",
+      "caps": "*THAT'S AN | *API GATEWAY"
+    },
+    {
+      "text": "one front door for every service.",
+      "caps": "ONE *FRONT DOOR | FOR *EVERY | *SERVICE"
+    },
+    {
+      "text": "Your phone sends every request there,",
+      "caps": "YOUR *PHONE | SENDS *EVERY | *REQUEST THERE"
+    },
+    {
+      "text": "and it passes each one to the right service.",
+      "caps": "AND IT *PASSES | *EACH ONE | TO THE *RIGHT | *SERVICE"
+    },
+    {
+      "text": "It also checks your ID first,",
+      "caps": "IT *ALSO | *CHECKS | YOUR *ID FIRST"
+    },
+    {
+      "text": "and turns away anyone knocking too often.",
+      "caps": "AND TURNS *AWAY | ANYONE *KNOCKING | TOO *OFTEN"
+    },
+    {
+      "text": "But if that one door breaks, nobody gets in,",
+      "caps": "*BUT IF THAT | ONE *DOOR | *BREAKS | *NOBODY | GETS *IN"
+    },
+    {
+      "text": "so big apps run several copies of it.",
+      "caps": "SO BIG *APPS | RUN *SEVERAL | *COPIES OF IT"
+    },
+    {
+      "text": "One door in, many rooms behind it.",
+      "caps": "ONE *DOOR IN | *MANY ROOMS | BEHIND *IT"
+    },
+    {
+      "text": "Tomorrow: rate limiting.",
+      "caps": "*TOMORROW | *RATE | *LIMITING"
+    }
+  ]
+}
