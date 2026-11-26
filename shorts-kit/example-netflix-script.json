@@ -1,0 +1,35 @@
+{
+  "title": "How Does Netflix Play a Movie Without Downloading It?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.2,
+  "music": "bed",
+  "sources": [
+    "Mux, 'What is adaptive bitrate streaming (ABR)?' (mux.com/articles/abr-adaptive-bitrate): video is 'encoded into multiple versions at different bitrates and resolutions (renditions)'; each version is 'divided into small video segments', 'typically 2-10 seconds'; 'As chunks download faster than they play, the buffer fills up'; if the connection 'threatens to buffer, ABR adjusts the video's bitrate load to reduce buffering', prioritising 'continuous playback over visual fidelity'",
+    "Wikipedia 'Adaptive bitrate streaming': source encoded at multiple bit rates, each split into small multi-second parts; the client switches between streams depending on available bandwidth",
+    "Netflix, 'How Netflix works with ISPs around the globe to deliver a great viewing experience' (about.netflix.com, 2016): connections to Open Connect are 'always free'; Netflix gives qualifying ISPs Open Connect Appliances; once installed in an ISP's data center 'almost all Netflix content is served from the local OCAs'; most members get their video 'from a server that's either inside of, or directly connected to, their ISP's network within their local region'",
+    "Netflix Open Connect (openconnect.netflix.com) and Wikipedia 'Open Connect': Netflix's own CDN; appliances provided to ISPs at no charge and filled with content during off-peak hours"
+  ],
+  "lines": [
+    { "text": "How does Netflix play a movie", "caps": "HOW DOES *NETFLIX | PLAY A *MOVIE" },
+    { "text": "without downloading the whole thing?", "caps": "WITHOUT *DOWNLOADING | THE WHOLE *THING?" },
+    { "text": "Well, the movie is chopped into tiny chunks,", "caps": "WELL, THE *MOVIE | IS *CHOPPED | INTO TINY *CHUNKS" },
+    { "text": "just a few seconds each,", "caps": "JUST A *FEW | *SECONDS EACH" },
+    { "text": "and the app grabs them one by one,", "caps": "AND THE APP *GRABS | THEM ONE BY *ONE" },
+    { "text": "a little ahead of where you're watching.", "caps": "A LITTLE *AHEAD | OF WHERE YOU'RE *WATCHING" },
+    { "text": "That saved up stretch is called the buffer.", "caps": "THAT *SAVED UP | *STRETCH | IS *CALLED | THE *BUFFER" },
+    { "text": "But here's the clever part.", "caps": "BUT *HERE'S | THE *CLEVER PART" },
+    { "text": "Every chunk is stored in lots of qualities,", "caps": "EVERY *CHUNK | IS *STORED IN | LOTS OF *QUALITIES" },
+    { "text": "so when your Wi-Fi slows down,", "caps": "SO WHEN | YOUR *WI-FI | *SLOWS DOWN" },
+    { "text": "the app quietly switches to a blurrier version", "caps": "THE APP *QUIETLY | *SWITCHES | TO A *BLURRIER | *VERSION" },
+    { "text": "instead of stopping to spin.", "caps": "INSTEAD OF *STOPPING | TO *SPIN" },
+    { "text": "And the twist?", "caps": "AND THE *TWIST?" },
+    { "text": "Those chunks often don't travel far at all.", "caps": "THOSE *CHUNKS | OFTEN DON'T *TRAVEL | *FAR AT ALL" },
+    { "text": "Netflix gives free servers to internet providers,", "caps": "NETFLIX GIVES *FREE | *SERVERS | TO INTERNET *PROVIDERS" },
+    { "text": "so your movie is already waiting close to home.", "caps": "SO YOUR *MOVIE | IS ALREADY *WAITING | *CLOSE TO HOME" },
+    { "text": "You're never watching the whole movie,", "caps": "YOU'RE *NEVER | WATCHING THE *WHOLE | *MOVIE" },
+    { "text": "just the next few seconds.", "caps": "JUST THE *NEXT | FEW *SECONDS" }
+  ]
+}

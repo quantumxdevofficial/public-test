@@ -469,3 +469,5 @@ export * from './monolith.js';
 
 // smart speaker wake word: RING_BLUE, smartSpeaker, speakerTop, tvSet, waveBars, wakeCard, micIcon, sideTable
 export * from './smartspeaker.js';
+// streaming video (movieFrame, filmChunk, filmStrip, playerBar, player, qualityBadge, providerBuilding, chunkToken)
+export * from './stream.js';
