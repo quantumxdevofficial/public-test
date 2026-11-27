@@ -474,3 +474,4 @@ export * from './stream.js';
 export * from './gateway.js';
 // airplane mode: cellTower, towerTop, signalBars, controlCenter, ccScreen, jetSide, hills, buzzZig
 export * from './airplanemode.js';
+export * from './tilt.js';

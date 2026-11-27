@@ -1,0 +1,78 @@
+{
+  "title": "How Does Your Phone Know Which Way Is Up?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.2,
+  "music": "bed",
+  "sources": [
+    "Make Tech Easier, 'How phone accelerometers detect orientation' and 'How a phone accelerometer works': a MEMS accelerometer is a silicon chip smaller than a grain of rice; a tiny proof mass hangs on silicon springs with comb-like fingers interleaved with fixed fingers; tilting lets gravity shift the mass by a few nanometres, changing the capacitance between the fingers, which the circuit measures to know the direction of gravity",
+    "Edinburgh Napier University IoT notes, 'Accelerometer' (bdavison.napier.ac.uk/iot/Notes/components/accelerometer): capacitive MEMS accelerometer = proof mass on springs between fixed plates; displacement changes capacitance; at rest it measures gravity, so it gives tilt/orientation",
+    "NXP application note AN3461 'Tilt Sensing Using Linear Accelerometers': orientation is computed from the gravity components on the X/Y/Z axes; when the device lies flat, gravity is entirely on the Z axis (through the screen) and the X/Y readings give no up/down direction",
+    "Android Developers Blog, 'One Screen Turn Deserves Another' (Sept 2010): screen rotation is decided from the accelerometer / orientation sensors relative to gravity",
+    "Wikipedia 'iPhone (1st generation)' / Apple 2007 press release 'Apple Reinvents the Phone with iPhone': the original iPhone included an accelerometer that rotated the display between portrait and landscape"
+  ],
+  "lines": [
+    {
+      "text": "How does your phone know when to flip the screen sideways?",
+      "caps": "HOW *DOES | YOUR *PHONE | *KNOW | WHEN TO *FLIP | THE SCREEN *SIDEWAYS?"
+    },
+    {
+      "text": "Well, inside is a tiny chip called an accelerometer,",
+      "caps": "WELL, *INSIDE | IS A *TINY | *CHIP | CALLED AN *ACCELEROMETER"
+    },
+    {
+      "text": "smaller than a grain of rice.",
+      "caps": "*SMALLER | THAN A *GRAIN | OF *RICE"
+    },
+    {
+      "text": "In there, a little block of silicon hangs on springs,",
+      "caps": "IN *THERE | A LITTLE *BLOCK | OF *SILICON | HANGS ON *SPRINGS"
+    },
+    {
+      "text": "with comb-like fingers next to fixed ones.",
+      "caps": "WITH *COMB-LIKE | *FINGERS | NEXT TO *FIXED | *ONES"
+    },
+    {
+      "text": "When you tilt the phone, gravity tugs that block,",
+      "caps": "WHEN YOU *TILT | THE *PHONE | *GRAVITY | TUGS THAT *BLOCK"
+    },
+    {
+      "text": "so the gaps between the fingers change by a few nanometers.",
+      "caps": "SO THE *GAPS | BETWEEN THE *FINGERS | *CHANGE BY | A FEW *NANOMETERS"
+    },
+    {
+      "text": "The chip feels that as a change in electricity,",
+      "caps": "THE *CHIP | *FEELS THAT | AS A *CHANGE | IN *ELECTRICITY"
+    },
+    {
+      "text": "so it knows which way gravity is pulling,",
+      "caps": "SO IT *KNOWS | WHICH *WAY | GRAVITY IS *PULLING"
+    },
+    {
+      "text": "and the screen turns to match.",
+      "caps": "AND THE *SCREEN | *TURNS | TO *MATCH"
+    },
+    {
+      "text": "Here's the twist: lay your phone flat on a table,",
+      "caps": "HERE'S THE *TWIST | LAY YOUR *PHONE | *FLAT | ON A *TABLE"
+    },
+    {
+      "text": "and gravity points straight through the screen,",
+      "caps": "AND *GRAVITY | POINTS *STRAIGHT | THROUGH THE *SCREEN"
+    },
+    {
+      "text": "so it can't tell which side is up, and won't rotate.",
+      "caps": "SO IT *CAN'T | *TELL | WHICH *SIDE | IS *UP | AND WON'T *ROTATE"
+    },
+    {
+      "text": "Your phone doesn't see up,",
+      "caps": "YOUR PHONE *DOESN'T | *SEE UP"
+    },
+    {
+      "text": "it feels it.",
+      "caps": "IT *FEELS IT"
+    }
+  ]
+}

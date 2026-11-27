@@ -69,3 +69,4 @@
 | 65 | How Does Netflix Play a Movie Without Downloading It? 🍿 #shorts | https://www.youtube.com/watch?v=Xa1D2v0qDuA | 2026-11-26 |
 | 66 | (19/30) What Is an API Gateway? System Design | https://www.youtube.com/watch?v=cG46zmRPlcw | 2026-11-26 |
 | 67 | What Does Airplane Mode Actually Do? ✈️ #shorts | https://www.youtube.com/watch?v=nqbfUffX18A | 2026-11-27 |
+| 68 | How Does Your Phone Know Which Way Is Up? 🔄 #shorts | https://www.youtube.com/watch?v=NX5GItLoiBU | 2026-11-27 |
