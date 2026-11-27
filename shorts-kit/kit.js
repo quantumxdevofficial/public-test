@@ -472,3 +472,5 @@ export * from './smartspeaker.js';
 // streaming video (movieFrame, filmChunk, filmStrip, playerBar, player, qualityBadge, providerBuilding, chunkToken)
 export * from './stream.js';
 export * from './gateway.js';
+// airplane mode: cellTower, towerTop, signalBars, controlCenter, ccScreen, jetSide, hills, buzzZig
+export * from './airplanemode.js';

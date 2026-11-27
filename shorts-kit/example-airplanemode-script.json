@@ -1,0 +1,32 @@
+{
+  "title": "What Does Airplane Mode Actually Do?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.2,
+  "music": "bed",
+  "sources": [
+    "Apple Support 'Use Airplane Mode on your iPhone, iPad, Apple Watch, and Apple Vision Pro' (support.apple.com/108785): 'With Airplane Mode, you can turn off cellular and Wi-Fi on your device during a flight.' 'If the airline allows it, you can still use Wi-Fi and Bluetooth in Airplane Mode.'",
+    "CBS News Minnesota, 'What happens if you don't put your phone on airplane mode' (25 Feb 2025): airplane mode 'turns off a cell phone's radio frequencies, stopping its ability to make and receive calls, texts or use the internet'; pilot Randle Corfman: 'just a small buzzing sound apparently in the headsets of the pilots and the flight crew'; knows of no interference with navigation systems",
+    "FCC NPRM 'Expanding Access to Mobile Wireless Services Onboard Aircraft', Federal Register 15 Jan 2014 (WT Docket 13-301), para. 6 on the 1991 airborne-use rule: an airborne phone's 'signal would be received by multiple terrestrial cell sites in a given market, causing harmful interference'; 'a single handset could interfere with cellular systems in multiple cellular market areas simultaneously'",
+    "Popular Science, 'Why do we still have to use airplane mode?' (24 Dec 2024): FAA 2006 and 2012 studies 'found no evidence that cell phone signals interfere with aircraft systems'; a pilot described headset interference that 'felt like a mosquito'",
+    "Michael Tsai / Gaia GPS (2015): since iOS 8.3 GPS works in Airplane Mode ('pure' GPS, no A-GPS); GPS satellites broadcast and the phone's receiver only listens"
+  ],
+  "lines": [
+    { "text": "What does airplane mode actually do to your phone?", "caps": "WHAT DOES *AIRPLANE | *MODE | ACTUALLY *DO | TO YOUR *PHONE?" },
+    { "text": "Well, your phone is basically a tiny radio,", "caps": "WELL, YOUR *PHONE | IS *BASICALLY | A TINY *RADIO" },
+    { "text": "always calling out to nearby cell towers.", "caps": "ALWAYS *CALLING | OUT TO *NEARBY | CELL *TOWERS" },
+    { "text": "Airplane mode switches that radio off,", "caps": "AIRPLANE *MODE | *SWITCHES | THAT RADIO *OFF" },
+    { "text": "and Wi-Fi too, though you can turn Wi-Fi back on.", "caps": "AND *WI-FI TOO | THOUGH YOU *CAN | TURN WI-FI *BACK ON" },
+    { "text": "So why does the plane care?", "caps": "SO *WHY | DOES THE *PLANE | *CARE?" },
+    { "text": "Up high, one phone can reach lots of towers at once,", "caps": "UP *HIGH | ONE *PHONE | CAN REACH *LOTS | OF TOWERS AT *ONCE" },
+    { "text": "which can jam the networks on the ground.", "caps": "WHICH CAN *JAM | THE *NETWORKS | ON THE *GROUND" },
+    { "text": "Pilots say it can make a little buzz in their headsets,", "caps": "*PILOTS SAY | IT CAN *MAKE | A LITTLE *BUZZ | IN THEIR *HEADSETS" },
+    { "text": "but tests never showed it messing with navigation.", "caps": "BUT *TESTS | NEVER *SHOWED IT | *MESSING WITH | *NAVIGATION" },
+    { "text": "Here's the twist: GPS still works,", "caps": "HERE'S THE *TWIST | *GPS | STILL *WORKS" },
+    { "text": "because your phone only listens to satellites.", "caps": "BECAUSE YOUR *PHONE | ONLY *LISTENS | TO *SATELLITES" },
+    { "text": "Airplane mode doesn't make your phone deaf,", "caps": "*AIRPLANE MODE | DOESN'T *MAKE | YOUR PHONE *DEAF" },
+    { "text": "it just makes it quiet.", "caps": "IT *JUST | MAKES IT *QUIET" }
+  ]
+}
