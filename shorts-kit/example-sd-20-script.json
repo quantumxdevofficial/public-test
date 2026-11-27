@@ -1,0 +1,34 @@
+{
+  "title": "What Is Rate Limiting?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "MDN Web Docs, '429 Too Many Requests' (developer.mozilla.org/docs/Web/HTTP/Reference/Status/429): the 429 status code means the user has sent too many requests in a given amount of time (rate limiting); a Retry-After header may say how long to wait before making a new request",
+    "IETF RFC 6585, 'Additional HTTP Status Codes', section 4 (httpwg.org/specs/rfc6585.html): defines 429 Too Many Requests for a user who has sent too many requests in a given amount of time",
+    "Cloudflare Docs, 'Error 429' (developers.cloudflare.com/support/troubleshooting/http-status-codes/4xx-client-error/error-429/): 429 is returned when a client exceeds the rate limit; limits protect servers from being overwhelmed by abusive or buggy clients",
+    "Gravitee, 'Token Bucket Rate Limiting for APIs Explained' (gravitee.io/token-bucket.html): rate limiters allow a set number of requests per time window per user; the allowance refills over time, so once you wait, requests are accepted again",
+    "Example limit: '100 requests a minute' is an illustrative number ('say'), not a specific provider's limit"
+  ],
+  "lines": [
+    { "text": "Ever tapped refresh again and again,", "caps": "EVER *TAPPED | *REFRESH | AGAIN AND *AGAIN" },
+    { "text": "and the app said, too many requests?", "caps": "AND THE *APP SAID | *TOO MANY | *REQUESTS?" },
+    { "text": "That's rate limiting.", "caps": "*THAT'S | *RATE LIMITING" },
+    { "text": "Think of a theme park ride.", "caps": "*THINK OF A | THEME PARK *RIDE" },
+    { "text": "It only fits twenty people a minute,", "caps": "IT ONLY *FITS | *TWENTY PEOPLE | A *MINUTE" },
+    { "text": "so someone at the gate counts heads.", "caps": "SO *SOMEONE | AT THE *GATE | COUNTS *HEADS" },
+    { "text": "Servers do the same thing.", "caps": "*SERVERS DO | THE *SAME THING" },
+    { "text": "Each user gets, say, a hundred requests a minute.", "caps": "EACH *USER GETS | SAY, A *HUNDRED | *REQUESTS | A *MINUTE" },
+    { "text": "Go over, and you get error four twenty-nine,", "caps": "GO *OVER | AND YOU *GET | ERROR *429" },
+    { "text": "too many requests, try again later.", "caps": "*TOO MANY | *REQUESTS | TRY *AGAIN LATER" },
+    { "text": "It stops one buggy app or a flood of bots", "caps": "IT *STOPS ONE | *BUGGY APP | OR A *FLOOD | OF *BOTS" },
+    { "text": "from crashing the server for everyone else.", "caps": "FROM *CRASHING | THE *SERVER | FOR *EVERYONE ELSE" },
+    { "text": "But it's not a ban.", "caps": "*BUT IT'S | NOT A *BAN" },
+    { "text": "Wait a moment, and you're let back in.", "caps": "WAIT A *MOMENT | AND *YOU'RE | LET BACK *IN" },
+    { "text": "So next time, just stop tapping refresh.", "caps": "SO NEXT *TIME | JUST *STOP | *TAPPING REFRESH" },
+    { "text": "Tomorrow: eye-dem-potency.", "caps": "*TOMORROW | *IDEMPOTENCY" }
+  ]
+}
