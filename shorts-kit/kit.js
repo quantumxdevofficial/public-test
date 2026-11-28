@@ -477,3 +477,4 @@ export * from './airplanemode.js';
 export * from './tilt.js';
 export * from './ratelimit.js';
 export * from './nightmode.js';
+export * from './keymatrix.js';

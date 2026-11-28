@@ -1,0 +1,78 @@
+{
+  "title": "How Does Your Keyboard Know Which Key You Pressed?",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.2,
+  "music": "bed",
+  "sources": [
+    "Wikipedia 'Keyboard matrix circuit' (en.wikipedia.org/wiki/Keyboard_matrix_circuit): keys sit at the crossings of row and column wires; pressing a key connects one row to one column; a controller scans the matrix to find which crossing is closed; pressing several keys can cause ghosting, which diodes prevent",
+    "QMK docs 'How a Keyboard Matrix Works' and 'How Keys Are Registered' (docs.qmk.fm): the firmware scans rows/columns repeatedly, looks up the pressed position and sends a keycode over USB; the operating system turns the keycode into a character using the selected keyboard layout",
+    "Wooting 'What influences keyboard input speed' / Stapelberg 'Keyboard input latency' (2021): keyboard firmware scans the matrix hundreds to thousands of times per second",
+    "USB HID Usage Tables 1.12 (usb.org hut1_12v2.pdf), Keyboard/Keypad page: usage ID 0x04 = 'Keyboard a and A' — the keyboard sends a position code, not a letter",
+    "Wikipedia 'AZERTY': the French AZERTY layout swaps A and Q (and Z and W) compared with QWERTY, so with the layout set to French the key printed A on a QWERTY keyboard types Q"
+  ],
+  "lines": [
+    {
+      "text": "How does your keyboard know which key you pressed?",
+      "caps": "HOW DOES YOUR *KEYBOARD | KNOW WHICH *KEY | YOU *PRESSED?"
+    },
+    {
+      "text": "Well, hidden under the keys is a grid of wires,",
+      "caps": "WELL, *HIDDEN | UNDER THE *KEYS | IS A *GRID OF WIRES"
+    },
+    {
+      "text": "rows running across and columns running down.",
+      "caps": "*ROWS | RUNNING *ACROSS | AND *COLUMNS | RUNNING *DOWN"
+    },
+    {
+      "text": "Press a key, and it connects one row to one column,",
+      "caps": "*PRESS A KEY | AND IT *CONNECTS | ONE *ROW | TO ONE *COLUMN"
+    },
+    {
+      "text": "like a tiny crossroads.",
+      "caps": "LIKE A *TINY | *CROSSROADS"
+    },
+    {
+      "text": "A little chip checks the rows one by one,",
+      "caps": "A LITTLE *CHIP | *CHECKS THE ROWS | ONE BY *ONE"
+    },
+    {
+      "text": "hundreds of times every second,",
+      "caps": "*HUNDREDS OF TIMES | EVERY *SECOND"
+    },
+    {
+      "text": "and the crossing that connects tells it exactly which key it was.",
+      "caps": "AND THE *CROSSING | THAT *CONNECTS | TELLS IT *EXACTLY | WHICH *KEY IT WAS"
+    },
+    {
+      "text": "But here's the twist: your keyboard doesn't know letters.",
+      "caps": "BUT HERE'S THE *TWIST | YOUR *KEYBOARD | DOESN'T KNOW *LETTERS"
+    },
+    {
+      "text": "It just sends a number, like four for the A-key,",
+      "caps": "IT JUST *SENDS | A *NUMBER | LIKE *4 | FOR THE *A-KEY"
+    },
+    {
+      "text": "and your computer decides which letter that means.",
+      "caps": "AND YOUR *COMPUTER | *DECIDES | WHICH *LETTER | THAT *MEANS"
+    },
+    {
+      "text": "So switch the layout to French,",
+      "caps": "SO *SWITCH | THE *LAYOUT | TO *FRENCH"
+    },
+    {
+      "text": "and that same key suddenly types a Q.",
+      "caps": "AND THAT *SAME KEY | *SUDDENLY | TYPES A *Q"
+    },
+    {
+      "text": "Your keyboard never typed a single letter.",
+      "caps": "YOUR *KEYBOARD | *NEVER TYPED | A SINGLE *LETTER"
+    },
+    {
+      "text": "It just told your computer where you pressed.",
+      "caps": "IT JUST *TOLD | YOUR *COMPUTER | *WHERE | YOU *PRESSED"
+    }
+  ]
+}
